@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="20px" height="20px" baseProfile="basic">
-  <g opacity=".35">
-    <polygon points="110,43 95,20 80,43 89,43 89,97 40,97 40,109 101,109 101,43" />
-    <polygon points="31,86 31,32 80,32 80,20 19,20 19,86 10,86 25,109 40,86" />
-  </g>
-  <polygon fill="#0075ff" points="110,39 95,16 80,39 89,39 89,93 40,93 40,105 101,105 101,39" />
-  <polygon fill="#0075ff" points="31,82 31,28 80,28 80,16 19,16 19,82 10,82 25,105 40,82" />
-</svg>

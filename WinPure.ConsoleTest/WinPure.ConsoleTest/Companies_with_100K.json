@@ -1,0 +1,50 @@
+{
+  "Groups": [
+    {
+      "Conditions": [
+        {
+          "Fields": [
+            {
+              "TableName": "Companies",
+              "ColumnName": "CompanyName",
+              "ColumnDataType": "System.String"
+            },
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "CompanyName",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.95,
+          "Weight": 1.0,
+          "DictionaryType": "Company Type",
+          "MatchingType": 1,
+          "IgnoreNullValues": true
+        },
+        {
+          "Fields": [
+            {
+              "TableName": "Companies",
+              "ColumnName": "State",
+              "ColumnDataType": "System.String"
+            },
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "State",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 1.0,
+          "Weight": 1.0,
+          "MatchingType": 0,
+          "IgnoreNullValues": true
+        }
+      ],
+      "GroupId": 1,
+      "GroupLevel": 0.9
+    }
+  ],
+  "CheckInternal": true,
+  "FuzzyAlgorithm": 1,
+  "SearchDeep": 10
+}

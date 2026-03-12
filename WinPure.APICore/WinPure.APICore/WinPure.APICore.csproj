@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>WinPure.API.Core</AssemblyName>
+    <Company>WinPure</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>WinPure</Authors>
+    <Description>WinPure AP is a component written for state of the art fuzzy matching, data profiling, and data cleansing – amongst its most common uses are duplicate prevention, inquiry, deduplication and merge/purge.</Description>
+    <Copyright>Copyright 2020 WinPure</Copyright>
+    <PackageTags>winpure, data matching, fuzzy matching, data cleansing, data quality, data profiling</PackageTags>
+    <PackageIcon>MATCH.ico</PackageIcon>
+    <PackageReleaseNotes>Imporve fuzzy search</PackageReleaseNotes>
+	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <UseNETCoreGenerator>true</UseNETCoreGenerator>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\..\Release\API\NetCore\</OutputPath>
+    <DocumentationFile>..\..\..\Release\API\NetCore\WinPure.API.Core.xml</DocumentationFile>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseAPI|AnyCPU'">
+    <OutputPath>..\..\..\Release\API\NetCore\</OutputPath>
+    <DocumentationFile>..\..\..\Release\API\NetCore\WinPure.API.Core.xml</DocumentationFile>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WinPure.AddressVerification.Standard\WinPure.AddressVerification.Standard.csproj" />
+    <ProjectReference Include="..\..\src\WinPure.Cleansing.Standard\WinPure.Cleansing.Standard.csproj" />
+    <ProjectReference Include="..\..\src\WinPure.Common.Standard\WinPure.Common.Standard.csproj" />
+    <ProjectReference Include="..\..\src\WinPure.Configuration.Standard\WinPure.Configuration.Standard.csproj" />
+    <ProjectReference Include="..\..\src\WinPure.Licensing.Standard\WinPure.Licensing.Standard.csproj" />
+    <ProjectReference Include="..\..\src\WinPure.Matching.Standard\WinPure.Matching.Standard.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="WinPure.APICore.nuspec">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

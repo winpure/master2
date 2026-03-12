@@ -1,0 +1,58 @@
+{
+  "Groups": [
+    {
+      "Conditions": [
+        {
+          "Fields": [
+            {
+              "TableName": "Table1",
+              "ColumnName": "Company Name",
+              "ColumnDataType": "System.String"
+            },
+            {
+              "TableName": "Table2",
+              "ColumnName": "Company Name",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.9,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": false
+        }
+      ],
+      "GroupId": 1,
+      "GroupLevel": 0.9
+    },
+    {
+      "Conditions": [
+        {
+          "Fields": [
+            {
+              "TableName": "Table1",
+              "ColumnName": "Address 1",
+              "ColumnDataType": "System.String"
+            },
+            {
+              "TableName": "Table2",
+              "ColumnName": "Address1",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.9,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": true
+        }
+      ],
+      "GroupId": 2,
+      "GroupLevel": 0.9
+    }
+  ],
+  "CheckInternal": true,
+  "MainTable": "Table1",
+  "FuzzyAlgorithm": 1,
+  "SearchDeep": 10
+}

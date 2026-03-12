@@ -1,0 +1,134 @@
+{
+  "AddressAndGenderSplitSettings": {
+    "GenderColumns": [
+    ],
+    "AddressColumns": [
+      "Address1"
+    ],
+    "CountryColumns": [
+    ],
+    "CityColumns": [
+      "Town"
+    ],
+    "RegionColumns": [
+    ],
+    "PostcodeColumns": [
+    ],
+    "ColumnName": null
+  },
+  "TextCleanerSettings": [
+    {
+      "RemoveNonPrintableCharacters": false,
+      "RemoveAllDigits": true,
+      "RemoveCharacters": "",
+      "RemoveAllLetters": false,
+      "RemoveAllSpaces": false,
+      "RemoveDots": false,
+      "RemoveCommas": false,
+      "RemoveHyphens": false,
+      "RemoveApostrophes": false,
+      "RemoveLeadingSpace": false,
+      "RemoveTrailingSpace": false,
+      "ConvertOsToNaughts": false,
+      "ConvertLsToOnes": false,
+      "ConvertNaughtsToOs": false,
+      "ConvertOnesToLs": false,
+      "ConvertEmptyToDefaultValue": "",
+      "RemoveMultipleSpaces": false,
+      "RemoveTabs": false,
+      "RemoveNewLine": false,
+      "RemovePunctuation": false,
+      "RegexExpression": "",
+      "RegexReplace": "",
+      "ColumnName": "Surname"
+    },
+    {
+      "RemoveNonPrintableCharacters": false,
+      "RemoveAllDigits": false,
+      "RemoveCharacters": "",
+      "RemoveAllLetters": false,
+      "RemoveAllSpaces": false,
+      "RemoveDots": false,
+      "RemoveCommas": false,
+      "RemoveHyphens": false,
+      "RemoveApostrophes": true,
+      "RemoveLeadingSpace": false,
+      "RemoveTrailingSpace": false,
+      "ConvertOsToNaughts": false,
+      "ConvertLsToOnes": false,
+      "ConvertNaughtsToOs": false,
+      "ConvertOnesToLs": false,
+      "ConvertEmptyToDefaultValue": "",
+      "RemoveMultipleSpaces": false,
+      "RemoveTabs": false,
+      "RemoveNewLine": false,
+      "RemovePunctuation": false,
+      "RegexExpression": "blabla",
+      "RegexReplace": "",
+      "ColumnName": "Company Name"
+    }
+  ],
+  "CaseConverterSettings": [
+    {
+      "ToUpperCase": false,
+      "ToLowerCase": false,
+      "ToProperCase": true,
+      "ProperCaseSettings": {
+        "UseDelimiter": false,
+        "UsePrefix": false,
+        "UseExceptions": false
+      },
+      "ColumnName": "Address1"
+    }
+  ],
+  "WordManagerSettings": [
+  ],
+  "ColumnSplitSettings": [
+    {
+      "SplitIntoWords": null,
+      "SplitTelephoneIntoInternationalCodeAndPhoneNumber": false,
+      "SplitDatetime": false,
+      "SplitNameAndEmailAddress": false,
+      "SplitEmailAddressIntoAccountDomainAndZone": false,
+      "RegexCopy": "",
+      "ColumnName": "Address1"
+    },
+    {
+      "SplitIntoWords": null,
+      "SplitTelephoneIntoInternationalCodeAndPhoneNumber": false,
+      "SplitDatetime": false,
+      "SplitNameAndEmailAddress": false,
+      "SplitEmailAddressIntoAccountDomainAndZone": false,
+      "RegexCopy": "",
+      "ColumnName": "Town"
+    },
+    {
+      "SplitIntoWords": null,
+      "SplitTelephoneIntoInternationalCodeAndPhoneNumber": false,
+      "SplitDatetime": false,
+      "SplitNameAndEmailAddress": false,
+      "SplitEmailAddressIntoAccountDomainAndZone": true,
+      "RegexCopy": "",
+      "ColumnName": "Email"
+    },
+    {
+      "SplitIntoWords": null,
+      "SplitTelephoneIntoInternationalCodeAndPhoneNumber": false,
+      "SplitDatetime": true,
+      "SplitNameAndEmailAddress": false,
+      "SplitEmailAddressIntoAccountDomainAndZone": false,
+      "RegexCopy": "",
+      "ColumnName": "DateofBirth"
+    }
+  ],
+  "ColumnMergeSettings": [
+  ],
+  "ColumnShiftSettings": [
+  ],
+  "ColumnCheckSettings": [
+    {
+      "CheckEmail": true,
+      "ColumnName": "Email"
+    }
+  ]
+}

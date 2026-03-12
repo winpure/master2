@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="20px" height="20px" baseProfile="basic">
-  <polygon points="47,21 8,50 47,81" opacity=".35" />
-  <path d="M58.515,36.017L47,36v26h6c23.908,0,49,18,49,44h10V89.214C112,59.705,88.023,36.017,58.515,36.017z" opacity=".35" />
-  <polygon fill="#d663ff" points="47,16 8,45 47,76" />
-  <path fill="#9500ba" d="M58.515,32.017L47,32v26h6c23.908,0,49,18,49,44h10V85.214C112,55.705,88.023,32.017,58.515,32.017 z" />
-</svg>

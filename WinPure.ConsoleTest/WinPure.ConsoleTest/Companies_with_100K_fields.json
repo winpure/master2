@@ -1,0 +1,136 @@
+[
+  {
+    "FieldName": "City",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "City",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "City",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "ZIP",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "ZIP",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "ZIP",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "CompanyName",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "CompanyName",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "CompanyName",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Industry",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "Industry",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "Industry",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Title",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "Title",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "Title",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "State",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "State",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "State",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "ContactName",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "ContactName",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "ContactName",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "ADDRESS",
+    "FieldMap": [
+      {
+        "TableName": "Companies",
+        "ColumnName": "ADDRESS",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Address",
+    "FieldMap": [
+      {
+        "TableName": "100KUnique",
+        "ColumnName": "Address",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  }
+]

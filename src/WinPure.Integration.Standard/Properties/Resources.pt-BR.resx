@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAPTION_CALCULATION_OF_STATISTIC" xml:space="preserve">
+    <value>Calculando Estatísticas</value>
+  </data>
+  <data name="CAPTION_IO_COMMIT_DATA" xml:space="preserve">
+    <value>Confirmar dados...</value>
+  </data>
+  <data name="CAPTION_IO_CONVERT_FILE_TO_EXCEL" xml:space="preserve">
+    <value>Convertendo o arquivo para Excel</value>
+  </data>
+  <data name="CAPTION_IO_CREATE_TABLE_STRUCTURE" xml:space="preserve">
+    <value>Criando estrutura de tabela</value>
+  </data>
+  <data name="CAPTION_IO_DATA_EXPORTING" xml:space="preserve">
+    <value>Exportação de dados</value>
+  </data>
+  <data name="CAPTION_IO_EXPORT_COMPLETE" xml:space="preserve">
+    <value>Exportação finalizada</value>
+  </data>
+  <data name="CAPTION_IO_IMPORTING_DATA" xml:space="preserve">
+    <value>Importando dados</value>
+  </data>
+  <data name="CAPTION_IO_PREPARE_DISPLAYING" xml:space="preserve">
+    <value>Preparando exibição</value>
+  </data>
+  <data name="CAPTION_IO_PREPARING_TO_IMPORT" xml:space="preserve">
+    <value>Preparando para importar</value>
+  </data>
+  <data name="CAPTION_IO_READING_FILE" xml:space="preserve">
+    <value>Lendo o arquivo</value>
+  </data>
+  <data name="CAPTION_IO_SAVING_DATA_TO_LOCAL_DB" xml:space="preserve">
+    <value>Salvando dados no banco de dados local</value>
+  </data>
+  <data name="CAPTION_PREPARING_FOR_DISPLAY" xml:space="preserve">
+    <value>Preparando para exibir</value>
+  </data>
+  <data name="EXCEPTION_ACEOLEDB_NOTREGISTERED" xml:space="preserve">
+    <value>Desculpe mas você não tem o driver correto ACE.OLEDB instalado</value>
+  </data>
+  <data name="EXCEPTION_COULD_NOT_CREATE_TABLE" xml:space="preserve">
+    <value>Could not create table in local DB</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_DATE_TEXT_QUALIFIER" xml:space="preserve">
+    <value>O delimitador de data não pode ser igual ao qualificador de texto</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_DECIMAL_DATE_DELIMETER" xml:space="preserve">
+    <value>O delimitador decimal não pode ser igual ao delimitador de datas</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_DECIMAL_TEXT_QUALIFIER" xml:space="preserve">
+    <value>O delimitador decimal não pode ser igual ao qualificador de texto</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_DECIMAL_TIME_DELIMETER" xml:space="preserve">
+    <value>O delimitador decimal não pode ser igual ao delimitador de tempo</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_FIELD_DATE_DELIMETER" xml:space="preserve">
+    <value>O delimitador de campo não pode ser igual ao delimitador de datas</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_FIELD_DECIMAL_DELIMETERS" xml:space="preserve">
+    <value>O delimitador de campo não pode ser igual ao delimitador decimal</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_FIELD_TEXT_QUALIFIER" xml:space="preserve">
+    <value>O delimitador de campo não pode ser igual ao qualificador de texto</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_FIELD_TIME_DELIMETER" xml:space="preserve">
+    <value>O delimitador de campo não pode ser igual ao delimitador de tempo</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_OPTIONS_NOT_SET" xml:space="preserve">
+    <value>Opções de importação não estão configuradas</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_TIME_DATE_DELIMETER" xml:space="preserve">
+    <value>O delimitador de tempo não pode ser igual ao delimitador de datas</value>
+  </data>
+  <data name="EXCEPTION_IOTXT_TIME_TEXT_QUALIFIER" xml:space="preserve">
+    <value>O delimitador de tempo não pode ser igual ao qualificador de texto</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_CONNECT_TO_FILE" xml:space="preserve">
+    <value>Não foi possível abrir o arquivo</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_CONNECT_TO_SERVER" xml:space="preserve">
+    <value>Não foi possível conectar ao servidor</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_GET_DATABASE_LIST" xml:space="preserve">
+    <value>Não foi possível extrair os nomes do banco de dados</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_GET_DATA_FROM_DB" xml:space="preserve">
+    <value>Falha ao recuperar dados do Banco de Dados.</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_GET_PREVIEW" xml:space="preserve">
+    <value>Erro: Falha ao recuperar dados de visualização do Banco de Dados.</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_GET_TABLES_LIST" xml:space="preserve">
+    <value>Não foi possível extrair os nomes da tabela</value>
+  </data>
+  <data name="EXCEPTION_IO_CANNOT_OPEN_EXCEL_SHEET" xml:space="preserve">
+    <value>Não foi possível abrir a planilha</value>
+  </data>
+  <data name="EXCEPTION_IO_DATATABLE_SHOULD_NOT_BE_NULL" xml:space="preserve">
+    <value>Tabela de dados não devem ser nulas</value>
+  </data>
+  <data name="EXCEPTION_IO_DATA_COULD_NOT_BE_EXPORTED_TO" xml:space="preserve">
+    <value>Dados não podem serem exportados para {0}</value>
+  </data>
+  <data name="EXCEPTION_IO_EMPTY_EXPORT_DATA" xml:space="preserve">
+    <value>Dados para exportar está vazio</value>
+  </data>
+  <data name="EXCEPTION_IO_ERROR_ON_IMPORT" xml:space="preserve">
+    <value>Alguns erros ocorreram durante a importação</value>
+  </data>
+  <data name="EXCEPTION_IO_INVALID_DB_NAME" xml:space="preserve">
+    <value>Nome do banco de dados inválido</value>
+  </data>
+  <data name="EXCEPTION_IO_INVALID_EXPORT_FILE_NAME" xml:space="preserve">
+    <value>Nome do banco de dados inválido</value>
+  </data>
+  <data name="EXCEPTION_IO_PARAMETERS_WRONG_FORMAT" xml:space="preserve">
+    <value>O parâmetro está no formato errado</value>
+  </data>
+  <data name="EXCEPTION_IO_TABLE_EXISTS_EXPORT_FAIL" xml:space="preserve">
+    <value>A tabela existe no banco de dados. A exportação não pôde ser concluída</value>
+  </data>
+  <data name="EXCEPTION_IO_TABLE_NAME_SHOULD_BE" xml:space="preserve">
+    <value>O nome da tabela deve ser preenchido</value>
+  </data>
+  <data name="EXCEPTION_IO_TOO_MUCH_DATA_FOR_OLD_EXCEL" xml:space="preserve">
+    <value>Exportar para Excel: Esse tipo de arquivo do Excel não suporta mais de 65536 registros. Selecione outro formato.</value>
+  </data>
+  <data name="EXCEPTION_OUTOFMEMORY" xml:space="preserve">
+    <value>O tamanho dos dados é muito grande, use a versão de 64 bits para processar esses dados</value>
+  </data>
+</root>

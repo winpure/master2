@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package  xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WinPure.DataMatching.API.Core</id>
+    <version>1.0.18</version>
+    <title>WinPure Data Matching and Cleansing API</title>
+    <authors>WinPure</authors>
+    <owners>WinPure</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://winpure.com/contactus.html</licenseUrl>
+    <projectUrl>https://winpure.com/clean-match-api.html</projectUrl>
+    <iconUrl>https://www.winpure.com/wp.ico</iconUrl>
+    <description>WinPure API is a component written for state of the art fuzzy matching, data profiling, and data cleansing – amongst its most common uses are duplicate prevention, inquiry, deduplication and merge/purge.
+      It can be used to add advanced data cleansing and state of the art fuzzy duplicate search into your own custom applications and websites.  Documentation and Community can be found here > https://docs.winpure.com
+    </description>
+    <releaseNotes>Fix cleansing bugs: proper shifting</releaseNotes>
+    <copyright>Copyright 2020 WinPure  - All rights reserved.</copyright>
+    <tags>Winpure, data matching, fuzzy matching, data cleansing, data quality, data profiling, fuzzy search</tags>
+    <dependencies>
+      <group targetFramework=".netcoreapp3.1">
+        <dependency id="Microsoft.Extensions.Configuration" version="3.1.32" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="3.1.32" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="3.1.32" />
+        <dependency id="Microsoft.EntityFrameworkCore.Sqlite" version="3.1.32" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="3.1.32" />
+        <dependency id="Microsoft.AspNetCore.Cryptography.KeyDerivation" version="3.1.32" />
+        <dependency id="Standard.Data.StringMetrics" version="2.1.0" />
+        <dependency id="NLog" version="5.1.0" />
+        <dependency id="Newtonsoft.Json" version="13.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

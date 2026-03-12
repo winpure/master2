@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Required elements-->
+    <id>WinPureApi</id>
+    <version>1.0.5</version>
+    <description>This package provide WinPure clean and match functionality</description>
+    <authors>David Leivesley, Sergii Zakharov</authors>
+    <owners>WunPure Ltd.</owners>
+
+    <!-- Project URL provides a link for the gallery -->
+    <!--
+    <projectUrl>http://github.com/contoso/UsefulStuff</projectUrl>
+
+    -->
+    <!-- License information is displayed on the gallery -->
+    <!--
+    <license type="expression">Apache-2.0</license>
+        
+
+    -->
+    <!-- The icon is used in Visual Studio's package manager UI -->
+    <!--
+    <iconUrl>http://github.com/contoso/UsefulStuff/nuget_icon.png</iconUrl>-->
+
+    <!-- Dependencies are automatically installed when the package is installed -->
+    <dependencies>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="System.Data.SQLite" version="1.0.112" />
+        <dependency id="SQLitePCLRaw.bundle_e_sqlite3" version="2.0.2"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <!-- Optional 'files' node -->
+  <files>
+    <file src="lib\net48\*.*" target="lib\net48" />
+	<file src="content\*.ref" target="content" />
+	<file src="content\*.gnd" target="content" />
+	<file src="content\*.ctl" target="content" />
+	<file src="content\*.dll" target="content" />
+  </files>
+</package>

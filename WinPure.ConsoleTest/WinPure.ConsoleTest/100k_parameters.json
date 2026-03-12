@@ -1,0 +1,89 @@
+{
+  "Groups": [
+    {
+      "Conditions": [
+        {
+          "Fields": [
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "CompanyName",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.95,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": false
+        },
+        {
+          "Fields": [
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "State",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 1.0,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 0,
+          "IgnoreNullValues": false
+        }
+      ],
+      "GroupId": 1,
+      "GroupLevel": 0.95
+    },
+    {
+      "Conditions": [
+        {
+          "Fields": [
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "City",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.95,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": false
+        },
+        {
+          "Fields": [
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "ContactName",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.95,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": true
+        },
+        {
+          "Fields": [
+            {
+              "TableName": "100KUnique",
+              "ColumnName": "Address",
+              "ColumnDataType": "System.String"
+            }
+          ],
+          "Level": 0.95,
+          "Weight": 1.0,
+          "DictionaryType": "Not Required",
+          "MatchingType": 1,
+          "IgnoreNullValues": false
+        }
+      ],
+      "GroupId": 2,
+      "GroupLevel": 0.95
+    }
+  ],
+  "CheckInternal": true,
+  "FuzzyAlgorithm": 1,
+  "SearchDeep": 10
+}

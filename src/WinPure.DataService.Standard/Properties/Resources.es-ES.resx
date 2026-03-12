@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CAPTION_ADDRVERIFY_PROGRESS" xml:space="preserve">
+    <value>Verificación de dirección en curso</value>
+  </data>
+  <data name="CAPTION_CALCULATION_OF_STATISTIC" xml:space="preserve">
+    <value>Calculando estadisticas</value>
+  </data>
+  <data name="CAPTION_COLUMNS_COPYING" xml:space="preserve">
+    <value>Copiando columna(s)...</value>
+  </data>
+  <data name="CAPTION_COLUMNS_RENAMING" xml:space="preserve">
+    <value>Las columnas se renombran</value>
+  </data>
+  <data name="CAPTION_COMPLETE" xml:space="preserve">
+    <value>Finalizado</value>
+  </data>
+  <data name="CAPTION_DATAIMPORTING" xml:space="preserve">
+    <value>Importando datos…</value>
+  </data>
+  <data name="CAPTION_DATA_CLEANING" xml:space="preserve">
+    <value>Limpiando datos - Por favor espere</value>
+  </data>
+  <data name="CAPTION_DATA_EXPORTING" xml:space="preserve">
+    <value>Exportando datos…</value>
+  </data>
+  <data name="CAPTION_DATA_PROCESSING_WAIT" xml:space="preserve">
+    <value>Procesando datos… Por favor espere</value>
+  </data>
+  <data name="CAPTION_DATA_UPDATING_WAIT" xml:space="preserve">
+    <value>Actualizando datos… Por favor espere</value>
+  </data>
+  <data name="CAPTION_DEFINING_MASTER_RECORD_WAIT" xml:space="preserve">
+    <value>Asignando automáticamente los registros maestros… Por favor espere</value>
+  </data>
+  <data name="CAPTION_EXPORT_COMPLETE" xml:space="preserve">
+    <value>Exportación finalizada</value>
+  </data>
+  <data name="CAPTION_EXPORT_ERROR" xml:space="preserve">
+    <value>Error en la exportación</value>
+  </data>
+  <data name="CAPTION_MATCHING_DATA" xml:space="preserve">
+    <value>Comparando datos…</value>
+  </data>
+  <data name="CAPTION_MATCHING_STEP1OF10" xml:space="preserve">
+    <value>Paso 1 de 10 - Extraer datos</value>
+  </data>
+  <data name="CAPTION_OPERATION_CANCELLED" xml:space="preserve">
+    <value>La operación fue cancelada de manera exitosa</value>
+  </data>
+  <data name="CAPTION_PARAMETERS_PREPARING" xml:space="preserve">
+    <value>Preparar parámetros</value>
+  </data>
+  <data name="CAPTION_PREPARE_DATA_FOR_EXPORT" xml:space="preserve">
+    <value>Preparando datos para exportación</value>
+  </data>
+  <data name="CAPTION_PREPARINGAUDITLOGS" xml:space="preserve">
+    <value>Preparando el registro de auditoría…</value>
+  </data>
+  <data name="CAPTION_PREPARING_FOR_DISPLAY" xml:space="preserve">
+    <value>Preparando datos para desplegar</value>
+  </data>
+  <data name="CAPTION_REPORT_PREPARING" xml:space="preserve">
+    <value>Preparando reporte</value>
+  </data>
+  <data name="CAPTION_RESULT_PREPARING" xml:space="preserve">
+    <value>Preparando resultado</value>
+  </data>
+  <data name="CAPTION_SAVINGCHANGES" xml:space="preserve">
+    <value>Guardando cambios…</value>
+  </data>
+  <data name="CAPTION_STATISTIC_PROCESSING" xml:space="preserve">
+    <value>Actualizando estadísticas</value>
+  </data>
+  <data name="EXCEPTION_CANNOT_CALCULATE_UNIQUE_VALUES" xml:space="preserve">
+    <value>Los valores únicos de columna no pudieron ser calculados</value>
+  </data>
+  <data name="EXCEPTION_CANNOT_GET_DATA_FROM_TABLE" xml:space="preserve">
+    <value>No se pueden obtener datos de la tabla</value>
+  </data>
+  <data name="EXCEPTION_CANNOT_GET_WORDMANAGER_PARAMETERS" xml:space="preserve">
+    <value>No se pueden obtener parámetros de Word Manager</value>
+  </data>
+  <data name="EXCEPTION_CANNOT_SAVE_CLEAN_SETTINGS" xml:space="preserve">
+    <value>No se pueden guardar los ajustes de limpieza</value>
+  </data>
+  <data name="EXCEPTION_CANNOT_SAVE_WORDMANAGER_PARAMETERS" xml:space="preserve">
+    <value>No se pueden guardar los ajustes de Word Manager</value>
+  </data>
+  <data name="EXCEPTION_CLEAN_FAILED" xml:space="preserve">
+    <value>Operación de limpieza fallida</value>
+  </data>
+  <data name="EXCEPTION_CLEAN_MATRIX_NOT_SAVED" xml:space="preserve">
+    <value>Matriz de limpieza no se puede guardar</value>
+  </data>
+  <data name="EXCEPTION_COLUMN_ADD_ERROR" xml:space="preserve">
+    <value>No se pudo agregar la columna</value>
+  </data>
+  <data name="EXCEPTION_COLUMN_COPY_ERROR" xml:space="preserve">
+    <value>Error en la(s) columna(s) de copia</value>
+  </data>
+  <data name="EXCEPTION_COLUMN_EXISTS_IN_TABLE" xml:space="preserve">
+    <value>Existe una columna con el mismo nombre en la tabla</value>
+  </data>
+  <data name="EXCEPTION_COLUMN_REMOVE_ERROR" xml:space="preserve">
+    <value>No se pudo eliminar la columna</value>
+  </data>
+  <data name="EXCEPTION_COLUMN_RENAME_ERROR" xml:space="preserve">
+    <value>No se pudo cambiar el nombre de la columna</value>
+  </data>
+  <data name="EXCEPTION_COULDNOT_PREPARE_MATCHING_PARAMETERS" xml:space="preserve">
+    <value>No se pueden preparar los parámetros para comparación</value>
+  </data>
+  <data name="EXCEPTION_ER_FILE_WRONG_FORMAT" xml:space="preserve">
+    <value>El archivo tiene un formato incorrecto. No se puede cargar la configuración.</value>
+  </data>
+  <data name="EXCEPTION_ER_SETTINGS_NOT_SAVED" xml:space="preserve">
+    <value>La configuración de resolución de entidades no se puede guardar.</value>
+  </data>
+  <data name="EXCEPTION_EXPORT_FAIL" xml:space="preserve">
+    <value>Error durante la exportación. Por favor, inténtalo con otro archivo</value>
+  </data>
+  <data name="EXCEPTION_IMPORTDATA_FAIL" xml:space="preserve">
+    <value>No se pueden cargar los datos desde la fuente</value>
+  </data>
+  <data name="EXCEPTION_MASTER_RECORD_CANNOT_BE_DEFINED" xml:space="preserve">
+    <value>Los registros maestros no pudieron ser definidos</value>
+  </data>
+  <data name="EXCEPTION_MATCH_RESULT_NOT_PROCESSED" xml:space="preserve">
+    <value>El resultado de la comparación no pudo ser procesado</value>
+  </data>
+  <data name="EXCEPTION_MATCH_RESULT_NOT_UPDATED" xml:space="preserve">
+    <value>El resultado de la comparación no pudo ser actualizado</value>
+  </data>
+  <data name="EXCEPTION_MATRIX_FILE_WRONG_FORMAT" xml:space="preserve">
+    <value>El archivo tiene un formato errado. La matriz no carga.</value>
+  </data>
+  <data name="EXCEPTION_NO_DATA_FOR_EXPORT" xml:space="preserve">
+    <value>No hay datos que exportar</value>
+  </data>
+  <data name="EXCEPTION_NO_FIELD_WERE_SELECTED" xml:space="preserve">
+    <value>No se seleccionaron campos para la tabla</value>
+  </data>
+  <data name="EXCEPTION_NO_TABLE" xml:space="preserve">
+    <value>No existe tal tabla en la lista de tablas actual</value>
+  </data>
+  <data name="EXCEPTION_SET_MATCHING_PARAMETERS" xml:space="preserve">
+    <value>Por favor selecciona los parámetros de comparación\r\nDebes seleccionar tabla, seleccionar campos de resultado y configurar el criterio de comparación</value>
+  </data>
+  <data name="EXCEPTION_STATISTIC_CANNOT_BE_CALCULATED" xml:space="preserve">
+    <value>No se puede calcular la estadística</value>
+  </data>
+  <data name="EXCEPTION_UNDOFAIL" xml:space="preserve">
+    <value>Deshacer error</value>
+  </data>
+  <data name="MESSAGE_DEMO_50_LIMITED" xml:space="preserve">
+    <value>El límite de demostración es de 10 000 registros por conjunto de datos. Solo se importaron los primeros 10 000 registros</value>
+  </data>
+  <data name="MESSAGE_DEMO_CAM_LIMITED" xml:space="preserve">
+    <value>Limpiar y hacer coincidir {0} tiene un límite de {1} por conjunto de datos. Solo importado primero {1}</value>
+  </data>
+  <data name="MESSAGE_FREEEDITION_LIMITED" xml:space="preserve">
+    <value>Esta edición tiene un límite de 10.000 registros por conjunto de datos. Solo se importaron los primeros 10 000 registros</value>
+  </data>
+  <data name="MESSAGE_NO_DATA_FOR_CLEANING" xml:space="preserve">
+    <value>No hay datos para limpiar.</value>
+  </data>
+  <data name="MESSAGE_OPERATION_WAS_CANCELLED" xml:space="preserve">
+    <value>La operación fue cancelada de manera exitosa</value>
+  </data>
+  <data name="MESSAGE_SELECRERSOURCE" xml:space="preserve">
+    <value>Por favor, seleccione al menos una fuente de datos</value>
+  </data>
+</root>

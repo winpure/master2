@@ -1,0 +1,192 @@
+[
+  {
+    "FieldName": "Company Name",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "Company Name",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "Table2",
+        "ColumnName": "Company Name",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Address 1",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "Address 1",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "Table2",
+        "ColumnName": "Address1",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Address 2",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "Address 2",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "Table2",
+        "ColumnName": "Address1",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Address 3",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "Address 3",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "Table2",
+        "ColumnName": "Address1",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "State",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "State",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "ZIP",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "ZIP",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Title",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "Title",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "ContactName",
+    "FieldMap": [
+      {
+        "TableName": "Table1",
+        "ColumnName": "ContactName",
+        "ColumnDataType": "System.String"
+      },
+      {
+        "TableName": "Table2",
+        "ColumnName": "Contacted",
+        "ColumnDataType": "System.Int64"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "FirstName",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "FirstName",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Surname",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "Surname",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Town",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "Town",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Email",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "Email",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "DateofBirth",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "DateofBirth",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Spent",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "Spent",
+        "ColumnDataType": "System.Double"
+      }
+    ],
+    "FieldType": "System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  },
+  {
+    "FieldName": "Confirmed",
+    "FieldMap": [
+      {
+        "TableName": "Table2",
+        "ColumnName": "Confirmed",
+        "ColumnDataType": "System.String"
+      }
+    ],
+    "FieldType": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+  }
+]

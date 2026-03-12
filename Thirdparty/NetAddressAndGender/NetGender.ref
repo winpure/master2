@@ -1,0 +1,418 @@
+* NAME PARSING AND GENDER CONTROL TABLES - Version 4.4
+*-----------------------------------------------------------
+* Entries must begin with alphanumeric followed by anything
+* Comment lines begin with an asterisk (*)
+* Blank lines are ignored
+* THIS FILE MUST BE SAVED AS PLAIN TEXT 
+
+*===========================================================
+*   N A M E   P R E F I X   T A B L E
+*===========================================================
+* 1st Column = Common
+* 2nd Column = Abbreviation, or blank to use common
+* Maximum column width 32
+* At least 2 spaces or <tab> between columns
+*-----------------------------------------------------------
+
+[NamePrefix]
+Ambassador
+Asst Prof
+ASST. PROF.		Asst Prof
+BR			Br
+BR.			Br
+BROTHER			Br
+CAPT			Capt
+CAPT.			Capt
+CAPTAIN			Capt
+CMDR			Cmdr
+CMDR			Cmdr
+COL			Col
+COL.			Col
+COLONEL			Col
+CONGRESSMAN		Congressman
+CONGRESSWOMAN		Congresswoman
+CORPORAL		Corp
+DOCTOR			Dr
+DR			Dr
+DR.			Dr
+D/M			Dr & Mrs
+DR MRS			Dr & Mrs
+DR. MRS.		Dr & Mrs
+DR & MRS		Dr & Mrs
+DR. & MRS.		Dr & Mrs
+DR AND MRS		Dr & Mrs
+DR. AND MRS.		Dr & Mrs
+DR&MRS			Dr & Mrs
+DR/MRS			Dr & Mrs
+DRS			Drs
+DRS.			Drs
+ENSIGN			Ensign
+FATHER			Fr
+FR			Fr
+FR.			Fr
+GEN			Gen
+GEN.			Gen
+GENERAL			Gen
+GOV			Gov
+GOV.			Gov
+GOVERNOR		Gov
+HON			Hon
+HON.			Hon
+HON MRS			Hon & Mrs
+HON. MRS.		Hon & Mrs
+HON & MRS		Hon & Mrs
+HON. & MRS.		Hon & Mrs
+HON AND MRS		Hon & Mrs
+HON. AND MRS.		Hon & Mrs
+HONORABLE		Hon
+LIEUTENANT		Lt
+LT			Lt
+LT.			Lt
+M&M			Mr & Mrs
+M/M			Mr & Mrs
+MADAM			Madam
+MAJ			Maj
+MAJ.			Maj
+MISS			Miss
+MISTER			Mr
+MOTHER			Mother
+MR			Mr
+MR.			Mr
+M/M			Mr & Mrs
+MR MRS			Mr & Mrs
+MR. MRS.		Mr & Mrs
+MR & MRS		Mr & Mrs
+MR. & MRS.		Mr & Mrs
+MR AND MRS		Mr & Mrs
+MR. AND MRS.		Mr & Mrs
+MR&MRS			Mr & Mrs
+MR/MRS			Mr & Mrs
+MRS			Mrs
+MRS.			Mrs
+MS			Ms
+MS.			Ms
+PROF			Prof
+PROF.			Prof
+PROFESSOR		Prof
+**RABBI			Rabbi
+RABBI & Mrs		Rabbi & Mrs
+RABBI & Mrs.		Rabbi & Mrs
+RABBI AND Mrs		Rabbi & Mrs
+RABBI AND Mrs.		Rabbi & Mrs
+REP			Rep
+REP.			Rep
+REPRESENTATIVE		Rep
+REV			Rev
+REV.			Rev
+REV & MRS		Rev & Mrs
+REV. & MRS.		Rev & Mrs
+REV AND MRS		Rev & Mrs
+REV. AND MRS.		Rev & Mrs
+REVEREND		Rev
+RV			Rev
+RV.			Rev
+SEN			Sen
+SEN.			Sen
+SENATOR			Sen
+SENOR			Señor
+SENORA			Señora
+SENORITA		Señorita
+SEÑOR			Señor
+SEÑORA			Señora
+SEÑORITA		Señorita
+SGT			Sgt
+SGT.			Sgt
+SISTER			Sister
+TROOPER			Trpr
+TRPR			Trpr
+TRPR.			Trpr
+
+*===========================================================
+*   N A M E   S U F F I X   T A B L E
+*===========================================================
+* 1st Column = Common
+* 2nd Column = Abbreviation, or blank to use common
+* Maximum column width 32
+* At least 2 spaces or <tab> between columns
+*-----------------------------------------------------------
+
+[NameSuffix]
+2ND			II              
+3D			III              
+3RD			III              
+4TH			IV              
+ADMIN			Admin              
+ADMIN.			Admin              
+ADMINISTRATOR		Admin              
+ASSISTANT		Asst              
+ASST			Asst              
+ASST.			Asst              
+C E O			CEO
+C.E.O.			CEO
+C F I			CFI              
+C.F.I.			CFI              
+C F O			CFO
+C.F.O.			CFO
+C I O			CIO
+C.I.O.			CIO
+C O O			COO
+C.O.O.			COO
+C P A			CPA              
+C.P.A.			CPA              
+Caretaker		Ctkr
+CEO			CEO              
+CFI			CFI              
+CFO			CFO
+CHAIRMAN		Chairman
+CHAIRPERSON		Chairperson
+CHIEF			Chief
+CIO			CIO
+CIV			Civ
+CIV.			Civ
+CIVIL			Civ
+CLINICAL		Clinical
+CMA			CMA
+CMT			CMT
+COO			COO
+COORD			Coord
+COORD.			Coord
+COORDINAT		Coord
+COORDINATOR		Coord
+CO-ORD			Coord
+CO-ORDINATOR		Coord
+CONS			Cons
+CONSULTANT		Cons
+COO			COO
+CPA			CPA
+CTKR			Ctkr
+CTO			CTO
+D D S			DDS
+D.D.S.			DDS
+D V M			DVM
+D.V.M.			DVM
+DDS			DDS
+DES			Des
+DESIGN			Des
+DIR			Dir
+DIR.			Dir
+DIRECTOR		Dir
+DMD			DMD
+DVM			DVM
+E V P			EVP
+E.V.P.			EVP
+EMT			EMT
+ENG			Engr
+ENG.			Engr
+ENGINEER		Engr
+ENGR			Engr
+ESQ			Esq
+ESQ.			Esq
+ESQUIRE			Esq
+EVP			EVP
+EXEC			Exec
+EXEC.			Exec
+EXECUTIVE		Exec
+FACILITIES DIRECTOR	Fac Dir
+GEMOLOGIST		Gemologist
+GEOL			Geologist
+GEOL.			Geologist
+GEOLOGIST		Geologist
+I S			IS
+I.S.			IS
+II			II
+III			III
+IS			IS
+IV			IV
+JR			Jr
+JR.			Jr
+JUNIOR			Jr
+L L D			LLD
+L.L.D.			LLD
+LLD			LLD
+LPN			LPN
+MAN			Mgr
+MAN.			Mgr
+MANAGER			Mgr
+MARKETING		Mktg
+MARKETING MANAGER	Mktg Mgr
+M D			MD
+M.D.			MD
+MD			MD
+MGR			Mgr
+MKTG.			Mktg
+OB/GYN			Ob/Gyn
+OD			OD
+OFC			Ofc
+OFC MGR			Ofc Mgr
+OFFICE MANAGER		Ofc Mgr
+OFFICE MGR		Ofc Mgr
+P A			PA
+P.A.			PA
+PA			PA
+PH D			PhD
+PH.D.			PhD
+PH. D.			PhD
+PHD			PhD
+PRES			Pres                
+PRES.			Pres                
+PRESIDENT		Pres                
+PRIN			Prin                
+PRIN.			Prin                
+PRINCIPAL		Prin                
+PRO			Pro                
+PROJ			Proj                
+PROJ.			Proj                
+PROJECT			Proj                
+RD			RD                
+RDH			RDH                
+RECREATION		Rec                
+REG'L			Reg'l               
+REGIONAL		Reg'l                
+REGL			Reg'l                
+RES			Res                
+RESEARCH		Research                
+RESIDENCE		Res                
+RET			Ret                
+RET.			Ret                
+RETIRED			Ret                
+RN			RN                
+RNC			RNC                
+RPH			RPH                
+SALES			Sales                
+SCIENTIST		Scientist                
+SECOND			II                
+SECRETARY		Sect                
+SECT			Sect                
+SECT.			Sect                
+SENIOR			Sr
+SPEC			Spec                
+SPEC.			Spec                
+SPECIAL			Spec                
+SPECIALIST		Spec                
+SR			Sr                
+SR.			Sr                
+SUPER			Supt                  
+SUPERINTENDANT		Supt                  
+SUPT			Supt                
+SUPT.			Supt                
+SUPERVISOR		Supv                
+SUPV			Supv                
+SUPV.			Supv                
+TECH			Tech                
+TECH.			Tech                
+TECHNICIAN		Tech                
+TREAS			Treas                
+TREAS.			Treas                
+TREASURER		Treas                
+THIRD			III                
+U S A F			USAF                
+U.S.A.F.		USAF                
+U S M C			USMC               
+U.S.M.C.		USMC               
+U S N			USN                
+U.S.N.			USN                
+USAF			USAF                
+USMC			USMC                
+USN			USN                
+VICE			Vice                
+VICE PRES		VP                
+VICE PRESIDENT		VP                
+VP			VP                
+WIFE			Wife                
+
+*===========================================================
+*   C O M P A N Y   O V E R R I D E   T A B L E
+*===========================================================
+* 1st Column = Gender: C/ompany, U/nknown
+* 2nd Column = Company Name or Trigger Word/s
+* Maximum column width = 32
+* At least 2 spaces or <tab> between columns
+* Company override has priority over gender override
+*-----------------------------------------------------------
+
+[CompanyOverride]
+C	TED'S SHEDS
+C	WHOLE
+U	BAYOU
+
+*===========================================================
+*   G E N D E R   O V E R R I D E   T A B L E
+*===========================================================
+* 1st Column = Gender: M/ale, F/emale, N/eutral,
+*                      L/ast, U/nknown
+* 2nd Column = Name
+* Maximum column width 16
+* At least 2 spaces or <tab> between columns
+* Company override has priority over gender override
+*-----------------------------------------------------------
+
+[GenderOverride]
+M	BILLY-JOE
+F	BOBBY-SUE
+L	FRUMP
+F	BO PEEP
+
+*===========================================================
+*   N A M E   V A R I A N T   O V E R R I D E   T A B L E
+*===========================================================
+* 1st Column = Variant Group
+* Subsequent Columns: Variants (up to 64)
+* Maximum column width = 16
+* At least 2 spaces or <tab> between columns
+* Variants are automatically cross-referenced to the group
+*   unless another group entry is defined for a variant
+*   or it already exists in the system-table with variants
+*-----------------------------------------------------------
+
+[NameVariantOverride]
+WOODY	WOODIE	WOODROW	WOODFORD
+
+*===========================================================
+*   N A M E   C O N N E C T O R   T A B L E
+*===========================================================
+* Compound names are joined by these
+* Maximum column width = 32
+*-----------------------------------------------------------
+
+[NameConnector]
+&
+%
+AKA                             
+FKA                             
+NKA                             
+AND                             
+C/O                             
+C\O                             
+DBA                             
+OR                              
+ATTENTION                       
+ATTENTION:                       
+ATTN                            
+ATTN:                            
+TRUSTEE FOR                     
+TRUSTEES FOR
+GUARDIAN OF
+
+*===========================================================
+*   S P E L L I N G   O V E R R I D E
+*===========================================================
+* 1st Column = Preferred Spelling
+* Maximum column width 32
+*-----------------------------------------------------------
+
+[SpellingOverride]
+diGenova
+The UPS Store
+
+*===========================================================
+*   N A M E   F I L T E R   T A B L E
+*===========================================================
+* Words/phrases to be ignored in the name string
+* Maximum column width = 32
+*-----------------------------------------------------------
+
+[NameFilter]
+ET AL                  
+ET ALS                          
+ETAL                            
+ETALS                           

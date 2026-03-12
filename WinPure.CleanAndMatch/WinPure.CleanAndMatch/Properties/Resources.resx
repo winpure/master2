@@ -1,0 +1,2985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="2024-popular-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-popular-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ENTERPROJECTNAMEFORM_NAMENEWPROJECT" xml:space="preserve">
+    <value>Please enter the name of the new project</value>
+  </data>
+  <data name="UI_REGISTERFORM_COPYCODE" xml:space="preserve">
+    <value>Copy code to clipboard</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LEADINGSPACES" xml:space="preserve">
+    <value>Leading Spaces</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_SHIFTLEFT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="UI_CAPTION_TOTALRECORDS" xml:space="preserve">
+    <value>Total records</value>
+  </data>
+  <data name="UI_NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="2026_AddRule_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_AddRule_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHREPORT" xml:space="preserve">
+    <value>Match Report</value>
+  </data>
+  <data name="UI_MAINFORM_STATISTICS" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_COMMAS" xml:space="preserve">
+    <value>Commas</value>
+  </data>
+  <data name="UI_MATCHENT_OPTIONS" xml:space="preserve">
+    <value>Match Enterprise</value>
+  </data>
+  <data name="close-middle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-middle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MRANYCASE" xml:space="preserve">
+    <value>If no rules match then set master records using Standard Options below</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES_PERCENT" xml:space="preserve">
+    <value>Non-Matches %</value>
+  </data>
+  <data name="2026_Automation_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Automation_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_DBSIZE" xml:space="preserve">
+    <value>Log File size</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_CSVTEXT" xml:space="preserve">
+    <value>To CSV/Text File</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVEGROUP" xml:space="preserve">
+    <value>Remove Rule</value>
+  </data>
+  <data name="UI_LETTERS" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="UI_MAINFORM_NEWPROJECT" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="UI_DATASOURCE_POSTGRESQL" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="freshness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\freshness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_FUZZYLEVEL" xml:space="preserve">
+    <value>Fuzzy Level</value>
+  </data>
+  <data name="UI_CONTINUE_WITH_DEMO" xml:space="preserve">
+    <value>Continue with Demo</value>
+  </data>
+  <data name="2026_License_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_License_filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_ADD_NEW_COLUMN" xml:space="preserve">
+    <value>Add new column</value>
+  </data>
+  <data name="2026_SQL_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_SQL_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_VERIFICATION" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="DIALOG_IOFORM_EXPORT_TO_ACCESS" xml:space="preserve">
+    <value>Export to access database file</value>
+  </data>
+  <data name="UI_WITHPASSWORD" xml:space="preserve">
+    <value>With password</value>
+  </data>
+  <data name="UI_CAMLTE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Small Business</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CREATEMATCHDEFINITION" xml:space="preserve">
+    <value>Step 3 - Create the Match Definition &lt;br&gt;  For better performance please avoid using Fuzzy match for every matching column</value>
+  </data>
+  <data name="UI_MAINFORM_PERFORM_DATA_CLEAN" xml:space="preserve">
+    <value>Based on all the matrix settings, this will perform a data clean on the whole table</value>
+  </data>
+  <data name="2026_Export_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Export_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CREATE" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ADDIT_OPTIONS" xml:space="preserve">
+    <value>Standard Options</value>
+  </data>
+  <data name="UI_OPTION" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="SYSTEM_SEARCH_DEEP" xml:space="preserve">
+    <value>Search deep {0}</value>
+  </data>
+  <data name="postgre_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\postgre_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="training-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\training-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_ABOUTFORM_ABOUT" xml:space="preserve">
+    <value>About {0}</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SWITCHONOFFMATCINGACROOS" xml:space="preserve">
+    <value>Switch on/off the match against trusted source option</value>
+  </data>
+  <data name="UI_ADD" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="UI_CAPTION_REVIEWMAPPING" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="2026_Azure_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Azure_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="DIALOG_EXCEL_FORMAT" xml:space="preserve">
+    <value>Microsoft Excel (*.xls, *.xlsx)|*.xls;*.xlsx</value>
+  </data>
+  <data name="MESSAGE_WORDMANAGERFORM_DICTIONARY_IS_EMPTY" xml:space="preserve">
+    <value>Dictionary is empty</value>
+  </data>
+  <data name="UI_EXPORTMSSQLFORM_TABLENAME" xml:space="preserve">
+    <value>Table name</value>
+  </data>
+  <data name="2026_Verify_Report_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Verify_Report_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_0DAYSREMAININGONYOUR30DAYTRIAL" xml:space="preserve">
+    <value>There are 0 days remaining on your 30 day trial</value>
+  </data>
+  <data name="CAPTION_DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CAPTION_SELECTFIELDTOIMPORT" xml:space="preserve">
+    <value>Select Fields to Import</value>
+  </data>
+  <data name="2024-files-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-files-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_PROPERCASE" xml:space="preserve">
+    <value>Proper Case</value>
+  </data>
+  <data name="UI_FULL_REPORT" xml:space="preserve">
+    <value>Full report</value>
+  </data>
+  <data name="UI_MAINFORM_INSERTCOLUMN" xml:space="preserve">
+    <value>Insert Column</value>
+  </data>
+  <data name="2026_File_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_File_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="MESSAGE_CRETATE_NEW_DUPLICATE_GROUP" xml:space="preserve">
+    <value>Are you sure to create a new group of duplicates from these records?</value>
+  </data>
+  <data name="2024-save-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-save-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="save as project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save as project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHACROOSTABLES" xml:space="preserve">
+    <value>Match Against Trusted Source</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEWHOLEWORD" xml:space="preserve">
+    <value>WholeWord</value>
+  </data>
+  <data name="UI_MAINFORM_EDITREPORT" xml:space="preserve">
+    <value>Edit Report</value>
+  </data>
+  <data name="training" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\training.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Split_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Split_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_STARTUPCAMFORM_CLEANMATCHENTERPRISE" xml:space="preserve">
+    <value>Clean &amp;&amp; Match EnterPrise</value>
+  </data>
+  <data name="UI_STANDARDISE" xml:space="preserve">
+    <value>Standardize</value>
+  </data>
+  <data name="2026_HoverContinueDemo_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_HoverContinueDemo_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_PROJECT" xml:space="preserve">
+    <value>Project / Data</value>
+  </data>
+  <data name="v11_Banner-registration" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v11_Banner-registration.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_open_project_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_open_project_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Startup_square1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_NONMATCH_PATTERN" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="UI_CLEAR" xml:space="preserve">
+    <value>Clear Matrix</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MEETANY" xml:space="preserve">
+    <value>Meet any</value>
+  </data>
+  <data name="Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_UPDATE_FIELD" xml:space="preserve">
+    <value>Update field</value>
+  </data>
+  <data name="CAPTION_MATCHING_RESULT" xml:space="preserve">
+    <value>Matching result</value>
+  </data>
+  <data name="UI_CAPTION_MOVETODATA" xml:space="preserve">
+    <value>Move to Data</value>
+  </data>
+  <data name="UI_TELEPHONE" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="2026_DisabledContinueDemo_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_DisabledContinueDemo_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_LOGOPTION_ONLYFORADMIN" xml:space="preserve">
+    <value>You can enable/disable Audit logs only under Administration account</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MOSTCOMMONCOUNT" xml:space="preserve">
+    <value>Most Common Count</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_ALPHANUMERIC" xml:space="preserve">
+    <value>Alpha-Numeric</value>
+  </data>
+  <data name="EXCEPTION_ERCONFIGURATION_CANNOT_BE_LOADED" xml:space="preserve">
+    <value>File with ER configuration can not be loaded</value>
+  </data>
+  <data name="UI_UCMATCH_SYSTEMFIELDS" xml:space="preserve">
+    <value>Show System Fields</value>
+  </data>
+  <data name="2026_People_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_People_48.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_WEIGHTGROUP" xml:space="preserve">
+    <value>Weight in Rule</value>
+  </data>
+  <data name="UI_CAM_STANDART_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Standard Edition</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DATEDELIMITER" xml:space="preserve">
+    <value>Date Delimiter</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_OUTPUT" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="2026_Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_open_demo_project_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_open_demo_project_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="2026_Rearrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Rearrange.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVESELECTEDFROMMATCH" xml:space="preserve">
+    <value>Remove selected column from matching rule</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHES" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="UI_CAPTION_STATE" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_ADDNEWVALUE" xml:space="preserve">
+    <value>Add new value onto knowledge base library</value>
+  </data>
+  <data name="UI_VALIDATE" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="CAPTION_REPORT_RECORDCOUNT" xml:space="preserve">
+    <value>Record Count</value>
+  </data>
+  <data name="2026_Indeterminate_Checkbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Indeterminate_Checkbox.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Popular_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Popular_48.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_IMPORTTABLEFROMMSSQL" xml:space="preserve">
+    <value>Import table or view from {0}</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES" xml:space="preserve">
+    <value>All Non-Matches</value>
+  </data>
+  <data name="UI_MAINFORM_MINIMISERIBBON" xml:space="preserve">
+    <value>Minimise Ribbon</value>
+  </data>
+  <data name="UI_CAPTION_EXTENDEDLOGS" xml:space="preserve">
+    <value>Extended logs</value>
+  </data>
+  <data name="2024-databases-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-databases-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Knowledge_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Knowledge_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_OnlineHelpManual_hover_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OnlineHelpManual_hover_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_COMPANYTYPE" xml:space="preserve">
+    <value>Company Type</value>
+  </data>
+  <data name="UI_CAPTION_SELECTALL" xml:space="preserve">
+    <value>Select all</value>
+  </data>
+  <data name="MESSAGE_MAINFORM_QUIT_CONFIRMATION" xml:space="preserve">
+    <value>Are you sure you want to exit?</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHING_TIME" xml:space="preserve">
+    <value>Matching time</value>
+  </data>
+  <data name="MESSAGE_CHARS_NOT_ALLOWED_IN_PROJECT" xml:space="preserve">
+    <value>The following characters are not allowed in name: </value>
+  </data>
+  <data name="UI_DATASOURCE_AZURE" xml:space="preserve">
+    <value>Microsoft Azure</value>
+  </data>
+  <data name="UI_UCMATCH_AUTOFILTERROW" xml:space="preserve">
+    <value>Auto Filter Panel</value>
+  </data>
+  <data name="MESSAGE_AUTOMATION_NOT_AVAILABLE_ON_EDITION" xml:space="preserve">
+    <value>Automation is not available on this Edition. Would you like to upgrade?</value>
+  </data>
+  <data name="MESSAGE_DATATYPE_TO_TEXT_ONLY" xml:space="preserve">
+    <value>You can only change datatype to text</value>
+  </data>
+  <data name="UI_MAINFORM_ABOUT" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MESSAGE_LICENSE_EXPIRED_CAPTION" xml:space="preserve">
+    <value>Licence Expired</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_TODELETE" xml:space="preserve">
+    <value>To Delete</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SWITCHONOFADANCEDMATCHING" xml:space="preserve">
+    <value>Switch on/off the advanced matching options</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MAIN_TABLE" xml:space="preserve">
+    <value>Master Table</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISE" xml:space="preserve">
+    <value>Welcome to Clean &amp;&amp; Match Enterprise v11</value>
+  </data>
+  <data name="UI_CAPTION_ENTITYAILOCATION" xml:space="preserve">
+    <value>MatchAI Data files Location</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_GROUPLEVEL" xml:space="preserve">
+    <value>Rule Level</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TEXTQUALIFIER" xml:space="preserve">
+    <value>Text Qualifier</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_COMMA" xml:space="preserve">
+    <value>Comma</value>
+  </data>
+  <data name="SYSTEM_ISSELLECTED_TOOLTIP" xml:space="preserve">
+    <value>Select records which can be removed from the matching groups</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_SPACE" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_SEARCHVALUE" xml:space="preserve">
+    <value>Search value</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_KEEPALLVALUES" xml:space="preserve">
+    <value>Keep all values</value>
+  </data>
+  <data name="2026_Data_Export_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Data_Export_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2024-crms-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-crms-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_IEFORM_WRONG_IMPORT_SERVICE" xml:space="preserve">
+    <value>Wrong import parameters</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NUMERICONLY" xml:space="preserve">
+    <value>Numeric Only</value>
+  </data>
+  <data name="v10 Automation3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v10 Automation3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_REPORT_GEOCODE" xml:space="preserve">
+    <value>GeoCode</value>
+  </data>
+  <data name="CAPTION_REGULAR_EXPRESSION" xml:space="preserve">
+    <value>Regular Expression</value>
+  </data>
+  <data name="UI_MAINFORM_RUN_CLEAN" xml:space="preserve">
+    <value>Run clean</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_ONLYEMPTY" xml:space="preserve">
+    <value>Only empty</value>
+  </data>
+  <data name="2026_RemoveRule_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_RemoveRule_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="yellow stat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yellow stat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAMENT_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise</value>
+  </data>
+  <data name="2026_Data_Import_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Data_Import_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_ENTERCONFIGURATIONNAME" xml:space="preserve">
+    <value>Please enter the configuration name</value>
+  </data>
+  <data name="CAPTION_REPORT_ADDRESSVERIFIED" xml:space="preserve">
+    <value>Address verified</value>
+  </data>
+  <data name="UI_DATASOURCE_ACCESS" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="UI_CAPTION_CITY" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="UI_CLEAN" xml:space="preserve">
+    <value>Clean</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEHYPHENS" xml:space="preserve">
+    <value>Remove any hyphens that occur within values (eg “10 Main-Street”)</value>
+  </data>
+  <data name="CAPTION_REPORT_MATCHING" xml:space="preserve">
+    <value>Matching</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDCONDITION" xml:space="preserve">
+    <value>Add Condition</value>
+  </data>
+  <data name="UI_WPMLITE" xml:space="preserve">
+    <value>WinPure™ Match Lite</value>
+  </data>
+  <data name="2026_Verify_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Verify_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_PROCESSING" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="UI_TABLES" xml:space="preserve">
+    <value>Tables and views</value>
+  </data>
+  <data name="2026_MatchAI_Config_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_MatchAI_Config_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXLENGTH" xml:space="preserve">
+    <value>Max length</value>
+  </data>
+  <data name="EXCEPTION_IMPORT_DATA_NOT_ALLOWED" xml:space="preserve">
+    <value>Import data limit reached on this edition. Please upgrade your version.</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_AVERAGEWORDS" xml:space="preserve">
+    <value>Average words</value>
+  </data>
+  <data name="EXCEPTION_SELECT_FIELD_FOR_MATCHING" xml:space="preserve">
+    <value>Please select field</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_APPLYCOLUMNMAPPINGS" xml:space="preserve">
+    <value>Apply Column Mappings</value>
+  </data>
+  <data name="CAPTION_DATATABLE_INSERT_COLUMN" xml:space="preserve">
+    <value>Insert Column</value>
+  </data>
+  <data name="Startup_square3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXNUMBER" xml:space="preserve">
+    <value>Max number</value>
+  </data>
+  <data name="UI_EMPTY" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_WARNING_CAPTION" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="sqlite_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sqlite_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UI_CLOSE" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="new project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_STARTMATCHING" xml:space="preserve">
+    <value>Start Matching</value>
+  </data>
+  <data name="geopointmap_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geopointmap_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_PROJECT" xml:space="preserve">
+    <value>Project {0}</value>
+  </data>
+  <data name="UI_MASTERRECORD_MOSTPOPULATED" xml:space="preserve">
+    <value>Most Populated</value>
+  </data>
+  <data name="EXCEPTION_LANGUAGE_SET_FAIL" xml:space="preserve">
+    <value>Language cannot be set</value>
+  </data>
+  <data name="2026_Mongo_Db_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Mongo_Db_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_RefreshStats_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_RefreshStats_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_IGNORENULLVALUES" xml:space="preserve">
+    <value>Include Null Values</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ONLYGROUPS" xml:space="preserve">
+    <value>All Matches</value>
+  </data>
+  <data name="quote" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quote.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Shift_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Shift_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CANCEL" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVENONPRINTABLECHARACTERS" xml:space="preserve">
+    <value>This will remove any non-printable characters. Non-printable characters are parts of a character set that do not represent a written symbol or part of the text within a document or code, but rather are there in the context of signal and control in character encoding. Non-printable characters are used to indicate certain formatting actions, such as: White spaces (considered an invisible graphic), Carriage returns, Tabs, Line breaks, Page breaks and Null characters.</value>
+  </data>
+  <data name="CAPTION_DATATABLE_DELETE_RECORDS" xml:space="preserve">
+    <value>Delete Records</value>
+  </data>
+  <data name="CAPTION_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="2026_Arrow_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Arrow_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2019_zoho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_zoho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_TABLE_NAME_FOR_EXPORT" xml:space="preserve">
+    <value>Please set table name for export</value>
+  </data>
+  <data name="UI_SHEDULE_TRAINING" xml:space="preserve">
+    <value>Schedule Training</value>
+  </data>
+  <data name="UI_CAPTION_INCLUDED" xml:space="preserve">
+    <value>Include in result only</value>
+  </data>
+  <data name="2026_import_filled_data_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_import_filled_data_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_USESEARCHDEEPOPTION" xml:space="preserve">
+    <value>Use the Search Deep option to fine tune the matching algorithm</value>
+  </data>
+  <data name="EXCEPTION_IEFORM_WRONG_EXPORT_SERVICE" xml:space="preserve">
+    <value>Wrong export parameters</value>
+  </data>
+  <data name="DIALOG_EXCELNEW_FORMAT" xml:space="preserve">
+    <value>Excel format (*.xlsx)|*.xlsx;</value>
+  </data>
+  <data name="2024-save-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-save-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elements-newproject2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-newproject2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_SELECTTABLEORSQL" xml:space="preserve">
+    <value>Select the tables you want to import. You may also enter a custom SQL query if preferred.</value>
+  </data>
+  <data name="UI_CAPTION_CREATENEWGROUP" xml:space="preserve">
+    <value>Create new group</value>
+  </data>
+  <data name="UI_CAPTION_ADDRIDENT" xml:space="preserve">
+    <value>Addresses identified</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_EXACTMATCH" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="MESSAGE_VERSIONUPTODATE" xml:space="preserve">
+    <value>This version is up-to-date</value>
+  </data>
+  <data name="MESSAGE_YOU_SHOULD_RESTART_APP" xml:space="preserve">
+    <value>You should restart the application to apply these changes</value>
+  </data>
+  <data name="UI_MAINFORM_STYLEGALLERY" xml:space="preserve">
+    <value>Style Theme</value>
+  </data>
+  <data name="CAPTION_AI_PROCESSANYWAY" xml:space="preserve">
+    <value>You can only process {0} records.
+
+Would you like to continue?</value>
+  </data>
+  <data name="DIALOG_EXPORT_MATRIX_CAPTION" xml:space="preserve">
+    <value>Export Matrix to JSON file</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DECIMALSYMBOL" xml:space="preserve">
+    <value>Decimal Symbol</value>
+  </data>
+  <data name="UI_SPLIT" xml:space="preserve">
+    <value>Split</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVECOMMAS" xml:space="preserve">
+    <value>Remove any commas that occur within values (eg “John, Smith”)</value>
+  </data>
+  <data name="2026_Background_600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Background_600.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MERGE" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="UI_MAINFORM_LOADPREVIOUSLYSAVEDMATRIX" xml:space="preserve">
+    <value>Load a previously saved Matrix settings file</value>
+  </data>
+  <data name="UI_MAINFORM_HIDEDISPLAYDATAPREVIEW" xml:space="preserve">
+    <value>Hide / Display the Data Preview</value>
+  </data>
+  <data name="MESSAGE_MASTER_RECORD_COUNT" xml:space="preserve">
+    <value>Master Record count: {0}</value>
+  </data>
+  <data name="UI_EXPORT" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="UI_COLUMN_NAME" xml:space="preserve">
+    <value>Column Name</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVELETTERS" xml:space="preserve">
+    <value>Remove any letters that occur in values (eg “65764 A 12123”)</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVELEADINGSPACES" xml:space="preserve">
+    <value>Remove any spaces that occur at the beginning of values (eg “ John Smith”)</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVENAMBERS" xml:space="preserve">
+    <value>Remove any numbers within values (eg “New York 1”)</value>
+  </data>
+  <data name="sharpness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_REGISTERRUNPROGRAMASADMIN" xml:space="preserve">
+    <value>To register the license you need to run the program as administrator</value>
+  </data>
+  <data name="2026_SQLite_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_SQLite_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_OPTIONSVIEW" xml:space="preserve">
+    <value>Options View</value>
+  </data>
+  <data name="UI_UNDO" xml:space="preserve">
+    <value>Undo</value>
+  </data>
+  <data name="2026_Delete_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="DIALOG_IMPORT_KBLIBRARY_CAPTION" xml:space="preserve">
+    <value>Import Knowledge base library</value>
+  </data>
+  <data name="UI_STARTCLEANING" xml:space="preserve">
+    <value>Start Cleaning</value>
+  </data>
+  <data name="open project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Address_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Address_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SSH_INFORMATION" xml:space="preserve">
+    <value>SSH information</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_EDITION2" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Enterprise + Address Verification</value>
+  </data>
+  <data name="2026_CSV_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_CSV_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_EXPORTWITHSTYLE" xml:space="preserve">
+    <value>Export with style</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MIXEDCASE" xml:space="preserve">
+    <value>Mixed Case</value>
+  </data>
+  <data name="UI_PROPERCASE_PREFIX" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="palette_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palette_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS_3" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Demo</value>
+  </data>
+  <data name="CAPTION_AI_REGISTEREDVERSION" xml:space="preserve">
+    <value>MatchAI Licensed for {0} million records.  Please contact your account manager if you need to upgrade.</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS_2" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Demo</value>
+  </data>
+  <data name="MESSAGE_DISPLAY_NAME_SHOULD_NOT_BE_EMPTY" xml:space="preserve">
+    <value>All display names should not be empty</value>
+  </data>
+  <data name="UI_EXPORTEXCELFORM_EXPORTTOEXCEL" xml:space="preserve">
+    <value>Export to Excel file</value>
+  </data>
+  <data name="UI_MATCHPRO_OPTIONS" xml:space="preserve">
+    <value>Match Pro</value>
+  </data>
+  <data name="UI_CAPTION_AUTOCHECKUPDATE" xml:space="preserve">
+    <value>Automatically check for updates</value>
+  </data>
+  <data name="UI_PREVIEW" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="UI_DATASOURCE_FILES" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="Snowflake_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snowflake_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_GREATERTHEN_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Greater Then rule types could be applied only to numeric or DateTime fields</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_SELECT_COLUMN" xml:space="preserve">
+    <value>Please select column/s to remove</value>
+  </data>
+  <data name="UI_AUDITLOG_ENABLED" xml:space="preserve">
+    <value>Audit Log Enabled</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_OPENPREVIOUSLYSAVED" xml:space="preserve">
+    <value>Open a previously saved project</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_COLUMNNAME" xml:space="preserve">
+    <value>Column Name</value>
+  </data>
+  <data name="UI_WITHOUTPASSWORD" xml:space="preserve">
+    <value>Without password</value>
+  </data>
+  <data name="UI_CONVERT" xml:space="preserve">
+    <value>Convert</value>
+  </data>
+  <data name="EXCEPTION_NO_MATRIX_FOR_EXPORT" xml:space="preserve">
+    <value>There is no active table for export Matrix</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_COUNTRY" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="_2019_txtcsv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_txtcsv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_RuleFlow_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_RuleFlow_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_CLEARALL" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="DIALOG_IMPORT_WORDMANAGER_CAPTION" xml:space="preserve">
+    <value>Import Word Manager dictionary</value>
+  </data>
+  <data name="CAPTION_AI_DEMOMODE" xml:space="preserve">
+    <value>MatchAI Demo - Maximum {0} records can only be processed.  Please contact your account manager if you need to upgrade.</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTSTATISTIC" xml:space="preserve">
+    <value>Export Statistics</value>
+  </data>
+  <data name="UI_MAINFORM_SORTATOZ" xml:space="preserve">
+    <value>Sort A to Z</value>
+  </data>
+  <data name="UI_CAM_FREE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Community Edition</value>
+  </data>
+  <data name="2026_Undo_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Undo_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2024-getting-started-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-getting-started-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_IMPORTDATA" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="content_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\content_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_ANALYZE" xml:space="preserve">
+    <value>Analyze</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MINNUMBER" xml:space="preserve">
+    <value>Min number</value>
+  </data>
+  <data name="_2019_json" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_json.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Data_Project_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Data_Project_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="import2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_LOADMATRIX" xml:space="preserve">
+    <value>Load Matrix</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_TRAILINGSPACES" xml:space="preserve">
+    <value>Trailing spaces</value>
+  </data>
+  <data name="UI_RESULT" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="CAPTION_CONNECT" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="UI_NUMBERS" xml:space="preserve">
+    <value>Numbers</value>
+  </data>
+  <data name="UI_CAPTION_REGEXMANAGER" xml:space="preserve">
+    <value>REGEX Manager</value>
+  </data>
+  <data name="UI_RUN" xml:space="preserve">
+    <value>Run SQL</value>
+  </data>
+  <data name="2026_open_demo_project_filled_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_open_demo_project_filled_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_USEWINDOWS" xml:space="preserve">
+    <value>Use Windows Authentication</value>
+  </data>
+  <data name="UI_DATASOURCE_DATABASES" xml:space="preserve">
+    <value>Databases</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHRESULT" xml:space="preserve">
+    <value>Match Result</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESS" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKMERGEOVERWRITE" xml:space="preserve">
+    <value>Click to view the Merge/Overwrite options</value>
+  </data>
+  <data name="CAPTION_REPORT_TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_SERPFIELDS" xml:space="preserve">
+    <value>SERP Fields</value>
+  </data>
+  <data name="UI_CAPTION_IGNOREEMPTY" xml:space="preserve">
+    <value>Include Empty Values</value>
+  </data>
+  <data name="blue stat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue stat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ASMASTER" xml:space="preserve">
+    <value>as master</value>
+  </data>
+  <data name="UI_MANAGER" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="UI_DATASOURCE_SALESFORCE" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="2026_Insert_Column_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Insert_Column_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_THREADS" xml:space="preserve">
+    <value>Threads</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHCONFIGURATION" xml:space="preserve">
+    <value>MatchConfiguration</value>
+  </data>
+  <data name="2026_Quote_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Quote_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_SET_CORRECT_CREDENTIALS" xml:space="preserve">
+    <value>You should set correct credentials to access to {0} and select table for importing</value>
+  </data>
+  <data name="UI_MESSAGE_CONFIRM_REMOVE_PROJECT" xml:space="preserve">
+    <value>Are you sure you want to remove the project "{0}" from the list?</value>
+  </data>
+  <data name="UI_MAINFORM_CLEANSETTINGS" xml:space="preserve">
+    <value>Clean Settings</value>
+  </data>
+  <data name="2026_Refresh_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Refresh_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Document In Folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Document In Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Automation_Config_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Automation_Config_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_DATASOURCE_SQLITE" xml:space="preserve">
+    <value>SQLite</value>
+  </data>
+  <data name="UI_SERVER" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="SYSTEM_NOT_MAPPED_FIELD" xml:space="preserve">
+    <value>&lt;Not mapped&gt;</value>
+  </data>
+  <data name="EXCEPTION_PRIMARY_KEY_NOT_SUPPORTED" xml:space="preserve">
+    <value>Compound primary keys are not supported</value>
+  </data>
+  <data name="UI_CAPTION_LABEL" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="UI_MATCHRESULTDELETEFORM_DELETEOPTIONS" xml:space="preserve">
+    <value>Delete options</value>
+  </data>
+  <data name="2026_Check_All_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Check_All_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_GetStarted_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_GetStarted_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_LICENSE_INVALID" xml:space="preserve">
+    <value>License for the program is invalid</value>
+  </data>
+  <data name="_2019_xml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_xml.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PROPERCASE" xml:space="preserve">
+    <value>Proper Case</value>
+  </data>
+  <data name="_2019_azure2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_azure2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKAUTOMATICALLYMAP" xml:space="preserve">
+    <value>Click to automatically map columns from different tables</value>
+  </data>
+  <data name="2026_Match_Config_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Match_Config_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_ZIP" xml:space="preserve">
+    <value>Zip</value>
+  </data>
+  <data name="2024-getting-started-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-getting-started-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Clean_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Clean_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="MySQL_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MySQL_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ORGANIZATION" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="2026_logo_transprent_light_theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_logo_transprent_light_theme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_IMPORTMYSQLFORM_IMPORTTABLEFROMMYSQL" xml:space="preserve">
+    <value>Import table from MySql</value>
+  </data>
+  <data name="2026_Set_Master_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Set_Master_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDGROUP" xml:space="preserve">
+    <value>Add Rule</value>
+  </data>
+  <data name="MESSAGE_DISPLAY_NAME_SHOULD_BE_UNIQUE" xml:space="preserve">
+    <value>All display names should be unique</value>
+  </data>
+  <data name="UI_COUNT" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="UI_EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="UI_SAVE_CONNECTION" xml:space="preserve">
+    <value>Save Connection</value>
+  </data>
+  <data name="UI_SAVE_MAPPING" xml:space="preserve">
+    <value>Save Mapping</value>
+  </data>
+  <data name="2026_MySQL_Logo_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_MySQL_Logo_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Dynamics_365_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Dynamics_365_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEPROJECTAS" xml:space="preserve">
+    <value>Save Project As</value>
+  </data>
+  <data name="UI_CAPTION_CLEARALLGROUP" xml:space="preserve">
+    <value>Clear all in Group</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_FIELDNAME" xml:space="preserve">
+    <value>Column name</value>
+  </data>
+  <data name="CAPTION_MOVEMOUSEFORDETAILS" xml:space="preserve">
+    <value>Hover over red text to learn more.</value>
+  </data>
+  <data name="UI_TABLE" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="UI_WPMENTERPRISE" xml:space="preserve">
+    <value>WinPure™ Match Enterprise</value>
+  </data>
+  <data name="json_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\json_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_QUESTION_CAPTION" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEANYPART" xml:space="preserve">
+    <value>AnyPart</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MULTIPLESPACES" xml:space="preserve">
+    <value>Multiple Spaces</value>
+  </data>
+  <data name="UI_MAINFORM_SPLITSEPARATOR" xml:space="preserve">
+    <value>Column Split Separator</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_RESULT" xml:space="preserve">
+    <value>Address Verification Summary Result</value>
+  </data>
+  <data name="2026_My_Sql_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_My_Sql_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Copy_Column" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Copy_Column.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_DATASOURCE_ORACLE" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="UI_CAPTION_AUTOMATIONSERVICE" xml:space="preserve">
+    <value>Automation Service</value>
+  </data>
+  <data name="v10 Banner-registration1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v10 Banner-registration1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_TABCHAR" xml:space="preserve">
+    <value>Tab Char</value>
+  </data>
+  <data name="2026_Import_Data_Filled_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Import_Data_Filled_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Access_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Access_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SETMOSTPOPULATED" xml:space="preserve">
+    <value>Set MOST POPULATED records from table </value>
+  </data>
+  <data name="DIALOG_PROJECT_SAVE_CAPTION" xml:space="preserve">
+    <value>Save Project</value>
+  </data>
+  <data name="CAM_ICO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAM_ICO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_OpenFile_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OpenFile_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_PROPERCASE_DELIMITERS" xml:space="preserve">
+    <value>Delimiters</value>
+  </data>
+  <data name="2026_BookADemo_light_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_BookADemo_light_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_EXPORTACCESSFORM_TABLENAMETOEXPORT" xml:space="preserve">
+    <value>Table name to export</value>
+  </data>
+  <data name="2026_Match_Reult_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Match_Reult_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_ADDNEWLIBRARY" xml:space="preserve">
+    <value>Add new knowledge base library</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHINGRECORDSOPTIONS_2" xml:space="preserve">
+    <value>Matching Results</value>
+  </data>
+  <data name="UI_CAPTION_ADDTOBIGGEST" xml:space="preserve">
+    <value>Add to the biggest group</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_SQLSERVERDB" xml:space="preserve">
+    <value>To SQL Server Db</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ADD_RULES" xml:space="preserve">
+    <value>Add Rules</value>
+  </data>
+  <data name="UI_CAMBIZ_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Pro Business</value>
+  </data>
+  <data name="CAPTION_DATATABLE_REMOVE_COLUMN" xml:space="preserve">
+    <value>Remove Column</value>
+  </data>
+  <data name="2026_Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Help.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="STARTUPTITLE2024" xml:space="preserve">
+    <value>Welcome.  Let's get you settled in.</value>
+  </data>
+  <data name="UI_ACCOUNT" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="v11_About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v11_About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Minus_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Minus_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_DEMOCONTINUED" xml:space="preserve">
+    <value>Demo now extended</value>
+  </data>
+  <data name="mongo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mongo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREENCAMFORM_STARTING" xml:space="preserve">
+    <value>Starting...</value>
+  </data>
+  <data name="2026_Rename_Table_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Rename_Table_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="down_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\down_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_BookADemo_hover_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_BookADemo_hover_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_CONNECTION_TO_DATABASE_FOR_EXPORT" xml:space="preserve">
+    <value>You should set a connection to database for export.</value>
+  </data>
+  <data name="DIALOG_LICENSE_FILE" xml:space="preserve">
+    <value>License Files (*.license)|*.license</value>
+  </data>
+  <data name="UI_MAINFORM_VIDEOTUTORIALS" xml:space="preserve">
+    <value>Video Tutorials</value>
+  </data>
+  <data name="UI_LICESEFORDESKTOP" xml:space="preserve">
+    <value>Set license for the desktop application</value>
+  </data>
+  <data name="SYSTEM_REPORT_DISPLAYNAME" xml:space="preserve">
+    <value>WinPure™ Match Report</value>
+  </data>
+  <data name="UI_SETTINGS2" xml:space="preserve">
+    <value>Application Settings</value>
+  </data>
+  <data name="2026_logo_transprent_dark_theme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_logo_transprent_dark_theme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_EDITDICTIONARYFORM_CONFIRMATION_DELETE_VALUE" xml:space="preserve">
+    <value>Are you sure to delete this value?</value>
+  </data>
+  <data name="2026_Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Close.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NEWLINECHAR" xml:space="preserve">
+    <value>New Line Char</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DATEORDER" xml:space="preserve">
+    <value>Date Order</value>
+  </data>
+  <data name="DIALOG_CSVFILE_FORMAT" xml:space="preserve">
+    <value>CSV Files (Delimited) (*.csv)|*.csv</value>
+  </data>
+  <data name="2024-new-project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-new-project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_NewProject_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_NewProject_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_TEST" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="UI_CAMFREE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Community</value>
+  </data>
+  <data name="CAPTION_DEMO_LIMITATION" xml:space="preserve">
+    <value>Demo Limitation</value>
+  </data>
+  <data name="UI_CAMENTAD_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise with AV</value>
+  </data>
+  <data name="EXCEPTION_MATRIX_CANNOT_BE_LOADED" xml:space="preserve">
+    <value>File with matrix cannot be loaded</value>
+  </data>
+  <data name="UI_ABOUTFORM_CURRENTVERSION" xml:space="preserve">
+    <value>Current Version &amp;&amp; Information at</value>
+  </data>
+  <data name="2026_New_Project_Filled_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_New_Project_Filled_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_DOTS" xml:space="preserve">
+    <value>Dots</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MOSTCOMMON" xml:space="preserve">
+    <value>Most Common</value>
+  </data>
+  <data name="UI_MAINFORM_EDITNORMALIZATIONRULES" xml:space="preserve">
+    <value>Edit Normalization Rules</value>
+  </data>
+  <data name="SYSTEM_TOTALSCORE_TOOLTIP" xml:space="preserve">
+    <value>This total is calculated by averaging the scores from the matching columns</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEOVERWRITEDATA" xml:space="preserve">
+    <value>Update / Overwrite data</value>
+  </data>
+  <data name="UI_MATCH_LITE_EDITION_2" xml:space="preserve">
+    <value>WinPure™ Match Demo</value>
+  </data>
+  <data name="excel_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excel_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_REGISTERFORM_REGISTER" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_CREATENEWPROJECTOROPENPREVIOUSLY" xml:space="preserve">
+    <value>Start a new project or open an existing one to clean, match and verify your data securely.</value>
+  </data>
+  <data name="UI_LOWERCASE" xml:space="preserve">
+    <value>lower case</value>
+  </data>
+  <data name="DIALOG_TITLE_SELECTLICENSE" xml:space="preserve">
+    <value>Select WinPure license file</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TIMEDELIMITER" xml:space="preserve">
+    <value>Time Delimiter</value>
+  </data>
+  <data name="UI_LOAD" xml:space="preserve">
+    <value>Load</value>
+  </data>
+  <data name="_2019_Oracle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Oracle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_FILESETTINGS" xml:space="preserve">
+    <value>File settings</value>
+  </data>
+  <data name="online help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\online help.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_ALPHAONLY" xml:space="preserve">
+    <value>Letters</value>
+  </data>
+  <data name="2024-popular-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-popular-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_CITYSTATEZIP" xml:space="preserve">
+    <value>City/State/Zip</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_OPTIONS" xml:space="preserve">
+    <value>Additional Options</value>
+  </data>
+  <data name="2024-files-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-files-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SYSTEM_SOURCENAME_TOOLTIP" xml:space="preserve">
+    <value>Determines which data source each matching record has come from</value>
+  </data>
+  <data name="UI_DATASOURCE_CRM" xml:space="preserve">
+    <value>CRM's</value>
+  </data>
+  <data name="zoho_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoho_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_WINPURECLEANMATCHENTERPRISE" xml:space="preserve">
+    <value>Welcome to Clean &amp;&amp; Match Enterprise v11</value>
+  </data>
+  <data name="orange-continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange-continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2019_csv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_csv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_DATASOURCE_MYSQL" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="UI_CONNECTION" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="STARTUPDESC2024" xml:space="preserve">
+    <value>Improving your data quality with WinPure is as easy as 1,2,3.  Simply launch a new project and build a custom clean &amp;&amp; match matrix. If you'd like a product walk-through, please book a demo and our solutions specialist will guide you through the basics.</value>
+  </data>
+  <data name="Save1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Save1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_HIDEDISPLAYSTATISTICSFOREACHTABLE" xml:space="preserve">
+    <value>Hide / Display the Statistics for each table</value>
+  </data>
+  <data name="MESSAGE_ONLYFORADMIN" xml:space="preserve">
+    <value>This functionality is available only to users with administrator privileges</value>
+  </data>
+  <data name="export" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_DOWNLOADNEWVERSION" xml:space="preserve">
+    <value>A new version {0} is now available. Do you want to open the download page and install the software?</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_DATETIME" xml:space="preserve">
+    <value>Date Time</value>
+  </data>
+  <data name="2026_StartMatching_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_StartMatching_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="clearness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clearness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="txtcsv_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\txtcsv_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CLIENTID" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="2024-databases-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-databases-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_PATTERNMANAGER" xml:space="preserve">
+    <value>Pattern Manager</value>
+  </data>
+  <data name="EXCEPTION_NO_STATISTIC_FOR_EXPORT" xml:space="preserve">
+    <value>There is no statistical data for export</value>
+  </data>
+  <data name="UI_MAINFORM_REMOVECOLUMN" xml:space="preserve">
+    <value>Remove Column</value>
+  </data>
+  <data name="UI_IMPORTACCESSFORM_ACCESSDATABASE" xml:space="preserve">
+    <value>Database file</value>
+  </data>
+  <data name="2026_Delete_Document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_Document.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHINGVIDEOTUTORIAL" xml:space="preserve">
+    <value>Matching Video Tutorial</value>
+  </data>
+  <data name="UI_MAINFORM_SORTZTOA" xml:space="preserve">
+    <value>Sort Z to A</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_EXCELFILE" xml:space="preserve">
+    <value>Excel file</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_MERGE_OPTION" xml:space="preserve">
+    <value>Merge option</value>
+  </data>
+  <data name="2026_BookADemo_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_BookADemo_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MASSAGE_IOFORM_YOUSHOULDSELECTFILE" xml:space="preserve">
+    <value>You should select file and sheet to import.</value>
+  </data>
+  <data name="2024-save-as-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-save-as-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_EXCEL" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="UI_CAPTION_DEFINEFIELDSTYPE" xml:space="preserve">
+    <value>Step 2 - Define Column Types, use the 'Auto-Map' button if required, then click 'Review/Analyze'</value>
+  </data>
+  <data name="UI_STARTUPCAMFORM_SHOWONLAUNCH" xml:space="preserve">
+    <value>Show on launch</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEALLSPACES" xml:space="preserve">
+    <value>Remove any spaces within values (eg “5652 123”)</value>
+  </data>
+  <data name="UI_CAPTION_PREVIEWLIMIT" xml:space="preserve">
+    <value>Data Preview Limit</value>
+  </data>
+  <data name="2026_new_project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New document icon with plus symbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PASSWORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_SHEETS" xml:space="preserve">
+    <value>Sheets</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTSTATISTICS" xml:space="preserve">
+    <value>Export Statistics</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SELECTMOSTRELEVANT" xml:space="preserve">
+    <value>Select SmartMaster AI</value>
+  </data>
+  <data name="UI_MAINFORM_PROJECTMANAGEMENT" xml:space="preserve">
+    <value>Project Management</value>
+  </data>
+  <data name="2026_GetStarted_light_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_GetStarted_light_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_LICENCEINFORMATION" xml:space="preserve">
+    <value>Licence Information</value>
+  </data>
+  <data name="DIALOG_PROJECT_SAVEAS_CAPTION" xml:space="preserve">
+    <value>Save As Project</value>
+  </data>
+  <data name="_2019_Excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES1" xml:space="preserve">
+    <value>Non-Matches</value>
+  </data>
+  <data name="2024-open1-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-open1-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_DUPLICATES" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="project2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\project2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_APOSTROPHES" xml:space="preserve">
+    <value>Apostrophes</value>
+  </data>
+  <data name="newtablestyle_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newtablestyle_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_HYPHENS" xml:space="preserve">
+    <value>Hyphens</value>
+  </data>
+  <data name="2026_CancelButton_filled_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_CancelButton_filled_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_CHECKUPDATE" xml:space="preserve">
+    <value>Check for update</value>
+  </data>
+  <data name="2026_PatternManager_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_PatternManager_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_DATASOURCE_EXCEL" xml:space="preserve">
+    <value>MS Excel</value>
+  </data>
+  <data name="EXCEPTION_EXPORT_DISABLED_ON_DEMO" xml:space="preserve">
+    <value>Export disabled on the Demo</value>
+  </data>
+  <data name="UI_MAINFORM_DISPLAYCLEAN" xml:space="preserve">
+    <value>Display Clean Options</value>
+  </data>
+  <data name="CAPTION_ORIGINAL_NAME" xml:space="preserve">
+    <value>Original name</value>
+  </data>
+  <data name="UI_MATCH" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="UI_CAPTION_ANALYZEDATATYPE" xml:space="preserve">
+    <value>Analyze data type</value>
+  </data>
+  <data name="UI_CAPTION_SEPPRESSED" xml:space="preserve">
+    <value>Ignore column</value>
+  </data>
+  <data name="MESSAGE_MAINFORM_WANTSAVETHEPROJECT" xml:space="preserve">
+    <value>Do you wish to save project {0}?</value>
+  </data>
+  <data name="CAPTION_DATATABLE_CLOSE" xml:space="preserve">
+    <value>Close Table</value>
+  </data>
+  <data name="Elements-button2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-button2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LOWERONLY" xml:space="preserve">
+    <value>Lower Only</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_WITHSPACES" xml:space="preserve">
+    <value>With Spaces</value>
+  </data>
+  <data name="UI_CAMENTLITE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise Lite</value>
+  </data>
+  <data name="MESSAGE_LICENSE_EXPIRED" xml:space="preserve">
+    <value>Your license has now expired.</value>
+  </data>
+  <data name="UI_CAM_FREE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Community</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_HYPENS" xml:space="preserve">
+    <value>Hyphens</value>
+  </data>
+  <data name="CAPTION_PATTERN" xml:space="preserve">
+    <value>Pattern</value>
+  </data>
+  <data name="2024-new-project-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-new-project-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_SCHEDULEONLINEDEMO" xml:space="preserve">
+    <value>Schedule Online Demo</value>
+  </data>
+  <data name="Startup_close_x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_close_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Azure_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Azure_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Delete_Records_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_Records_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NAMEANDEMAIL" xml:space="preserve">
+    <value>Name and Email</value>
+  </data>
+  <data name="CAPTION_REPORT_ADDRESS" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LSTO1S" xml:space="preserve">
+    <value>L's to 1's</value>
+  </data>
+  <data name="CAPTION_DATATABLE_FILTER_PANEL" xml:space="preserve">
+    <value>Filter Panel On/Off</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEMATRIX" xml:space="preserve">
+    <value>Save Matrix</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVECONDITION" xml:space="preserve">
+    <value>Remove Condition</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_ERROR_CAPTION" xml:space="preserve">
+    <value>Error within column mapping</value>
+  </data>
+  <data name="DIALOG_PROJECT_FORMAT" xml:space="preserve">
+    <value>WPPJ format|*.wppj;</value>
+  </data>
+  <data name="data" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\data.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAM_BUSINESS_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Pro Business Edition</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NONPRINTABLE" xml:space="preserve">
+    <value>Non printable</value>
+  </data>
+  <data name="2026_JSON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_JSON.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="match" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\match.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Startup_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_DUPLICATE" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="UI_EXPORTMSSQLFORM_EXPORTTOMSSQL" xml:space="preserve">
+    <value>Export to {0}</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_OTHER" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="UI_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="2026_Import_Data_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Import_Data_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_PROJECT2" xml:space="preserve">
+    <value>Project / Settings</value>
+  </data>
+  <data name="2026_IBM_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_IBM_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_KNOWLEDGEBASE" xml:space="preserve">
+    <value>Knowledge Base</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_UPDATEOVERWRITE" xml:space="preserve">
+    <value>Update / Overwrite</value>
+  </data>
+  <data name="UI_REGISTRATION" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_FARMATNAME" xml:space="preserve">
+    <value>Dictionary name</value>
+  </data>
+  <data name="EXCEPTION_REPORT_FILE_NOT_EXISTS" xml:space="preserve">
+    <value>Report file {0} does not exist</value>
+  </data>
+  <data name="DIALOG_IMPORT_MATRIX_CAPTION" xml:space="preserve">
+    <value>Import Matrix dictionary</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Enterprise Edition</value>
+  </data>
+  <data name="DIALOG_ACCESS_FORMAT" xml:space="preserve">
+    <value>Microsoft Access file|*.accdb;*.mdb;*.adp;*.mda;*.accda;*.mde;*.accde;*.ade</value>
+  </data>
+  <data name="UI_CAPTION_SHOWNULL" xml:space="preserve">
+    <value>Show NULL values</value>
+  </data>
+  <data name="UI_LOGONSERVER" xml:space="preserve">
+    <value>Log on to the server</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISELITE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Enterprise Lite</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_ENTER_COLUMN_NAME" xml:space="preserve">
+    <value>Please enter the name of the new column</value>
+  </data>
+  <data name="DIALOG_EXPORT_DICTIONARY_CAPTION" xml:space="preserve">
+    <value>Export dictionary to CSV file</value>
+  </data>
+  <data name="2026_Rename_Column_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Rename_Column_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAMENT_OPTIONS_DEMO" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise Demo</value>
+  </data>
+  <data name="2026_Update_2_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Update_2_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_NO_LOGS_TO_EXPORT" xml:space="preserve">
+    <value>No audit logs available for export</value>
+  </data>
+  <data name="StartupBUTTON" xml:space="preserve">
+    <value>BOOK A DEMO</value>
+  </data>
+  <data name="UI_LOADINGMASKFORM_CANCELMATCHING" xml:space="preserve">
+    <value>CANCEL MATCHING</value>
+  </data>
+  <data name="_1access2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1access2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_OPTIONONLYFORADMIN" xml:space="preserve">
+    <value>You can enable/disable automation service only under Administration account</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_CODENOTVALID" xml:space="preserve">
+    <value>This code is not a valid license code</value>
+  </data>
+  <data name="SYSTEM_ISMASTER_TOOLTIP" xml:space="preserve">
+    <value>Select one master record from each matching group</value>
+  </data>
+  <data name="2026_Convert_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Convert_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="MESSAGE_DATABASEPATHCHANGE" xml:space="preserve">
+    <value>System database path change</value>
+  </data>
+  <data name="UI_CAPTION_USESQLEDITOR" xml:space="preserve">
+    <value>Use the editor below to create an SQL script.</value>
+  </data>
+  <data name="2026_startup_loading_animation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_startup_loading_animation.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_DATATABLE_COPY_COLUMN" xml:space="preserve">
+    <value>Copy Column</value>
+  </data>
+  <data name="UI_CAPTION_OPENSAMPLEPROJECT" xml:space="preserve">
+    <value>Open Sample Project</value>
+  </data>
+  <data name="UI_DATASOURCE_POPULAR" xml:space="preserve">
+    <value>Popular</value>
+  </data>
+  <data name="MESSAGE_REMOVELOGS" xml:space="preserve">
+    <value>Are you sure you want to permanently delete the selected logs?</value>
+  </data>
+  <data name="quote-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\quote-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Oracle_Database_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Oracle_Database_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_MAXIMISERIBBON" xml:space="preserve">
+    <value>Maximise Ribbon</value>
+  </data>
+  <data name="2026_import_data_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_import_data_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="export_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Demo_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Demo_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIALOG_IOFORM_IMPORT_FROM_ACCESS" xml:space="preserve">
+    <value>Import from an Access database into table</value>
+  </data>
+  <data name="UI_EXPORTTOFILE" xml:space="preserve">
+    <value>Export to {0} file</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISE2" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Enterprise + Address Verification</value>
+  </data>
+  <data name="UI_MASTERRECORD_MOSTRELEVANT" xml:space="preserve">
+    <value>SmartMaster AI</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEDOTS" xml:space="preserve">
+    <value>Remove any dots (or full stops)  that occur within values (eg “10 Main Street.”)</value>
+  </data>
+  <data name="SYSTEM_GROUPID_TOOLTIP" xml:space="preserve">
+    <value>The Matching Group ID</value>
+  </data>
+  <data name="UI_MAINFORM_STARTUPWINDOW" xml:space="preserve">
+    <value>Startup Window</value>
+  </data>
+  <data name="close-larger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-larger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elements-importdata1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-importdata1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_LITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Enterprise Lite Edition</value>
+  </data>
+  <data name="UI_STARTUP_ONLINEHELP" xml:space="preserve">
+    <value>Online Help Manual</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHES_PERCENT" xml:space="preserve">
+    <value>Matches %</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_RELATED_PERCENT" xml:space="preserve">
+    <value>Related %</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEWITH" xml:space="preserve">
+    <value>Update with</value>
+  </data>
+  <data name="automation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\automation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2024-crms-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-crms-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="properties_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\properties_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_CREATE_NEW_PROJECT" xml:space="preserve">
+    <value>Create new project</value>
+  </data>
+  <data name="EXCEPTION_NO_ERCONFIGURATION_FOR_EXPORT" xml:space="preserve">
+    <value>There is no active table for export configuration</value>
+  </data>
+  <data name="2026_Verify_Config_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Verify_Config_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_ALLOWUNDO" xml:space="preserve">
+    <value>Allow Undo</value>
+  </data>
+  <data name="UI_HELP" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="UI_DATASOURCE_JSON" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="CAPTION_ALGORITHM" xml:space="preserve">
+    <value>Algorithm</value>
+  </data>
+  <data name="UI_DISPLAY" xml:space="preserve">
+    <value>Display</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_THANKSFORREGISTERING" xml:space="preserve">
+    <value>Thanks for registering</value>
+  </data>
+  <data name="UI_WORDMANAGERLIST" xml:space="preserve">
+    <value>Word Manager List</value>
+  </data>
+  <data name="2026_Match_Report_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Match_Report_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_NotDuplicate_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_NotDuplicate_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ONLY" xml:space="preserve">
+    <value>only</value>
+  </data>
+  <data name="2026_MatchAI_result_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_MatchAI_result_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CLIENTSECRET" xml:space="preserve">
+    <value>Client secret</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_LIBRARYMANAGER" xml:space="preserve">
+    <value>Knowledge Base Library Manager</value>
+  </data>
+  <data name="UI_EMPTY_WITH_VALUE" xml:space="preserve">
+    <value>Empty to a value</value>
+  </data>
+  <data name="CAPTION_FIELD_TYPE" xml:space="preserve">
+    <value>Field type</value>
+  </data>
+  <data name="UI_MAINFORM_THISWILLREFRESHALLSTATISTICS" xml:space="preserve">
+    <value>This will refresh all the statistics</value>
+  </data>
+  <data name="DIALOG_IMPORT_ERCONFIGURATION_CAPTION" xml:space="preserve">
+    <value>Import ER configuration</value>
+  </data>
+  <data name="UI_IMPORTFILEDATABASE_IMPORTFROMFILEDATABASE" xml:space="preserve">
+    <value>Import from {0}</value>
+  </data>
+  <data name="UI_MAINFORM_THEMESTYLE" xml:space="preserve">
+    <value>Theme Style</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_EXPORTTOODBC" xml:space="preserve">
+    <value>Export to ODBC</value>
+  </data>
+  <data name="getting started" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\getting started.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="darkness" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\darkness.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_JSON_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_JSON_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MESSAGE_RESTARTREQUIRED" xml:space="preserve">
+    <value>Restart is required to continue</value>
+  </data>
+  <data name="UI_EXECUTE" xml:space="preserve">
+    <value>Execute</value>
+  </data>
+  <data name="UI_AUDITLOG" xml:space="preserve">
+    <value>Audit logs</value>
+  </data>
+  <data name="2026_Delete_Receipt_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_Receipt_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_FIRSTROWCOLUMNNAMES" xml:space="preserve">
+    <value>First row contains column names</value>
+  </data>
+  <data name="2026_Snowflake_2_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Snowflake_2_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_IMPORTFROMTEXTFILE" xml:space="preserve">
+    <value>Import from text file</value>
+  </data>
+  <data name="MESSAGE_OVERRIDEFILE" xml:space="preserve">
+    <value>File already exists. Do you want to override this file?</value>
+  </data>
+  <data name="UI_STARTUP_BOOKDEMO" xml:space="preserve">
+    <value>Book a demo</value>
+  </data>
+  <data name="UI_REGISTERFORM_GENERATIONKEY" xml:space="preserve">
+    <value>Generation Key</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_EXPORTTODB2" xml:space="preserve">
+    <value>Export to DB2</value>
+  </data>
+  <data name="UI_FILTER" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_OTHERCHARACTERS" xml:space="preserve">
+    <value>Other characters</value>
+  </data>
+  <data name="UI_LICESEFORAUTOMATION" xml:space="preserve">
+    <value>Set license for the automation service</value>
+  </data>
+  <data name="UI_DATASOURCE_XML" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="MESSAGE_REMOVE_CONDITIONGROUP" xml:space="preserve">
+    <value>Do you really want to remove Rule  #{0}?</value>
+  </data>
+  <data name="2026_InvertSelection_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_InvertSelection_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_NAVIGATION" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="xml_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xml_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_VIEW" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="UI_MAINFORM_RUNMATCH" xml:space="preserve">
+    <value>Run match</value>
+  </data>
+  <data name="UI_TYPE" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_1STOLS" xml:space="preserve">
+    <value>1's to L's</value>
+  </data>
+  <data name="DIALOG_EXPORT_ERCONFIGURATION_CAPTION" xml:space="preserve">
+    <value>Export ER configuration to JSON file</value>
+  </data>
+  <data name="2026_Product_Documents_Filled_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Product_Documents_Filled_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_NOT_DUPLICATE" xml:space="preserve">
+    <value>Not duplicate</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ACROSSTABLES" xml:space="preserve">
+    <value>All Matches Across Tables Only</value>
+  </data>
+  <data name="UI_WORD" xml:space="preserve">
+    <value>Word Manager</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_SHIFTRIGHT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="2026_Settings_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Settings_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_MSEXCEL" xml:space="preserve">
+    <value>To MS Excel File</value>
+  </data>
+  <data name="UI_ADD_FAVOURITES" xml:space="preserve">
+    <value>Add favourites</value>
+  </data>
+  <data name="2024-online-help-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-online-help-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Save.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Demo_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Demo_filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_YOUSHOULDSELECETCORRECTPARAMETER" xml:space="preserve">
+    <value>You should select correct file path and parameters for importing</value>
+  </data>
+  <data name="2026_SaveAsProject_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_SaveAsProject_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2024-online-help-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-online-help-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_AUDITLOG_NOT_AVAILABLE_ON_DEMO" xml:space="preserve">
+    <value>Audit log is not available on this demo. Would you like to upgrade?</value>
+  </data>
+  <data name="close-middle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-middle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="access_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\access_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="remove_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_TOMYSQLDB" xml:space="preserve">
+    <value>To MySQL Db</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_FUZZYMATCH" xml:space="preserve">
+    <value>Fuzzy Match</value>
+  </data>
+  <data name="MESSAGE_AUTOMATION_NOT_AVAILABLE_ON_DEMO" xml:space="preserve">
+    <value>Automation is not available on this demo. Would you like to upgrade?</value>
+  </data>
+  <data name="Elements-button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CALLBACKURL" xml:space="preserve">
+    <value>Callback URL</value>
+  </data>
+  <data name="2026_OpenDemo_Filled_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OpenDemo_Filled_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_CONFIRMATION_CAPTION" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+  <data name="2026_Add_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Add_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REFRESHSTATISTICS" xml:space="preserve">
+    <value>Refresh Statistics</value>
+  </data>
+  <data name="2024-open1-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-open1-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Delete_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="add_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_DO_YOU_WANT_CHANGE_LANGUAGE" xml:space="preserve">
+    <value>Do you want to change program language?</value>
+  </data>
+  <data name="2026_Execute_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Execute_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_CITYABBR" xml:space="preserve">
+    <value>City Abbreviation</value>
+  </data>
+  <data name="CAPTION_REPORT_GEOCODESFOUND" xml:space="preserve">
+    <value>GeoCode found</value>
+  </data>
+  <data name="UI_REPORT" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="2024-new-project1-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-new-project1-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_XML_Transformer_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_XML_Transformer_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_LOAD_CONNECTION" xml:space="preserve">
+    <value>Load Connection</value>
+  </data>
+  <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_ADDTIMETODATE" xml:space="preserve">
+    <value>Add time to date</value>
+  </data>
+  <data name="UI_DATABASE" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="2026_MatchAI_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_MatchAI_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_STARTUP_GETSTARTED" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="MESSAGE_LICENSESTATE" xml:space="preserve">
+    <value>License state: {0}. Expires in {1} days.</value>
+  </data>
+  <data name="2026_Merge_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Merge_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Microsoft_SQL_Server_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Microsoft_SQL_Server_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_REGEX_EXPRESSION" xml:space="preserve">
+    <value>REGEX Expression</value>
+  </data>
+  <data name="UI_AUDITLOG_DISABLED" xml:space="preserve">
+    <value>Audit Log Disabled</value>
+  </data>
+  <data name="_2019_salesforce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_salesforce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDSELECTEDCOLUMNONTOMATCH" xml:space="preserve">
+    <value>Add selected column onto matching rule</value>
+  </data>
+  <data name="_2019_postgre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_postgre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_GEOCODES" xml:space="preserve">
+    <value>GeoCodes</value>
+  </data>
+  <data name="2026_Automation_Log_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Automation_Log_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_SAVEDSETTINGS" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="UI_EXPORTAFILEDATABASE_EXPORTTOFILEDATABASE" xml:space="preserve">
+    <value>Export to {0}</value>
+  </data>
+  <data name="MESSAGE_RULE_ONLY_TO_STRING_FIELD" xml:space="preserve">
+    <value>Contains rule type could be applied only to String fields</value>
+  </data>
+  <data name="EXCEPTION_LICENSE_EXPIRED" xml:space="preserve">
+    <value>Your license has expired. Please contact your supplier to renew.</value>
+  </data>
+  <data name="database_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database_32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="v10 about" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v10 about.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_AVERAGELENGTH" xml:space="preserve">
+    <value>Average length</value>
+  </data>
+  <data name="DIALOG_IOFORM_IMPORTFROMEXCEL" xml:space="preserve">
+    <value>Import from an Excel into table</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_COLUMN_REMOVING" xml:space="preserve">
+    <value>Column removing</value>
+  </data>
+  <data name="2026_Data_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Data_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_2019_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_CONFIGURATIONNAME" xml:space="preserve">
+    <value>Configuration name</value>
+  </data>
+  <data name="UI_REQUEST_CUSTOM_QUOTE" xml:space="preserve">
+    <value>Request a custom quote</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_CODEPAGE" xml:space="preserve">
+    <value>Code Page</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ALLDATA" xml:space="preserve">
+    <value>All Data</value>
+  </data>
+  <data name="UI_MATCH_PROFESSIONAL_EDITION" xml:space="preserve">
+    <value>WinPure™ Match Professional Edition</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_CASSFIELDS" xml:space="preserve">
+    <value>CASS Fields</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_SUCCESS_CAPTION" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="UI_CAPTION_NOTRELATED" xml:space="preserve">
+    <value>Not related</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_RELATED" xml:space="preserve">
+    <value>Related</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NOUGTSTOOS" xml:space="preserve">
+    <value>noughts to O's</value>
+  </data>
+  <data name="2026_Delete_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Delete_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_Verify_32a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Verify_32a.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_STANDARDOPTIONS" xml:space="preserve">
+    <value>Standard Options</value>
+  </data>
+  <data name="UI_CONNECTIONINFORMATION" xml:space="preserve">
+    <value>Connection Information</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SELECTCOLUMNSTOMATCH" xml:space="preserve">
+    <value>Step 2 - Select Columns to Match &lt;br&gt; (Drag or Double-Click matching columns into Step 3)</value>
+  </data>
+  <data name="UI_LOAD_MAPPING" xml:space="preserve">
+    <value>Load Mapping</value>
+  </data>
+  <data name="New rounded icon 4 sets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New rounded icon 4 sets.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deletegroupheader_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deletegroupheader_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_AUTOSELECTMASTERRECORD" xml:space="preserve">
+    <value>Auto Select Master Records</value>
+  </data>
+  <data name="v11_Automation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\v11_Automation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTVERIFICATIONPROCESS" xml:space="preserve">
+    <value>Click to start address verification</value>
+  </data>
+  <data name="UI_PROPERCASE_EXCEPTIONS" xml:space="preserve">
+    <value>Exceptions</value>
+  </data>
+  <data name="UI_CAPTION_MAPPINGCONFIGURATION" xml:space="preserve">
+    <value>Auto map configuration</value>
+  </data>
+  <data name="UI_CAMENTLITE_EDITION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="2026_Refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Refresh_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_UPPERONLY" xml:space="preserve">
+    <value>Upper Only</value>
+  </data>
+  <data name="2026_Product_Documents_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Product_Documents_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_SHOULDSETFILEPATHFOREXPORT" xml:space="preserve">
+    <value>You should set file path for exporting</value>
+  </data>
+  <data name="UI_ALL" xml:space="preserve">
+    <value>All Options</value>
+  </data>
+  <data name="2026_Eraser_Tool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Eraser_Tool.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="new projecta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new projecta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_OPENPROJECT" xml:space="preserve">
+    <value>Open Project</value>
+  </data>
+  <data name="tick2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_AI_DEMOMODE2" xml:space="preserve">
+    <value>{0} records</value>
+  </data>
+  <data name="2026_Senzing_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Senzing_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="EXCEPTION_DEMO_LICENSE_EXPIRED" xml:space="preserve">
+    <value>This demo version has now expired</value>
+  </data>
+  <data name="UI_CAPTION_SET_PROJECT_NAME" xml:space="preserve">
+    <value>Set project name</value>
+  </data>
+  <data name="2026_WordManager_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_WordManager_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_EDIT" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="2026_OpenProject_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OpenProject_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_GetStarted_hover_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_GetStarted_hover_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_AITYPE" xml:space="preserve">
+    <value>AI Type</value>
+  </data>
+  <data name="2026_JSONL_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_JSONL_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_2019_Access" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Access.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_DATA_PREPARING" xml:space="preserve">
+    <value>Prepare data...</value>
+  </data>
+  <data name="UI_IMPORT" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_GROUPID" xml:space="preserve">
+    <value>Rule</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PUNCTUATION" xml:space="preserve">
+    <value>Punctuation</value>
+  </data>
+  <data name="UI_CAPTION_DATAFILE" xml:space="preserve">
+    <value>WinPure Datafile</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKTOVIEWDELETEOPTIONS" xml:space="preserve">
+    <value>Click to view the delete options</value>
+  </data>
+  <data name="UI_MAINFORM_MERGESEPARATOR" xml:space="preserve">
+    <value>Column Merge Separator</value>
+  </data>
+  <data name="UI_MAINFORM_LANGUAGE" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="UI_ABOUTFORM_COPYRIGHT" xml:space="preserve">
+    <value>Copyright (c) by WinPure Ltd, 2004-2025</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NEWLINE" xml:space="preserve">
+    <value>New Line</value>
+  </data>
+  <data name="UI_CAPTION_GENERATEMATCHREPORT" xml:space="preserve">
+    <value>Autogenerate Match Report</value>
+  </data>
+  <data name="UI_MAINFORM_CLEARALLSETTINGS" xml:space="preserve">
+    <value>Clear all settings for the selected table</value>
+  </data>
+  <data name="CAPTION_WORDMANAGERFORM_COLUMN" xml:space="preserve">
+    <value>Column: {0}</value>
+  </data>
+  <data name="UI_CAPTION_FUZZYTHRESHOLD" xml:space="preserve">
+    <value>Fuzzy Matching Default Threshold</value>
+  </data>
+  <data name="2026_Merge_Vertical_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Merge_Vertical_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_SELECTALLGROUP" xml:space="preserve">
+    <value>Select all in Group</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICK_TO_MERGE_OPTION" xml:space="preserve">
+    <value>Click to view the merge options</value>
+  </data>
+  <data name="DIALOG_EXPORT_EXCEL_CAPTION" xml:space="preserve">
+    <value>Select an Excel file</value>
+  </data>
+  <data name="UI_FILE" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="2026_open_project_filled_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_open_project_filled_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHINGRECORDSOPTIONS" xml:space="preserve">
+    <value>Matching Records Options</value>
+  </data>
+  <data name="2026_PDF_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_PDF_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="Startup_square2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snowflake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snowflake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2019_sql_server_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_sql-server-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_EXPORT_100RECORDS_ON_DEMO" xml:space="preserve">
+    <value>This demo will export only 100 records. Would you like to upgrade?</value>
+  </data>
+  <data name="2026_Salesforce_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Salesforce_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTTOMYSQLSERVER" xml:space="preserve">
+    <value>Export to MySQL Server</value>
+  </data>
+  <data name="2026_License_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_License_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKTOAUTOMATICALLYSELECTBEST_MASTER" xml:space="preserve">
+    <value>Click to automatically select the best master record on each matching group below</value>
+  </data>
+  <data name="2026_BookADemo_filled_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_BookADemo_filled_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_SPLITSEPARATORNOTEMPTY" xml:space="preserve">
+    <value>Split separator cannot be empty</value>
+  </data>
+  <data name="UI_ENTERPROJECTNAMEFORM_CREATEPROJECT" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MEETALL" xml:space="preserve">
+    <value>Meet all</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SETMASTERRECORDS" xml:space="preserve">
+    <value>Set Master Records</value>
+  </data>
+  <data name="2026_LicenseKey_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_LicenseKey_filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_FILLED" xml:space="preserve">
+    <value>Filled</value>
+  </data>
+  <data name="oracle_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oracle_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SELECTTABLES" xml:space="preserve">
+    <value>Step 1 - Select Tables &lt;br&gt; to use for matching)</value>
+  </data>
+  <data name="UI_CONNECTFILE" xml:space="preserve">
+    <value>Connect to the file</value>
+  </data>
+  <data name="2026_Remove_Column_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Remove_Column_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SETTINGS" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="UI_MAINFORM_SEARCHPANEL" xml:space="preserve">
+    <value>Search Panel</value>
+  </data>
+  <data name="2026_ApplyColumn_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_ApplyColumn_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_INFORMATION_CAPTION" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="UI_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UI_CAPTION_REGEX_REPLACEMENT" xml:space="preserve">
+    <value>REGEX Replacement value</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_STARTVERIFICATION" xml:space="preserve">
+    <value>Start Address Verification</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_WORDMANAGER" xml:space="preserve">
+    <value>Word Manager</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEMENT" xml:space="preserve">
+    <value>Replacement</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match</value>
+  </data>
+  <data name="2026_Match_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Match_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="geopointmap_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\geopointmap_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_WORDMANAGERDICTIONARY_FILE_WRONG_FORMAT" xml:space="preserve">
+    <value>Dictionary cannot be read. File has wrong format.</value>
+  </data>
+  <data name="solidlightbluedatabar_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solidlightbluedatabar_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_REMOVE_NOT_DUPLICATE_FROM_MATCH_RESULT" xml:space="preserve">
+    <value>Are you sure to remove those records from the result?</value>
+  </data>
+  <data name="MESSAGE_CANCEL_OPERATION_CONFIRMATION" xml:space="preserve">
+    <value>Are you sure you want to cancel this operation?</value>
+  </data>
+  <data name="2026_TXT_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_TXT_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_GROUP_COUNT" xml:space="preserve">
+    <value>Group count</value>
+  </data>
+  <data name="UI_MATCHLTE_OPTIONS" xml:space="preserve">
+    <value>Match Lite</value>
+  </data>
+  <data name="CAPTION_AI_REGISTEREDVERSION2" xml:space="preserve">
+    <value>{0} records</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEWHOLEVALUE" xml:space="preserve">
+    <value>WholeValue</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_IMPORTFROMEXCEL" xml:space="preserve">
+    <value>Import from Excel</value>
+  </data>
+  <data name="2024-save-as-blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-save-as-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_OnlineHelpManual_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OnlineHelpManual_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_LOGS" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="2026_MySQL_Logo_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_MySQL_Logo_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_COLUMN_TYPE" xml:space="preserve">
+    <value>Column Type</value>
+  </data>
+  <data name="UI_CAM_BUSINESS" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Pro Business</value>
+  </data>
+  <data name="2026_OnlineHelpManual_light_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OnlineHelpManual_light_button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAM_LITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Small Business Edition</value>
+  </data>
+  <data name="Startup_square_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PERSONNAME" xml:space="preserve">
+    <value>Persons Name</value>
+  </data>
+  <data name="CAPTION_REPORT_DUPLICATES" xml:space="preserve">
+    <value>Duplicates</value>
+  </data>
+  <data name="UI_SCHEMA" xml:space="preserve">
+    <value>Schema</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEAPOSTROPHES" xml:space="preserve">
+    <value>Remove any apostrophes that occur within values (eg “John's Business”)</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEMATRIXSETTINGS" xml:space="preserve">
+    <value>Save the Matrix settings</value>
+  </data>
+  <data name="UI_PATTERNNAME" xml:space="preserve">
+    <value>Pattern Name</value>
+  </data>
+  <data name="2026_Quote_filled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Quote_filled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Edit_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Edit_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_PostgreSQL_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_PostgreSQL_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_AuditLog_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_AuditLog_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CONFIGURATION" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="UI_CAM_STANDART" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Standard</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTMATCHINGPROCESS" xml:space="preserve">
+    <value>Click to start the Matching process</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_DATAPREVIEW" xml:space="preserve">
+    <value>Data Preview</value>
+  </data>
+  <data name="MESSAGE_APPLYDATABASEPATH" xml:space="preserve">
+    <value>System database path would be applied after program restart.</value>
+  </data>
+  <data name="UI_DATA" xml:space="preserve">
+    <value>Data Hub</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_AMASFIELDS" xml:space="preserve">
+    <value>AMAS Fields</value>
+  </data>
+  <data name="2024-new-project1-grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2024-new-project1-grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_WPMPRO" xml:space="preserve">
+    <value>WinPure™ Match Pro</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_MSACCESDB" xml:space="preserve">
+    <value>To MS Access DB</value>
+  </data>
+  <data name="UI_CAM_LITE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Small Business</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_CONNECTION_TO_DATABASE_FOR_IMPORT" xml:space="preserve">
+    <value>You should set a connection to database for import.</value>
+  </data>
+  <data name="2026_Standardise_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Standardise_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_SPACES" xml:space="preserve">
+    <value>Spaces</value>
+  </data>
+  <data name="UI_DATASOURCE_ZOHOCRM" xml:space="preserve">
+    <value>ZohoCRM</value>
+  </data>
+  <data name="CAPTION_MATCH_PATTERN" xml:space="preserve">
+    <value>Valid</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESSPARSER" xml:space="preserve">
+    <value>Address Parser</value>
+  </data>
+  <data name="UI_UPPERCASE" xml:space="preserve">
+    <value>UPPER CASE</value>
+  </data>
+  <data name="2026_New_Project_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_New_Project_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTCLEANINGPROCESS" xml:space="preserve">
+    <value>Click to start the Cleaning process</value>
+  </data>
+  <data name="UI_REMOVE" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="CAPTION_EDITION_LIMITATION" xml:space="preserve">
+    <value>Edition Limitation</value>
+  </data>
+  <data name="CAPTION_DISPLAY_NAME" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_HELP" xml:space="preserve">
+    <value>Address Verification Help Topics</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTCLEANSEDTOASEPARATE" xml:space="preserve">
+    <value>Export the Cleansed Data to a separate file</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_COLUMN_COPY" xml:space="preserve">
+    <value>Column to copy</value>
+  </data>
+  <data name="UI_SSH_USESSH" xml:space="preserve">
+    <value>Use SSH</value>
+  </data>
+  <data name="UI_ER_FIXMAPPING" xml:space="preserve">
+    <value>Please fix column mapping</value>
+  </data>
+  <data name="2026_new_project_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_new_project_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_CAPTION_CLEARALL" xml:space="preserve">
+    <value>Clear all</value>
+  </data>
+  <data name="UI_LICENCEKEY" xml:space="preserve">
+    <value>License file</value>
+  </data>
+  <data name="UI_MATCH_ENTERPRISE_EDITION" xml:space="preserve">
+    <value>WinPure™ Match Enterprise Edition</value>
+  </data>
+  <data name="UI_CAPTION_PROCESSPOSSIBILITIES" xml:space="preserve">
+    <value>Process possibilities</value>
+  </data>
+  <data name="UI_OPENERRORLOG" xml:space="preserve">
+    <value>Error log folder</value>
+  </data>
+  <data name="2026_close_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_close_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_FIELDDELIMITER" xml:space="preserve">
+    <value>Field Delimiter</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TAB" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="2026_excel_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_excel_32.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_PROPERCASESETTINGS" xml:space="preserve">
+    <value>Proper Case Settings</value>
+  </data>
+  <data name="MESSAGE_HOVEROVER" xml:space="preserve">
+    <value>Hover over red text to learn more.</value>
+  </data>
+  <data name="UI_DATASOURCE_CSV" xml:space="preserve">
+    <value>Text/CSV</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_CLICKTOREGISTER" xml:space="preserve">
+    <value>Click to register the product</value>
+  </data>
+  <data name="UI_MODULES" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_REPLACEVALUE" xml:space="preserve">
+    <value>Substitute value</value>
+  </data>
+  <data name="UI_MESSAGE_PROCESSER" xml:space="preserve">
+    <value>No Mapping Issues.\r\nWould you like to process {0} records?</value>
+  </data>
+  <data name="save project" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save project.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Files_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Files_48.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="_2019_sqlite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_sqlite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXWORDS" xml:space="preserve">
+    <value>Max words</value>
+  </data>
+  <data name="UI_REFRESH" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MESSAGE_RULE_MAX_MIN_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Maximum and Minimum rule types could be applied only to numeric or DateTime fields</value>
+  </data>
+  <data name="UI_UPDATE" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_EXPORTTODELIMITEDTEXT" xml:space="preserve">
+    <value>Export to Delimited Text File</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_SELECT_COLUMN_TO_COPY" xml:space="preserve">
+    <value>Please select column/s to copy</value>
+  </data>
+  <data name="UI_OPERATION" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTCLEANEDDATA" xml:space="preserve">
+    <value>Export Cleaned Data</value>
+  </data>
+  <data name="wizard_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wizard_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_DATATABLE_REFRESH" xml:space="preserve">
+    <value>Refresh Table</value>
+  </data>
+  <data name="2026_new_project_filled_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_new_project_filled_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_IMPORTING" xml:space="preserve">
+    <value>Importing ...</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEOTHERCHARACTERS" xml:space="preserve">
+    <value>Remove any specific character</value>
+  </data>
+  <data name="datatable_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datatable_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_DATA_CANNOT_BE_EXPORTED" xml:space="preserve">
+    <value>Data cannot be exported</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ACROSSTABLESUNIQUE" xml:space="preserve">
+    <value>All Non-Matches from Across Tables Only</value>
+  </data>
+  <data name="2026_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Plus.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="gray_continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gray_continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_ABOUTFORM_VERSION101" xml:space="preserve">
+    <value>Version 1.0.1</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_SELECT_COLUMN_TYPE" xml:space="preserve">
+    <value>Please select column type</value>
+  </data>
+  <data name="UI_CAPTION_SELECTTABLESFORANALYZE" xml:space="preserve">
+    <value>Step 1 - Select Tables</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESSDATAFILES" xml:space="preserve">
+    <value>Address Datafiles Location</value>
+  </data>
+  <data name="2026_AllOption_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_AllOption_16.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="red stat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red stat.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Database_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Database_48.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MAINFORM_FILTEREDITOR" xml:space="preserve">
+    <value>Filter Editor</value>
+  </data>
+  <data name="Elements-newproject1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-newproject1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_REMOVEFILTER" xml:space="preserve">
+    <value>Remove Filter</value>
+  </data>
+  <data name="key" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_WORDS" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVETRAILINGSPACES" xml:space="preserve">
+    <value>Remove any spaces that occur at the end of values (eg “John Smith ”)</value>
+  </data>
+  <data name="key-hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SEARCHDEEP10" xml:space="preserve">
+    <value>Search Deep 10</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTDATA" xml:space="preserve">
+    <value>Export data</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_DUPLICATES_PERCENT" xml:space="preserve">
+    <value>Duplicates %</value>
+  </data>
+  <data name="2026_Sync_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Sync_20.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_STATISTIC" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="2026_Background_700" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Background_700.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_IMPORTFROMFILE" xml:space="preserve">
+    <value>Import from {0} file</value>
+  </data>
+  <data name="salesforce_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\salesforce_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SAVE" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="2026_XML_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_XML_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_DISTINCT" xml:space="preserve">
+    <value>Distinct</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_SEMICOLON" xml:space="preserve">
+    <value>Semicolon</value>
+  </data>
+  <data name="UI_DATASOURCE_SQLSERVER" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="2026_OnlineHelpManual_filled_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_OnlineHelpManual_filled_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_COLUMNS" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_GEOCODE" xml:space="preserve">
+    <value>GeoCode</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_KNOWLEGEBASELIBRARY" xml:space="preserve">
+    <value>Knowledge Base Library</value>
+  </data>
+  <data name="2026_zoho-logo-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_zoho-logo-48.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_MATCH_LITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Match Lite Edition</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_ORACLEDB" xml:space="preserve">
+    <value>To Oracle Db</value>
+  </data>
+  <data name="UI_MAINFORM_REPORTOPTIONS" xml:space="preserve">
+    <value>Report Options</value>
+  </data>
+  <data name="2026_Process_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Process_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="2026_SaveProject_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_SaveProject_64.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="blue-continue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue-continue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azure_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azure_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ibmDB2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ibmDB2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADVANCEDOPTIONS" xml:space="preserve">
+    <value>Advanced Options</value>
+  </data>
+  <data name="2026_GetStarted_filled_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_GetStarted_filled_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEMPTYVALUES" xml:space="preserve">
+    <value>Update only Empty Values</value>
+  </data>
+  <data name="colourful" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\colourful.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_SERVERNAME" xml:space="preserve">
+    <value>Server Name / IP Address  (type and press return)</value>
+  </data>
+  <data name="MESSAGE_TRIAL_DAY_LEFT" xml:space="preserve">
+    <value>There are {0} days remaining on your {1} day trial</value>
+  </data>
+  <data name="CAPTION_DATATABLE_RENAME" xml:space="preserve">
+    <value>Rename Table</value>
+  </data>
+  <data name="UI_CAPTION_CONTINUEDEMO" xml:space="preserve">
+    <value>Continue DEMO</value>
+  </data>
+  <data name="CAPTION_OPEN_REPORT" xml:space="preserve">
+    <value>Open Report</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_OSTONOUGHTS" xml:space="preserve">
+    <value>O's to noughts</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_REPLACEVALUESHORT" xml:space="preserve">
+    <value>Substitute value (short term)</value>
+  </data>
+  <data name="DIALOG_JSONFILE_FORMAT" xml:space="preserve">
+    <value>JSON Files (*.json)|*.json</value>
+  </data>
+  <data name="UI_MATCHLTE_OPTIONS_2" xml:space="preserve">
+    <value>Match Demo</value>
+  </data>
+  <data name="Elements-template" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elements-template.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sql_server_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sql-server-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_Duplicate_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_Duplicate_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_LOADINGMASKFORM_LOADINGMASK" xml:space="preserve">
+    <value>LoadingMaskForm</value>
+  </data>
+  <data name="solidbluedatabar_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\solidbluedatabar_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2019_MySQL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_MySQL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2026_UpdateOverwrite_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_UpdateOverwrite_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="UI_DOUBLECLICK_CLEAN" xml:space="preserve">
+    <value>Double-click column names to view unique values &amp;&amp; counts</value>
+  </data>
+  <data name="MESSAGE_EDITDICTIONARYFORM_CONFIRM_DELETE_LIBRARY" xml:space="preserve">
+    <value>Are you sure to delete this entry?</value>
+  </data>
+  <data name="MESSAGE_RULE_LONGEST_SHORTEST_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Longest and Shortest rule types could be applied only to String fields</value>
+  </data>
+  <data name="CAPTION_DEFAULT_PROJECT_NAME" xml:space="preserve">
+    <value>Project1</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_USESQL" xml:space="preserve">
+    <value>Use SQL server Authentication</value>
+  </data>
+  <data name="2026_ExportFile_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026_ExportFile_24.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v23.1, Version=23.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>

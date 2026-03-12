@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WinPure.API</name>
+    </assembly>
+    <members>
+        <member name="E:WinPure.API.WinPureApi.OnProgress">
+            <summary>
+            Indicate of the progress of the current operation. 
+            Description of action
+            Total progress in %
+            Current step (for matching only)
+            Total steps (for matching only)
+            </summary>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.GetRegistrationCode">
+            <summary>
+            Get WinPure registration code
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.VerifyUkAddressesAsync(System.Data.DataTable,WinPure.AddressVerification.Models.UkAddressVerificationSettings,System.Threading.CancellationToken)">
+            <summary>
+            In-memory United Kingdom address verification. 
+            </summary>
+            <param name="data">Table with source data</param>
+            <param name="settings">Verification settings</param>
+            <param name="cancellationToken">Cancellation token for cancelling verification</param>
+            <returns>Address verification report</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.VerifyUkAddresses(System.Data.DataTable,WinPure.AddressVerification.Models.UkAddressVerificationSettings,System.Threading.CancellationToken)">
+            <summary>
+            In-memory United Kingdom address verification. 
+            </summary>
+            <param name="data">Table with source data</param>
+            <param name="settings">Verification settings</param>
+            <param name="cancellationToken">Cancellation token to cancel the verification</param>
+            <returns>Address verification report</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.VerifyUsAddressesLocal(System.String,System.String,WinPure.AddressVerification.Models.UsAddressVerificationSettings,System.Threading.CancellationToken)">
+            <summary>
+            USA address verification in database. 
+            </summary>
+            <param name="dbPath">Path to SQLite database with source data</param>
+            <param name="tableName">Name of table in the database</param>
+            <param name="settings">Verification settings</param>
+            <param name="cancellationToken">Cancellation token to cancel the verification</param>
+            <returns></returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.VerifyUsAddressesAsync(System.Data.DataTable,WinPure.AddressVerification.Models.UsAddressVerificationSettings,System.Threading.CancellationToken)">
+            <summary>
+            In-memory OR online USA address verification. 
+            </summary>
+            <param name="data">Table with source data</param>
+            <param name="settings">Verification settings.</param>
+            <param name="cancellationToken">cancellation token to cancel the  verification</param>
+            <returns>Address verification report</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.VerifyUsAddresses(System.Data.DataTable,WinPure.AddressVerification.Models.UsAddressVerificationSettings,System.Threading.CancellationToken)">
+            <summary>
+            In-memory USA address verification. 
+            </summary>
+            <param name="data">Table with source data</param>
+            <param name="settings">Verification settings</param>
+            <param name="cancellationToken">cancellation token to cancel the verification</param>
+            <returns>Address verification report</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.CleanTable(System.Data.DataTable,WinPure.Cleansing.Models.WinPureCleanSettings,System.Threading.CancellationToken)">
+            <summary>
+            Perform clean operation under the given table with data
+            </summary>
+            <param name="settings">Clean settings</param>
+            <param name="data">DataTable with data to clean</param>
+            <param name="cancellationToken">Cancellation token to cancel the cleansing</param>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.CalculateStatistic(System.Data.DataTable,System.Threading.CancellationToken)">
+            <summary>
+            Calculate statistic for the given table. 
+            </summary>
+            <param name="data">DataTable with data, for which statistic should be calculated</param>
+            <param name="cancellationToken">Cancellation token to cancel the statistic calculation</param>
+            <returns>Table with statistic</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.MatchData(System.Collections.Generic.List{WinPure.Matching.Models.TableParameter},WinPure.Matching.Models.MatchParameter,System.Collections.Generic.List{WinPure.Matching.Models.FieldMapping},System.Threading.CancellationToken)">
+            <summary>
+            Match data
+            </summary>
+            <param name="tables">Input tables with data</param>
+            <param name="parameter">Matching parameters</param>
+            <param name="fieldMap">Fields from original table(s), which should be included to the result. If there are multiple tables in source list, 
+            then that parameter also define correspondence between fields in different tables</param>
+            <param name="cancellationToken"></param>
+            <returns>Table with result of matching</returns>
+            <exception cref="T:WinPure.Common.Exceptions.WinPureAPIWrongParametersException"></exception>
+            <exception cref="T:WinPure.Common.Exceptions.WinPureAPINoTableException"></exception>
+            <exception cref="T:WinPure.Common.Exceptions.WinPureAPINoFieldException"></exception>
+            <exception cref="T:WinPure.Common.Exceptions.WinPureAPIWrongConditionException"></exception>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.SearchData(WinPure.Matching.Models.TableParameter,WinPure.Matching.Models.SearchParameter,System.Threading.CancellationToken)">
+            <summary>
+            Search duplicates of value(s) in the given data
+            </summary>
+            <param name="table">Table with data where we search</param>
+            <param name="parameter">Search parameter which define what and in which field should be searched</param>
+            <param name="cancellationToken"></param>
+            <returns>Table with result of searching</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.DefineMasterRecord(System.Data.DataTable,WinPure.Matching.Models.MatchParameter,WinPure.Matching.Models.Support.MasterRecordSettings)">
+            <summary>
+            Define master record according to selected parameters
+            </summary>
+            <param name="matchResult">Datatable with matching result. It should be same table that was returned by MatchData function.</param>
+            <param name="lastMatchingParameters">matching parameters</param>
+            <param name="settings">Master record settings</param>
+            <returns>True if master record definition was successed</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.MergeMatchResult(System.Data.DataTable,System.Collections.Generic.List{WinPure.Matching.Models.Support.MergeMachResultSetting},System.String)">
+            <summary>
+            Merging of match result.
+            </summary>
+            <param name="matchResult">Datatable with matching result. It should be same table that was returned by MatchData function.</param>
+            <param name="mergeSettings">Merge settings for column from match result</param>
+            <param name="valueSeparator">character or string to insert between values from merged rows</param>
+            <returns></returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.DeleteMergeMatchResult(System.Data.DataTable,WinPure.Matching.Models.Support.DeleteFromMatchResultSetting)">
+            <summary>
+            Delete rows from the match result accrding to options.
+            </summary>
+            <param name="matchResult">Datatable with matching result. It should be same table that was returned by MatchData function.</param>
+            <param name="setting">Delete setting</param>
+            <returns>New data table with match result. Existing match result table should be overwriting</returns>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.UpdateMatchResult(System.Data.DataTable,System.Collections.Generic.List{WinPure.Matching.Models.Support.UpdateMatchResultSetting})">
+            <summary>
+            Update the result acoording to specified mergeSettings. 
+            </summary>
+            <param name="matchResult">Datatable with matching result. It should be same table that was returned by MatchData function.</param>
+            <param name="updateSettings">Update settings for columns from match result</param>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.RemoveNotDuplicateRecords(System.Data.DataTable)">
+            <summary>
+            Remove not duplicate rows from match result.
+            </summary>
+            <param name="matchResult">Datatable with matching result. It should be same table that was returned by MatchData function.</param>
+        </member>
+        <member name="M:WinPure.API.WinPureApi.RaiseOnProgressUpdate(System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Call progress event
+            </summary>
+            <param name="description"></param>
+            <param name="progress"></param>
+            <param name="currentStep"></param>
+            <param name="totalSteps"></param>
+        </member>
+    </members>
+</doc>

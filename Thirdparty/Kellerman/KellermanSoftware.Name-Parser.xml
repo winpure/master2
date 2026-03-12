@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KellermanSoftware.Name-Parser</name>
+    </assembly>
+    <members>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.UnknownFirstName(KellermanSoftware.NameParser.ParsedNamePart)">
+            <summary>
+            Mom and dad named their child something like NAUDAIN IVES SELLERS
+            </summary>
+            <param name="firstFirstName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.FirstNameComesLater(KellermanSoftware.NameParser.ParsedNamePart)">
+            <summary>
+            Last Name Prefix or unknown last name comes first
+            </summary>
+            <example>DE LA FUENTE JOHN RAMMACHER HOGARTH JR.</example>
+            <param name="firstFirstName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.FirstWordNotInLastNameList(KellermanSoftware.NameParser.ParsedNamePart)">
+            <summary>
+            First word is not in the last name list so it must be a first name
+            </summary>
+            <example>Vanessa Hodges</example>
+            <param name="firstFirstName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.LastNameFirstNameWithComma">
+            <summary>
+            Last Name, First Name
+            </summary>
+            <example>Smith, John</example>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.RankOrHonorificIsFirstWord">
+            <summary>
+            If a rank or honorific comes first, it is First Name Last Name Order
+            </summary>
+            <example>Mr. Gregory Thomas Allen</example>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.IsLastNameFirstLogic.IEEECitationFormat">
+            <summary>
+            IEEE Citation Format
+            </summary>
+            <example>L. Alexander</example>
+            <see cref="!:http://www.ieee.org/documents/ieeecitationref.pdf"/>
+            <returns></returns>
+        </member>
+        <member name="T:KellermanSoftware.NameParser.NameLists">
+            <summary>
+            Internal lists of names
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.CompanyIdentifiers">
+            <summary>
+            Get identifiers for companies
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.MaleNames">
+            <summary>
+            Get Male Names with their census values
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.FemaleNames">
+            <summary>
+            Get Female Names with their census values
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.LastNamePrefixes">
+            <summary>
+            Get last name prefixes like VAN and VON
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.MaleHonorifics">
+            <summary>
+            Get honorifics that determine a male gender such as MR, SENOR
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.FemaleHonorifics">
+            <summary>
+            Get honorifics that determine female gender such as MISS, MRS, MS
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.NeutralHonorifics">
+            <summary>
+            Get neutral honorifics such as MD, DR, DOCTOR
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.Suffixes">
+            <summary>
+            Get suffixes like SR, JR, USMC
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.Ranks">
+            <summary>
+            Get a list of military ranks
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.MaleHispanic">
+            <summary>
+            Get a list of male hispanic names
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.FemaleHispanic">
+            <summary>
+            Get a list of female hispanic names
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.Conjunctions">
+            <summary>
+            Get a list of conjunctions like AND, OR
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.UnisexNames">
+            <summary>
+            Get a list of names that could be male or female like Chris
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.MaleDoubleFirstNames">
+            <summary>
+            Get a list of double first names like LYNN WOOD
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.FemaleDoubleFirstNames">
+            <summary>
+            Get a list of female double first names like SARA MARIE with the census numbers
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameLists.LastNames">
+            <summary>
+            Get a list of last names with census numbers
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameLists.ReadResourceIntoHashSet(System.String)">
+            <summary>
+            This is the fastest way:  https://cc.davelozinski.com/c-sharp/fastest-way-to-read-text-files
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameLists.ReadResourceIntoDictionary(System.String)">
+            <summary>
+            This is the fastest way:  https://cc.davelozinski.com/c-sharp/fastest-way-to-read-text-files
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KellermanSoftware.NameParser.NameMatchingLogic">
+            <summary>
+            Internal matching logic
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameMatchingLogic.NameMatch(KellermanSoftware.NameParser.NameParts,KellermanSoftware.NameParser.NameParts)">
+            <summary>
+            Returns true if the name or nicknames match
+            </summary>
+            <param name="nameParts1"></param>
+            <param name="nameParts2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameMatchingLogic.GetRootNames(KellermanSoftware.NameParser.NameParts)">
+            <summary>
+            Get the root name for a nickname
+            </summary>
+            <param name="nameParts"></param>
+            <returns></returns>
+        </member>
+        <member name="T:KellermanSoftware.NameParser.NameOrder">
+            <summary>
+            The expected order of the name.  
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.NameParser.NameOrder.FirstLast">
+            <summary>
+            First Name then Last Name.  Example:  Vanessa Hodges 
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.NameParser.NameOrder.LastFirst">
+            <summary>
+            Last Name then First Name.  Example:  Hodges Vanessa
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.NameParser.NameOrder.AutoDetect">
+            <summary>
+            Detect the first and last name position by looking for a first name  
+            </summary>
+        </member>
+        <member name="T:KellermanSoftware.NameParser.NameParserLogic">
+            <summary>
+            Parse a name into first name, last name, middle initial 
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParserLogic.CustomMultiWordLastNames">
+            <summary>
+            Property for loading unique multi-word last names
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParserLogic.CustomMultiWordFirstNames">
+            <summary>
+            Gets or sets the multi word first names.
+            </summary>
+            <value>The multi word first names.</value>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParserLogic.CompanyIdentifiers">
+            <summary>
+            Get or sets a list of words that identify names as companies
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParserLogic.ProcessMultiWordFirstNames">
+            <summary>
+            By default Name Parser will try to detect multi word first names like John Paul and Abdel Rahman. Set to false to turn off.
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.#ctor(System.String)">
+            <summary>
+            Extend the trial of the Software
+            </summary>
+            <param name="trialExtensionCode"></param>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.#ctor">
+            <summary>
+            Trial constructor
+            </summary>
+            <example>
+            	<code lang="CS">
+            NameParserLogic parser = new NameParserLogic(); //Trial Mode
+                </code>
+            	<code lang="VB">
+            Dim parser as NameParserLogic = new NameParserLogic() 'Trial Mode
+                </code>
+            </example>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.#ctor(System.String,System.String)">
+            <summary>
+            Licensed constructor
+            </summary>
+            <param name="userName">User name from receipt</param>
+            <param name="licenseKey">License key from receipt</param>
+            <example>
+            	<code lang="CS">
+            NameParserLogic parser = new NameParserLogic("place user name here", "place license key here"); 
+                </code>
+            	<code lang="VB">
+            Dim parser as NameParserLogic = new NameParserLogic("place user name here", "place license key here") 
+                </code>
+            </example>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.CheckLicense(System.String,System.String)">
+            <summary>
+            The variables below are specific to the licensing component
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.ParseName(System.String,KellermanSoftware.NameParser.NameOrder)">
+            <summary>
+            Parse a name into parts such as first name, last name, middle initial etc.
+            </summary>
+            <example>
+            	<code lang="CS">
+            NameParserLogic parser = new NameParserLogic(); //Trial Mode
+            //NameParserLogic parser = new NameParserLogic("place user name here", "place license key here");  //License Mode
+            
+            NameParts parts = parser.ParseName("Mr. John Albert Jones Jr.", NameOrder.AutoDetect);
+            Console.WriteLine(parts.Honorific);
+            Console.WriteLine(parts.FirstName);
+            Console.WriteLine(parts.MiddleName);
+            Console.WriteLine(parts.LastName);
+            Console.WriteLine(parts.Suffix);
+            Console.WriteLine(parts.IsMale);
+                </code>
+            	<code lang="VB">
+            Dim parser As New NameParserLogic() 'Trial Mode
+            'Dim parser As New NameParserLogic("place user name here", "place license key here") 'License Mode
+            Dim parts As NameParts = parser.ParseName("Mr. John Albert Jones Jr.", NameOrder.AutoDetect)
+            Console.WriteLine(parts.Honorific)
+            Console.WriteLine(parts.FirstName)
+            Console.WriteLine(parts.MiddleName)
+            Console.WriteLine(parts.LastName)
+            Console.WriteLine(parts.Suffix)
+            Console.WriteLine(parts.IsMale)
+                </code>
+            </example>        
+            <param name="name">Example:  Mr. John A. Smith Jr.</param>
+            <param name="order">Detect the first name and last name order</param>
+            <returns>The parsed name</returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.NameMatch(KellermanSoftware.NameParser.NameParts,KellermanSoftware.NameParser.NameParts)">
+            <summary>
+            Detects if two names match.  Detects roots such as John and Johnathan
+            </summary>
+            <example>
+            	<code lang="CS">
+            NameParserLogic parser = new NameParserLogic(); //Trial Mode
+            //NameParserLogic parser = new NameParserLogic("place user name here", "place license key here");  //License Mode
+            
+            NameParts parts1 = new NameParts
+            {
+            	FirstName = "Mike"
+            };
+            NameParts parts2 = new NameParts
+            {
+            	FirstName = "Michael"
+            };
+            
+            //This will be true since Michael is a root match for Mike
+            Console.WriteLine(parser.NameMatch(parts1,parts2));
+                </code>
+            	<code lang="VB">
+            Dim parser As New NameParserLogic() 'Trial Mode
+            'Dim parser As New NameParserLogic("place user name here", "place license key here") 'License Mode
+            
+            Dim parts1 As New NameParts() With { _
+            	Key .FirstName = "Mike" _
+            }
+            Dim parts2 As New NameParts() With { _
+            	Key .FirstName = "Michael" _
+            }
+            
+            'This will be true since Michael is a root match for Mike
+            Console.WriteLine(parser.NameMatch(parts1, parts2))
+                 </code>
+            </example> 
+            <param name="nameParts1">A name to compare</param>
+            <param name="nameParts2">A second name to compare</param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.GetRootNames(KellermanSoftware.NameParser.NameParts)">
+            <summary>
+            Get root names for a firstName
+            </summary>
+            <param name="nameParts1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParserLogic.HandleJr(System.String,KellermanSoftware.NameParser.ParsedNamePart)">
+            <summary>
+            According to Census Records, JR can be a first name, and a last name.  That makes no sense.  It should always be a suffix.
+            </summary>
+        </member>
+        <member name="T:KellermanSoftware.NameParser.NameParts">
+            <summary>
+            Result from parsing a name
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParts.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParts.#ctor(KellermanSoftware.NameParser.NameMatchingLogic)">
+            <summary>
+            Constructor with name matching logic
+            </summary>
+            <param name="nameMatchingLogic"></param>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.RootName">
+            <summary>
+            The root of the first name.  Example:  Matt will return MATTHEW
+            </summary>
+            <value>The name of the root.</value>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.RootNames">
+            <summary>
+            A list of root names for the first name.  Example:  Matt will return MATTHEW, MATTHIAS
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.IsMale">
+            <summary>
+            If true then a male, if false then female, if null, the gender could not be determined
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.Rank">
+            <summary>
+            Military Rank:  PFC, Private First Class, GEN, General, etc
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.Honorific">
+            <summary>
+            Honorific portion of the name:  Mr, Mrs, Miss, etc.
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.FirstName">
+            <summary>
+            The first name
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.NickName">
+            <summary>
+            The nickname if specified.  Example:  Mr. William (Willy) King
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.LastName">
+            <summary>
+            The last name
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.CompanyName">
+            <summary>
+            If it is not a person, this will be filled in with the company name
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.MiddleName">
+            <summary>
+            The middle name or middle initial
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.Suffix">
+            <summary>
+            The suffix:  Jr, Sr, etc.
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.SpouseFirstName">
+            <summary>
+            The name of the spouse if there is a spouse in the name; Leo and Donna Bennett
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.SpouseMiddleName">
+            <summary>
+            The middle name of the spouse if there is a spouse in the name; Smith, Michael S and Michelle J 
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.SpouseIsMale">
+            <summary>
+            If true the spouse is male, if false the spouse is female, if null the gender could not be determined
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.NameParts.IsMarried">
+            <summary>
+            If true there are two names in within the name and it is considered married
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.NameParser.NameParts.ToString">
+            <summary>
+            Overridden ToString that prints out all properties
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:KellermanSoftware.NameParser.ParserParameters.StartsWithRank">
+            <summary>
+            If true the name begins with the rank. If false it ends with the rank.  If null there is no rank.
+            </summary>
+        </member>
+        <member name="T:KellermanSoftware.Licensing.IniFile">
+            <summary>
+            Create a New INI file to store or load data
+            <BR /><b>Author:</b>  Gregory T. Finzer<BR />
+            <b>Date:</b>  10/12/2002
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniFile.Path">
+            <summary>
+            Returns the path to the ini file
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniFile.INIPathWritable">
+            <summary>
+            Returns True if the INI path is writable
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniFile.#ctor(System.String)">
+            <summary>
+            INIFile Constructor.
+            </summary>
+            <PARAM name="INIPath">File Path to the INI File</PARAM>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniFile.IniWriteValue(System.String,System.String,System.String)">
+            <summary>
+            Write Data to the INI File
+            </summary>
+            <param name="section">Section Name</param>
+            <param name="key">Key Name</param>
+            <param name="value">Value Name</param>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniFile.CheckINIPath">
+            <summary>
+            Ensure the directory exists for the 
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniFile.IniReadValue(System.String,System.String)">
+            <summary>
+            Read Data from an INI File
+            </summary>
+            <param name="section">Section Name</param>
+            <param name="key">Key Name</param>
+            <returns>Value</returns>
+        </member>
+        <member name="T:KellermanSoftware.Licensing.Entry">
+            <summary>
+            Hold Subscription Entries 
+            </summary>
+        </member>
+        <member name="T:KellermanSoftware.Licensing.IniReaderWriter">
+            <summary>
+            Fully Managed INI File Reader and Writer without any COM Interop
+            See:  http://en.wikipedia.org/wiki/INI_file
+            See:  http://msdn.microsoft.com/en-us/library/windows/desktop/ms724348%28v=vs.85%29.aspx
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniReaderWriter.FileEncoding">
+            <summary>
+            Override the file encoding.  The default is Encoding.Default
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniReaderWriter.IsProcessEscapeCharactersEnabled">
+            <summary>
+            If true, escape characters will be processed.  The default is false.
+            See http://en.wikipedia.org/wiki/INI_file
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniReaderWriter.CommentCharacter">
+            <summary>
+            The comment character.  By default it is a semicolon
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.IniReaderWriter.Delimiter">
+            <summary>
+            The delimiter between settings and values.  By default it is a equals sign
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetPrivateProfileString(System.String,System.String,System.String,System.String@,System.Int32,System.String)">
+            <summary>
+            Managed version of GetPrivateProfileString<br />
+            No COM Interop is used<br />
+            If the file does not exist or the value is not in the file, the defaultValue is used.<br />
+            See:  http://msdn.microsoft.com/en-us/library/windows/desktop/ms724348%28v=vs.85%29.aspx
+            </summary>
+            <param name="sectionName">The INI Section Name</param>
+            <param name="settingName">The INI Setting Name</param>
+            <param name="defaultValue">The default value if there is no value</param>
+            <param name="returnedString">Output of the string</param>
+            <param name="size">The number of buffer characters (not used but here for backward compatibility)</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>Number of characters returned</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetPrivateProfileString(System.String,System.String,System.String,System.Text.StringBuilder,System.Int32,System.String)">
+            <summary>
+            Managed version of GetPrivateProfileString<br />
+            No COM Interop is used<br />
+            If the file does not exist or the value is not in the file, the defaultValue is used.<br />
+            See:  http://msdn.microsoft.com/en-us/library/windows/desktop/ms724348%28v=vs.85%29.aspx
+            </summary>
+            <param name="sectionName">The INI Section Name</param>
+            <param name="settingName">The INI Setting Name</param>
+            <param name="defaultValue">The default value if there is no value</param>
+            <param name="returnedBuffer">StrinbBuilder Output of the string</param>
+            <param name="size">The number of buffer characters (not used but here for backward compatibility)</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>Number of characters returned</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+            <summary>
+            Managed version of WritePrivateProfileString<br />
+            No COM Interop is used<br />
+            If the file does not exist it will be created.  If the section does not exist it will be created.  If the setting already exists it will be updated.  If the setting does not exist, it will be added.<br />
+            See:  http://msdn.microsoft.com/en-us/library/windows/desktop/ms724348%28v=vs.85%29.aspx
+            </summary>
+            <param name="sectionName">The INI Section Name</param>
+            <param name="settingName">The INI Setting Name</param>
+            <param name="settingValue">The INI Setting Value</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>True if the setting was set successfully</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetPrivateProfileInt(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Managed version of GetPrivateProfileInt<br />
+            No COM Interop is used<br />
+            If the file does not exist or the value is not in the file, the defaultValue is used.<br />
+            See:  http://msdn.microsoft.com/en-us/library/windows/desktop/ms724348%28v=vs.85%29.aspx
+            </summary>
+            <param name="sectionName">The INI Section Name</param>
+            <param name="settingName">The INI Setting Name</param>
+            <param name="defaultValue">The default value if there is no value</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>The integer</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetSectionNames(System.String)">
+            <summary>
+            Get a list of the sections in an INI file<br />
+            No COM Interop is used<br />
+            If the file does not exist, no sections will be returned.
+            </summary>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when filePath is null</exception>
+            <returns>A list of the section names</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetSectionValues(System.String,System.String)">
+            <summary>
+            Get a dictionary of the key value pairs for a section in an INI file<br />
+            No COM Interop is used<br />
+            If the file does not exist, no items will be returned.
+            </summary>
+            <param name="sectionName">The section name</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, or filePath is null</exception>
+            <returns>A list of the settings and their values</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.SettingExists(System.String,System.String,System.String)">
+            <summary>
+            Return true if a setting exists<br />
+            No COM Interop is used<br />
+            If the file does not exist or the setting does not exist, the value returned will be false.
+            </summary>
+            <param name="sectionName">The section name</param>
+            <param name="settingName">The setting name</param>
+            <param name="filePath">The path to the INI File</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.GetSetting(System.String,System.String,System.String)">
+            <summary>
+            Get the value for a setting in a section<br />
+            No COM Interop is used<br />
+            If the file does not exist or the setting does not exist, the value returned will be null.
+            </summary>
+            <param name="sectionName">The section name</param>
+            <param name="settingName">The setting name</param>
+            <param name="filePath">The path to the INI File</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.SaveSetting(System.String,System.String,System.String,System.String)">
+            <summary>
+            Save a value to an INI file<br />
+            No COM Interop is used<br />
+            If the file does not exist it will be created.  If the section does not exist it will be created.  If the setting already exists it will be updated.  If the setting does not exist, it will be added.<br />
+            </summary>
+            <param name="sectionName">The section name</param>
+            <param name="settingName">The setting name</param>
+            <param name="settingValue">The value to set</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>True if it was saved successfully</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.IniReaderWriter.DeleteSetting(System.String,System.String,System.String)">
+            <summary>
+            Delete a setting from an INI file<br />
+            No COM Interop is used<br />
+            If the file does not exist or the value does not exist, false will be returned.
+            </summary>
+            <param name="sectionName">The name of the section</param>
+            <param name="settingName">The name of the setting</param>
+            <param name="filePath">The path to the INI file</param>
+            <exception cref="T:System.ArgumentNullException">Occurs when sectionName, settingName or filePath is null</exception>
+            <returns>True if the setting was deleted</returns>
+        </member>
+        <member name="T:KellermanSoftware.Licensing.Encryption">
+            <summary>
+            This class provides methods Encryption and Decryption using a variety
+            of cryptographic algorithms. The methods are overloaded to perform
+            encryption/decryption on ordinary texts of string, a MemoryStream
+            or a complete file (text or binary).
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.Licensing.Encryption.alg">
+            <summary>
+            The variable that will hold the relevant instantiated cryptographic class object.
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.Licensing.Encryption.provider">
+            <summary>
+            Enumeration that specifies the cryptographic service provider.
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.Licensing.Encryption.strKey">
+            <summary>
+            Serves as password used with salt to generate Key for encryption
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.Licensing.Encryption.strSalt">
+            <summary>
+            The salt used for generating Key for encryption
+            </summary>
+        </member>
+        <member name="F:KellermanSoftware.Licensing.Encryption.ivChars">
+            <summary>
+            The character array from which we set our initialization vector.
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.#ctor">
+            <summary>
+            Default constructor for the Encryption class.
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.#ctor(System.String,System.String)">
+            <summary>
+            Alternate Constructor for the Encryption class.
+            </summary>
+            <param name="strKey">The password used for generating the Key.</param>
+            <param name="strSalt">The Salt to be used in conjunction with 
+            the password to generate the actual Key.</param>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.Encryption.Key">
+            <summary>
+            Public property for Key
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.Encryption.Salt">
+            <summary>
+            Public property for Salt
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.GetIV">
+            <summary>
+            Get an initialization vector for the crypto algorithms.
+            TODO: Random IV Generation
+            </summary>
+            <returns>a byte array that contains the generated initialization vector.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.GetKey">
+            <summary>
+            Gets the appropriate key for the cryptographic algorithm being used.
+            </summary>
+            <returns>a byte array that contains the generated key.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.InitializeAlgorithm(KellermanSoftware.Licensing.EncryptionProvider)">
+            <summary>
+            Instantiates the SymmetricAlgorithm object with the appropriate
+            cryptographic service provider class.
+            </summary>
+            <param name="encryptionType">Enumeration that specifies which cryptographic
+            algorithm is being used.</param>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Encrypt(KellermanSoftware.Licensing.EncryptionProvider,System.String)">
+            <summary>
+            Encrypts a plain string.
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="input">The input clear string.</param>
+            <returns>A base64-encoded representation of the encrypted string.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Encrypt(KellermanSoftware.Licensing.EncryptionProvider,System.IO.MemoryStream)">
+            <summary>
+            Encrypts a MemoryStream.
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="memStream">The input MemoryStream object</param>
+            <returns>A base64-encoded MemoryStream object</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Encrypt(KellermanSoftware.Licensing.EncryptionProvider,System.String,System.String)">
+            <summary>
+            Encrypts the contents of a text file and outputs them to another file.
+            TODO: Convert to Base64
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="inputFile">The path to the input file.</param>
+            <param name="outputFile">The path to the output file.</param>
+            <returns>A boolean that specifies whether the encryption operation was successful or not.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Decrypt(KellermanSoftware.Licensing.EncryptionProvider,System.String)">
+            <summary>
+            Decrypts a base64-encoded string.
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="input">The input clear string.</param>
+            <returns>The decrypted plain text.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Decrypt(KellermanSoftware.Licensing.EncryptionProvider,System.IO.MemoryStream)">
+            <summary>
+            Decrypts a base64-encoded MemoryStream.
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="memStream">A base64-encoded MemoryStream object.</param>
+            <returns>Simple MemoryStream object.</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.Encryption.Decrypt(KellermanSoftware.Licensing.EncryptionProvider,System.String,System.String)">
+            <summary>
+            Decrypts the contents of a text file and outputs them to another file.
+            </summary>
+            <param name="encryptionType">Specifies what encryption algorithm is to be used.</param>
+            <param name="inputFile">The path to the input file.</param>
+            <param name="outputFile">The path to the output file.</param>
+            <returns>A boolean that specifies whether the decryption operation was successful or not.</returns>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.AdditionalInfo">
+            <summary>
+            Additional information about the success or failure of a public method
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.FailedAttemptsToday">
+            <summary>
+            The failed attempts at checking a license today
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.TrialExtensions">
+            <summary>
+            The number of trial extensions for this user
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.TrialDays">
+            <summary>
+            The number of days for a trial period
+            </summary>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.BetaExpirationDate">
+            <summary>
+            Returns the maximum date the software can run in beta
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="productCode"></param>
+            <param name="productName"></param>
+            <param name="website"></param>
+            <param name="userName"></param>
+            <param name="license"></param>
+        </member>
+        <member name="P:KellermanSoftware.Licensing.LicensingLibrary.IsService">
+            <summary>
+            Gets a value indicating whether the application is a windows service.
+            </summary>
+            <value>
+            <c>true</c> if this instance is service; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.ValidateInput">
+            <summary>
+            Ensure required input
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.UsDateToString(System.DateTime)">
+            <summary>
+            Convert a DateTime to a US date string
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.UsDateToDate(System.String)">
+            <summary>
+            Convert a US formatted date to DateTime
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.SetTargetLicense">
+            <summary>
+            Set the target license for the 
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.SetupVariables">
+            <summary>
+            A bunch of variable initialization
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.StartTrial">
+            <summary>
+            This is a new installation so start the trial
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.BetaExpired">
+            <summary>
+            Returns true if the beta has expired
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.AllKeysBlank">
+            <summary>
+            Returns true if all the keys are blank
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.SomeKeysBlank">
+            <summary>
+            Returns true if some of the keys are blank
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetKeys">
+            <summary>
+            Get all the keys from the registry and the INI file
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetTrialExtensions">
+            <summary>
+            Get the number of trial extensions
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetFailedAttemptsToday">
+            <summary>
+            Get the number of failed attempts today
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetUserName">
+            <summary>
+            Get the saved user name from the registry
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetLicense">
+            <summary>
+            Get the saved user name from the registry
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetLastRunDate">
+            <summary>
+            Get the last date the component was run, prevents back dating
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetInstallationDate">
+            <summary>
+            Get the date the component was installed
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.CombineKey(System.String)">
+            <summary>
+            Combine the key for the 
+            </summary>
+            <param name="prefix"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.ReadFromIni(System.String)">
+            <summary>
+            Read the key from the INI file
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.SaveToRegistryAndIni(System.String,System.String)">
+            <summary>
+            Save the key and value to the registry and INI file.  
+            Use the different encryption key for each.
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.SaveToIniFile(System.String,System.String)">
+            <summary>
+            Save a key to an INI file
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.UpperLetterSpace(System.String)">
+            <summary>
+            Make the text upper case and return only letters and spaces
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetProductShortName(System.String)">
+            <summary>
+            Extract product short name from the given product code.
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetMajorVersion(System.String)">
+            <summary>
+            Extract major version from the given product code.
+            </summary>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.ExtendTrial(System.String)">
+            <summary>
+            Trial extensions are good for the current day and the the next day
+            </summary>
+            <param name="trialExtension"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.TrialMessage">
+            <summary>
+            User friendly trial days remaining
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.TrialDaysLeft">
+            <summary>
+            Returns the number of days left in the trial
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.CheckLicense">
+            <summary>
+            Check to see if it is a valid license OR the user is within the trial period
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.CheckTrial(System.String)">
+            <summary>
+            Check trial code.
+            </summary>
+            <param name="trialCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.TrialValid">
+            <summary>
+            Returns true if the trial is valid, false if it is expired, hacked, or backdated
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.Mid(System.Object,System.Int32,System.Int32)">
+            <summary>
+            Same as VB mid function except it doesn't bomb at all
+            </summary>
+            <param name="oString">String to parse</param>
+            <param name="iStart">Start of string</param>
+            <param name="iLength">Length of section</param>
+            <returns>Section of string</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.Mid(System.Object,System.Int32)">
+            <summary>
+            Same as VB mid function except it doesn't bomb at all
+            </summary>
+            <param name="oString">String to parse</param>
+            <param name="iStart">Starting position</param>
+            <returns>The string section</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.Asc(System.String)">
+            <summary>
+            Get the ASCII value for the left most character of the passed string.
+            </summary>
+            <param name="sInString">The string to parse.</param>
+            <returns>ACSCII value of the leftmost character</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.Right(System.Object,System.Int32)">
+            <summary>
+            Same as VB function but doesn't bomb
+            </summary>
+            <param name="oString">The string to parse</param>
+            <param name="iLength">Starting Right Position</param>
+            <returns>String section</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetLastWord(System.String,System.String)">
+            <summary>
+            Get the last word in a string
+            </summary>
+            <param name="sSentence"></param>
+            <param name="sSeperator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.NumberOfWords(System.String,System.String)">
+            <summary>
+            Calculate the number of words in a string
+            </summary>
+            <param name="sSentence">String to parse</param>
+            <param name="sSeperator">Seperator character or string</param>
+            <returns>The number of words in the string</returns>
+        </member>
+        <member name="M:KellermanSoftware.Licensing.LicensingLibrary.GetField(System.String,System.Int32,System.String)">
+            <summary>
+            Parses sSentence delimited by sSeperator and returns the word specified by iPosition
+            </summary>
+            <param name="sSentence">The string to parse</param>
+            <param name="iPosition">Which word to look for</param>
+            <param name="sSeperator">What the words are delmited by</param>
+            <returns>"" or the word found</returns>
+        </member>
+        <member name="M:KellermanSoftware.Common.Util.GetCurrentDirectory">
+            <summary>
+            Get the current directory of the executing assembly
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:KellermanSoftware.Common.Util.PathSlash(System.String)">
+            <summary>
+            Ensure the passed string ends with a directory seperator character unless the string is blank.
+            </summary>
+            <param name="path">The string to append the backslash to.</param>
+            <returns>String with a "/" on the end</returns>
+        </member>
+        <member name="M:KellermanSoftware.Common.Util.ExtractPath(System.String)">
+            <summary>
+            Extract the path from a path ending in a filename 
+            </summary>
+            <param name="fullPath">A fully qualified path ending in a filename</param>
+            <returns>The extacted path</returns>
+        </member>
+        <member name="M:KellermanSoftware.Common.Util.Writable(System.String)">
+            <summary>
+            Check to see if the program can create, update, and delete in the specified path.
+            </summary>
+            <param name="path">The path to check.</param>
+            <returns>True if the path is writable.</returns>
+        </member>
+    </members>
+</doc>
