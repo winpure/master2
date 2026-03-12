@@ -1,0 +1,2158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UI_ENTERPROJECTNAMEFORM_NAMENEWPROJECT" xml:space="preserve">
+    <value>Favor entrar com o nome do novo projeto</value>
+  </data>
+  <data name="UI_REGISTERFORM_COPYCODE" xml:space="preserve">
+    <value>Copiar código para a área de transferência</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LEADINGSPACES" xml:space="preserve">
+    <value>Espaços Principais</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_SHIFTLEFT" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="UI_CAPTION_TOTALRECORDS" xml:space="preserve">
+    <value>Registros totais</value>
+  </data>
+  <data name="UI_NAME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHREPORT" xml:space="preserve">
+    <value>Relatório da Combinação</value>
+  </data>
+  <data name="UI_MAINFORM_STATISTICS" xml:space="preserve">
+    <value>Estatísticas</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_COMMAS" xml:space="preserve">
+    <value>Commas</value>
+  </data>
+  <data name="UI_MATCHENT_OPTIONS" xml:space="preserve">
+    <value>Match Enterprise</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MRANYCASE" xml:space="preserve">
+    <value>Definir registro mestre em qualquer caso</value>
+  </data>
+  <data name="STARTUPDESC2024" xml:space="preserve">
+    <value>Melhorar a qualidade dos seus dados com WinPure é tão fácil quanto 1,2,3. Basta lançar um novo projeto e construir uma matriz personalizada de limpeza e correspondência. Se desejar conhecer o produto, agende uma demonstração e nosso especialista em soluções irá guiá-lo através dos princípios básicos.</value>
+  </data>
+  <data name="UI_CAPTION_DBSIZE" xml:space="preserve">
+    <value>Tamanho do arquivo de log</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_CSVTEXT" xml:space="preserve">
+    <value>Para arquivo CSV/Texto</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVEGROUP" xml:space="preserve">
+    <value>Remover regra</value>
+  </data>
+  <data name="UI_LETTERS" xml:space="preserve">
+    <value>Letras</value>
+  </data>
+  <data name="UI_MAINFORM_NEWPROJECT" xml:space="preserve">
+    <value>Novo Projeto</value>
+  </data>
+  <data name="UI_DATASOURCE_POSTGRESQL" xml:space="preserve">
+    <value>PostgreSQL</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_FUZZYLEVEL" xml:space="preserve">
+    <value>Nível Fuzzy</value>
+  </data>
+  <data name="UI_CONTINUE_WITH_DEMO" xml:space="preserve">
+    <value>Continuar com demo</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_ADD_NEW_COLUMN" xml:space="preserve">
+    <value>Adicionar nova coluna</value>
+  </data>
+  <data name="UI_MAINFORM_VERIFICATION" xml:space="preserve">
+    <value>Verify</value>
+  </data>
+  <data name="DIALOG_IOFORM_EXPORT_TO_ACCESS" xml:space="preserve">
+    <value>Exportar para banco de dados do arquivo Access</value>
+  </data>
+  <data name="UI_WITHPASSWORD" xml:space="preserve">
+    <value>Com senha</value>
+  </data>
+  <data name="UI_CAMLTE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Lite</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CREATEMATCHDEFINITION" xml:space="preserve">
+    <value>Passo 3 - Criar a definição de combinação &lt;br&gt; Para um melhor desempenho, favor evitar de usar combinação Fuzzy para cada coluna combinada</value>
+  </data>
+  <data name="UI_MAINFORM_PERFORM_DATA_CLEAN" xml:space="preserve">
+    <value>Com base em todas as configurações de matriz, isso irá executar a limpeza dos dados em toda a tabela</value>
+  </data>
+  <data name="UI_CREATE" xml:space="preserve">
+    <value>Crio</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ADDIT_OPTIONS" xml:space="preserve">
+    <value>Opções adicionais</value>
+  </data>
+  <data name="UI_OPTION" xml:space="preserve">
+    <value>Opção</value>
+  </data>
+  <data name="CAPTION_ABOUTFORM_ABOUT" xml:space="preserve">
+    <value>Sobre {0}</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SWITCHONOFFMATCINGACROOS" xml:space="preserve">
+    <value>Ativar/desativar a opção de correspondência com fonte fidedigna</value>
+  </data>
+  <data name="UI_ADD" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="UI_CAPTION_REVIEWMAPPING" xml:space="preserve">
+    <value>Revise o mapeamento</value>
+  </data>
+  <data name="DIALOG_EXCEL_FORMAT" xml:space="preserve">
+    <value>Microsoft Excel (*.xls, *.xlsx)|*.xls;*.xlsx</value>
+  </data>
+  <data name="MESSAGE_WORDMANAGERFORM_DICTIONARY_IS_EMPTY" xml:space="preserve">
+    <value>Dicionário está vazio</value>
+  </data>
+  <data name="UI_EXPORTMSSQLFORM_TABLENAME" xml:space="preserve">
+    <value>Nome da tabela</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_0DAYSREMAININGONYOUR30DAYTRIAL" xml:space="preserve">
+    <value>Existem 0 dias restantes na sua licença de avaliação de 30 dias</value>
+  </data>
+  <data name="CAPTION_DESCRIPTION" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="CAPTION_SELECTFIELDTOIMPORT" xml:space="preserve">
+    <value>Selecionar campos para importar</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_PROPERCASE" xml:space="preserve">
+    <value>Tamanho da letra apropriado</value>
+  </data>
+  <data name="UI_FULL_REPORT" xml:space="preserve">
+    <value>Full report</value>
+  </data>
+  <data name="UI_MAINFORM_INSERTCOLUMN" xml:space="preserve">
+    <value>Insira Coluna</value>
+  </data>
+  <data name="MESSAGE_CRETATE_NEW_DUPLICATE_GROUP" xml:space="preserve">
+    <value>Tem certeza de que deseja criar um novo grupo de duplicados a partir desses registros?</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHACROOSTABLES" xml:space="preserve">
+    <value>Combine com uma fonte fidedigna</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEWHOLEWORD" xml:space="preserve">
+    <value>Palavra inteira</value>
+  </data>
+  <data name="UI_MAINFORM_EDITREPORT" xml:space="preserve">
+    <value>Editar Relatório</value>
+  </data>
+  <data name="UI_STARTUPCAMFORM_CLEANMATCHENTERPRISE" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise</value>
+  </data>
+  <data name="UI_STANDARDISE" xml:space="preserve">
+    <value>Padronizar</value>
+  </data>
+  <data name="UI_MAINFORM_PROJECT" xml:space="preserve">
+    <value>Projeto</value>
+  </data>
+  <data name="CAPTION_NONMATCH_PATTERN" xml:space="preserve">
+    <value>Não corresponde ao padrão</value>
+  </data>
+  <data name="UI_CLEAR" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MEETANY" xml:space="preserve">
+    <value>Conheça qualquer</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_UPDATE_FIELD" xml:space="preserve">
+    <value>Update field</value>
+  </data>
+  <data name="CAPTION_MATCHING_RESULT" xml:space="preserve">
+    <value>Resultados da combinação</value>
+  </data>
+  <data name="UI_CAPTION_MOVETODATA" xml:space="preserve">
+    <value>Mover para Dados</value>
+  </data>
+  <data name="UI_TELEPHONE" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="MESSAGE_LOGOPTION_ONLYFORADMIN" xml:space="preserve">
+    <value>Você só pode ativar ou desativar os logs de auditoria com uma conta de administrador</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MOSTCOMMONCOUNT" xml:space="preserve">
+    <value>Contagem mais comum</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_ALPHANUMERIC" xml:space="preserve">
+    <value>Alfanumérico</value>
+  </data>
+  <data name="EXCEPTION_ERCONFIGURATION_CANNOT_BE_LOADED" xml:space="preserve">
+    <value>O arquivo com a configuração ER não pode ser carregado</value>
+  </data>
+  <data name="UI_UCMATCH_SYSTEMFIELDS" xml:space="preserve">
+    <value>Mostrar campos do sistema</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_WEIGHTGROUP" xml:space="preserve">
+    <value>Nível de regra</value>
+  </data>
+  <data name="UI_CAM_STANDART_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Standard Edition</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DATEDELIMITER" xml:space="preserve">
+    <value>Delimitador de Datas</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_OUTPUT" xml:space="preserve">
+    <value>Saída</value>
+  </data>
+  <data name="UI_CAMENTLITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Enterprise Lite</value>
+  </data>
+  <data name="UI_LOGIN" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVESELECTEDFROMMATCH" xml:space="preserve">
+    <value>Remover a coluna selecionada da definição de combinação</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHES" xml:space="preserve">
+    <value>Correspondências</value>
+  </data>
+  <data name="UI_CAPTION_STATE" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_ADDNEWVALUE" xml:space="preserve">
+    <value>Adicionar novo valor na biblioteca base de conhecimento</value>
+  </data>
+  <data name="UI_VALIDATE" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="CAPTION_REPORT_RECORDCOUNT" xml:space="preserve">
+    <value>Contagem de Registros</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_IMPORTTABLEFROMMSSQL" xml:space="preserve">
+    <value>Importar tabela de {0}</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES" xml:space="preserve">
+    <value>Não-correspondências</value>
+  </data>
+  <data name="UI_MAINFORM_MINIMISERIBBON" xml:space="preserve">
+    <value>Minimizar Ribbon</value>
+  </data>
+  <data name="UI_CAPTION_EXTENDEDLOGS" xml:space="preserve">
+    <value>Registros estendidos</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_COMPANYTYPE" xml:space="preserve">
+    <value>Tipo de Compania</value>
+  </data>
+  <data name="UI_CAPTION_SELECTALL" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="MESSAGE_MAINFORM_QUIT_CONFIRMATION" xml:space="preserve">
+    <value>Tem certeza que quer sair?</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHING_TIME" xml:space="preserve">
+    <value>Tempo de combinação</value>
+  </data>
+  <data name="MESSAGE_CHARS_NOT_ALLOWED_IN_PROJECT" xml:space="preserve">
+    <value>Os seguintes caracteres não são permitidos para o nome:</value>
+  </data>
+  <data name="UI_DATASOURCE_AZURE" xml:space="preserve">
+    <value>Microsoft Azure</value>
+  </data>
+  <data name="UI_UCMATCH_AUTOFILTERROW" xml:space="preserve">
+    <value>Painel de filtro</value>
+  </data>
+  <data name="MESSAGE_AUTOMATION_NOT_AVAILABLE_ON_EDITION" xml:space="preserve">
+    <value>A automação não está disponível nesta edição. Gostaria de atualizar para uma das edições completas?</value>
+  </data>
+  <data name="MESSAGE_DATATYPE_TO_TEXT_ONLY" xml:space="preserve">
+    <value>Você só pode alterar o tipo de dados para texto</value>
+  </data>
+  <data name="UI_MAINFORM_ABOUT" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_TODELETE" xml:space="preserve">
+    <value>Para Excluir</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SWITCHONOFADANCEDMATCHING" xml:space="preserve">
+    <value>Ativar/Desativar as opções de combinação avançadas</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MAIN_TABLE" xml:space="preserve">
+    <value>Mesa Mestre</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISE" xml:space="preserve">
+    <value>WinPure Clean &amp;&amp; Match Corporativo</value>
+  </data>
+  <data name="UI_CAPTION_ENTITYAILOCATION" xml:space="preserve">
+    <value>Localização dos arquivos de dados de resolução de entidade</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_GROUPLEVEL" xml:space="preserve">
+    <value>Nível de regra</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TEXTQUALIFIER" xml:space="preserve">
+    <value>Qualificador de texto</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_COMMA" xml:space="preserve">
+    <value>Vírgula</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_SPACE" xml:space="preserve">
+    <value>Espaço</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_SEARCHVALUE" xml:space="preserve">
+    <value>Busca valor</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_KEEPALLVALUES" xml:space="preserve">
+    <value>Manter todos os valores</value>
+  </data>
+  <data name="EXCEPTION_IEFORM_WRONG_IMPORT_SERVICE" xml:space="preserve">
+    <value>Parâmetros de importação errados</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NUMERICONLY" xml:space="preserve">
+    <value>Somente Números</value>
+  </data>
+  <data name="CAPTION_REPORT_GEOCODE" xml:space="preserve">
+    <value>GeoCode</value>
+  </data>
+  <data name="CAPTION_REGULAR_EXPRESSION" xml:space="preserve">
+    <value>Expressão regular</value>
+  </data>
+  <data name="UI_MAINFORM_RUN_CLEAN" xml:space="preserve">
+    <value>Executa limpeza</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_ONLYEMPTY" xml:space="preserve">
+    <value>Apenas vazio</value>
+  </data>
+  <data name="UI_CAMENT_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise</value>
+  </data>
+  <data name="UI_CAPTION_ENTERCONFIGURATIONNAME" xml:space="preserve">
+    <value>Por favor insira o nome da configuração</value>
+  </data>
+  <data name="CAPTION_REPORT_ADDRESSVERIFIED" xml:space="preserve">
+    <value>Endereço verificado</value>
+  </data>
+  <data name="UI_DATASOURCE_ACCESS" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="UI_CAPTION_CITY" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="UI_CLEAN" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEHYPHENS" xml:space="preserve">
+    <value>Remover Hífens</value>
+  </data>
+  <data name="CAPTION_REPORT_MATCHING" xml:space="preserve">
+    <value>Combinando</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDCONDITION" xml:space="preserve">
+    <value>Adicionar condição</value>
+  </data>
+  <data name="UI_WPMLITE" xml:space="preserve">
+    <value>WinPure Match Básica</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_PROCESSING" xml:space="preserve">
+    <value>Em processamento</value>
+  </data>
+  <data name="UI_TABLES" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXLENGTH" xml:space="preserve">
+    <value>Comprimento máximo</value>
+  </data>
+  <data name="EXCEPTION_IMPORT_DATA_NOT_ALLOWED" xml:space="preserve">
+    <value>Você não tem permissão para importar mais dados. Favor atualizar sua versão.</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_AVERAGEWORDS" xml:space="preserve">
+    <value>Média de palavras</value>
+  </data>
+  <data name="EXCEPTION_SELECT_FIELD_FOR_MATCHING" xml:space="preserve">
+    <value>Favor selecionar um campo</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_APPLYCOLUMNMAPPINGS" xml:space="preserve">
+    <value>Aplicar Mapeamento de Colunas</value>
+  </data>
+  <data name="CAPTION_DATATABLE_INSERT_COLUMN" xml:space="preserve">
+    <value>Insert Column</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXNUMBER" xml:space="preserve">
+    <value>Máximo número</value>
+  </data>
+  <data name="UI_EMPTY" xml:space="preserve">
+    <value>Vazio</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_WARNING_CAPTION" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_DELETE" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="UI_CLOSE" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_STARTMATCHING" xml:space="preserve">
+    <value>Iniciar Combinação</value>
+  </data>
+  <data name="UI_CAPTION_CLEARALL" xml:space="preserve">
+    <value>Borrar todo</value>
+  </data>
+  <data name="CAPTION_PROJECT" xml:space="preserve">
+    <value>Projeto {0}</value>
+  </data>
+  <data name="UI_MASTERRECORD_MOSTPOPULATED" xml:space="preserve">
+    <value>Com mais dados</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_IGNORENULLVALUES" xml:space="preserve">
+    <value>Ignorar valores NULOS</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ONLYGROUPS" xml:space="preserve">
+    <value>Todas las no coincidencias de todas las coincidencias</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="index_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CANCEL" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVENONPRINTABLECHARACTERS" xml:space="preserve">
+    <value>Remover caracteres não imprimíveis</value>
+  </data>
+  <data name="CAPTION_DATATABLE_DELETE_RECORDS" xml:space="preserve">
+    <value>Excluir registros</value>
+  </data>
+  <data name="CAPTION_IMPORT" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="_2019_zoho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_zoho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_TABLE_NAME_FOR_EXPORT" xml:space="preserve">
+    <value>Defina o nome da tabela para exportação</value>
+  </data>
+  <data name="UI_SHEDULE_TRAINING" xml:space="preserve">
+    <value>Agendar treinamento</value>
+  </data>
+  <data name="UI_CAPTION_INCLUDED" xml:space="preserve">
+    <value>Incluído</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_USESEARCHDEEPOPTION" xml:space="preserve">
+    <value>Use a opção Search Deep para ajustar o algoritmo de correspondência</value>
+  </data>
+  <data name="EXCEPTION_IEFORM_WRONG_EXPORT_SERVICE" xml:space="preserve">
+    <value>Parâmetros de exportação errados</value>
+  </data>
+  <data name="DIALOG_EXCELNEW_FORMAT" xml:space="preserve">
+    <value>Formato Excel (*.xlsx)|*.xlsx;</value>
+  </data>
+  <data name="CAPTION_SELECTTABLEORSQL" xml:space="preserve">
+    <value>Selecione as tabelas que deseja importar. Você também pode inserir uma consulta SQL personalizada, se preferir.</value>
+  </data>
+  <data name="UI_CAPTION_CREATENEWGROUP" xml:space="preserve">
+    <value>Criar novo grupo</value>
+  </data>
+  <data name="UI_CAPTION_ADDRIDENT" xml:space="preserve">
+    <value>Endereços identificados</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_EXACTMATCH" xml:space="preserve">
+    <value>Combinação exata</value>
+  </data>
+  <data name="MESSAGE_VERSIONUPTODATE" xml:space="preserve">
+    <value>Esta versão está atualizada</value>
+  </data>
+  <data name="MESSAGE_YOU_SHOULD_RESTART_APP" xml:space="preserve">
+    <value>You should restart the application to apply this changes</value>
+  </data>
+  <data name="UI_MAINFORM_STYLEGALLERY" xml:space="preserve">
+    <value>Estilo da galeria</value>
+  </data>
+  <data name="CAPTION_AI_PROCESSANYWAY" xml:space="preserve">
+    <value>Você só pode processar {0} registros. Gostaria de continuar</value>
+  </data>
+  <data name="DIALOG_EXPORT_MATRIX_CAPTION" xml:space="preserve">
+    <value>Exportar matriz para arquivo CSV</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DECIMALSYMBOL" xml:space="preserve">
+    <value>Símbolo decimal</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVECOMMAS" xml:space="preserve">
+    <value>Remover Vírgulas</value>
+  </data>
+  <data name="UI_MERGE" xml:space="preserve">
+    <value>Mesclar</value>
+  </data>
+  <data name="UI_MAINFORM_LOADPREVIOUSLYSAVEDMATRIX" xml:space="preserve">
+    <value>Carregar um arquivo de configurações de Matriz salvo anteriormente</value>
+  </data>
+  <data name="UI_MAINFORM_HIDEDISPLAYDATAPREVIEW" xml:space="preserve">
+    <value>Ocultar/Exibir a Visualização de Dados</value>
+  </data>
+  <data name="MESSAGE_MASTER_RECORD_COUNT" xml:space="preserve">
+    <value>Master Record count: {0}</value>
+  </data>
+  <data name="UI_EXPORT" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="UI_COLUMN_NAME" xml:space="preserve">
+    <value>Nome da coluna</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVELETTERS" xml:space="preserve">
+    <value>Remover Letras</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVELEADINGSPACES" xml:space="preserve">
+    <value>Remover Espaços</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVENAMBERS" xml:space="preserve">
+    <value>Remover Números</value>
+  </data>
+  <data name="MESSAGE_REGISTERRUNPROGRAMASADMIN" xml:space="preserve">
+    <value>Para registrar a licença você precisa executar o programa como administrador</value>
+  </data>
+  <data name="UI_MAINFORM_OPTIONSVIEW" xml:space="preserve">
+    <value>Opções de Visualização</value>
+  </data>
+  <data name="UI_UNDO" xml:space="preserve">
+    <value>Desfazer</value>
+  </data>
+  <data name="DIALOG_IMPORT_KBLIBRARY_CAPTION" xml:space="preserve">
+    <value>Importar biblioteca da base de conhecimento</value>
+  </data>
+  <data name="UI_STARTCLEANING" xml:space="preserve">
+    <value>Start Cleaning</value>
+  </data>
+  <data name="UI_SSH_INFORMATION" xml:space="preserve">
+    <value>Informações SSH</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_EDITION2" xml:space="preserve">
+    <value>WinPure ™ Clean &amp; Match Enterprise + verificação de endereço</value>
+  </data>
+  <data name="UI_CAPTION_EXPORTWITHSTYLE" xml:space="preserve">
+    <value>Exportar com estilo</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MIXEDCASE" xml:space="preserve">
+    <value>Caso misto</value>
+  </data>
+  <data name="UI_PROPERCASE_PREFIX" xml:space="preserve">
+    <value>Prefixo</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS_3" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Demonstração</value>
+  </data>
+  <data name="CAPTION_AI_REGISTEREDVERSION" xml:space="preserve">
+    <value>Resolução de entidade de IA licenciada para {0} milhões de registros. Entre em contato com seu gerente de conta se precisar fazer upgrade.</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS_2" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Demonstração</value>
+  </data>
+  <data name="MESSAGE_DISPLAY_NAME_SHOULD_NOT_BE_EMPTY" xml:space="preserve">
+    <value>Todos os nomes de exibição não devem estar vazios</value>
+  </data>
+  <data name="UI_EXPORTEXCELFORM_EXPORTTOEXCEL" xml:space="preserve">
+    <value>Exportar para um arquivo Excel</value>
+  </data>
+  <data name="UI_MATCHPRO_OPTIONS" xml:space="preserve">
+    <value>Match Pro</value>
+  </data>
+  <data name="UI_CAPTION_AUTOCHECKUPDATE" xml:space="preserve">
+    <value>Verificar atualizações automaticamente</value>
+  </data>
+  <data name="UI_PREVIEW" xml:space="preserve">
+    <value>Visualização</value>
+  </data>
+  <data name="UI_DATASOURCE_FILES" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="MESSAGE_GREATERTHEN_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Os tipos de regra Maior Então podem ser aplicados apenas a campos numéricos ou DateTime</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_SELECT_COLUMN" xml:space="preserve">
+    <value>Selecione a coluna para remover</value>
+  </data>
+  <data name="UI_AUDITLOG_ENABLED" xml:space="preserve">
+    <value>Log de auditoria ativado</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_OPENPREVIOUSLYSAVED" xml:space="preserve">
+    <value>Abrir um projeto salvo anteriormente</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_COLUMNNAME" xml:space="preserve">
+    <value>Nome da Coluna</value>
+  </data>
+  <data name="UI_WITHOUTPASSWORD" xml:space="preserve">
+    <value>Sem senha</value>
+  </data>
+  <data name="UI_CONVERT" xml:space="preserve">
+    <value>Converter</value>
+  </data>
+  <data name="EXCEPTION_NO_MATRIX_FOR_EXPORT" xml:space="preserve">
+    <value>Não há tabela ativa para Matriz de exportação</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_COUNTRY" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="_2019_txtcsv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_txtcsv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_CLEARALL" xml:space="preserve">
+    <value>Limpar tudo</value>
+  </data>
+  <data name="DIALOG_IMPORT_WORDMANAGER_CAPTION" xml:space="preserve">
+    <value>Importar dicionário do gerenciador de palavras</value>
+  </data>
+  <data name="CAPTION_AI_DEMOMODE" xml:space="preserve">
+    <value>Demonstração de resolução de entidade de IA - Máximo de {0} registros podem ser processados de uma vez. Entre em contato com seu gerente de conta se precisar fazer upgrade.</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTSTATISTIC" xml:space="preserve">
+    <value>Exportar Estatística</value>
+  </data>
+  <data name="UI_MAINFORM_SORTATOZ" xml:space="preserve">
+    <value>Filtro A até Z</value>
+  </data>
+  <data name="UI_CAM_FREE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Community Edition</value>
+  </data>
+  <data name="UI_MAINFORM_IMPORTDATA" xml:space="preserve">
+    <value>Importar dados</value>
+  </data>
+  <data name="UI_CAPTION_ANALYZE" xml:space="preserve">
+    <value>Analisar</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MINNUMBER" xml:space="preserve">
+    <value>Número mínimo</value>
+  </data>
+  <data name="_2019_json" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_json.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINFORM_LOADMATRIX" xml:space="preserve">
+    <value>Carregar Matriz</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_TRAILINGSPACES" xml:space="preserve">
+    <value>Espaços à direita</value>
+  </data>
+  <data name="UI_RESULT" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="CAPTION_CONNECT" xml:space="preserve">
+    <value>Conectar</value>
+  </data>
+  <data name="UI_NUMBERS" xml:space="preserve">
+    <value>Números</value>
+  </data>
+  <data name="UI_CAPTION_REGEXMANAGER" xml:space="preserve">
+    <value>REGEX gerenciador</value>
+  </data>
+  <data name="UI_RUN" xml:space="preserve">
+    <value>Executar SQL</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_USEWINDOWS" xml:space="preserve">
+    <value>Usar autenticação do Windows</value>
+  </data>
+  <data name="UI_DATASOURCE_DATABASES" xml:space="preserve">
+    <value>Databases</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHRESULT" xml:space="preserve">
+    <value>Resultado da Combinação</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESS" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKMERGEOVERWRITE" xml:space="preserve">
+    <value>Clique para visualizar opções de Mesclar/Substituição</value>
+  </data>
+  <data name="UI_MAINFORM_STARTUPWINDOW" xml:space="preserve">
+    <value>Startup Window</value>
+  </data>
+  <data name="CAPTION_REPORT_TOTAL" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_SERPFIELDS" xml:space="preserve">
+    <value>Campos SERP</value>
+  </data>
+  <data name="UI_CAPTION_IGNOREEMPTY" xml:space="preserve">
+    <value>Ignorar Vazio</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ASMASTER" xml:space="preserve">
+    <value>como mestre</value>
+  </data>
+  <data name="UI_MANAGER" xml:space="preserve">
+    <value>Gerenciador</value>
+  </data>
+  <data name="UI_DATASOURCE_SALESFORCE" xml:space="preserve">
+    <value>Salesforce</value>
+  </data>
+  <data name="UI_THREADS" xml:space="preserve">
+    <value>Tópicos</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHCONFIGURATION" xml:space="preserve">
+    <value>Configuração da Combinação</value>
+  </data>
+  <data name="EXCEPTION_SET_CORRECT_CREDENTIALS" xml:space="preserve">
+    <value>Você deve definir as credenciais corretas para acessar {0} e selecionar a tabela para importação</value>
+  </data>
+  <data name="UI_MESSAGE_CONFIRM_REMOVE_PROJECT" xml:space="preserve">
+    <value>Você tem certeza de que deseja remover o projeto "{0}" da lista?</value>
+  </data>
+  <data name="UI_MAINFORM_CLEANSETTINGS" xml:space="preserve">
+    <value>Limpar Configurações</value>
+  </data>
+  <data name="UI_DATASOURCE_SQLITE" xml:space="preserve">
+    <value>SQLite</value>
+  </data>
+  <data name="UI_SERVER" xml:space="preserve">
+    <value>Servidor</value>
+  </data>
+  <data name="SYSTEM_NOT_MAPPED_FIELD" xml:space="preserve">
+    <value>&lt;Não Mapeado&gt;</value>
+  </data>
+  <data name="EXCEPTION_PRIMARY_KEY_NOT_SUPPORTED" xml:space="preserve">
+    <value>Chaves primárias compostas não são suportadas</value>
+  </data>
+  <data name="UI_CAPTION_LABEL" xml:space="preserve">
+    <value>Rótulo</value>
+  </data>
+  <data name="UI_MATCHRESULTDELETEFORM_DELETEOPTIONS" xml:space="preserve">
+    <value>Delete options</value>
+  </data>
+  <data name="EXCEPTION_LICENSE_INVALID" xml:space="preserve">
+    <value>A licença para o programa é inválida</value>
+  </data>
+  <data name="_2019_xml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_xml.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PROPERCASE" xml:space="preserve">
+    <value>Correspondência</value>
+  </data>
+  <data name="_2019_azure2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_azure2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKAUTOMATICALLYMAP" xml:space="preserve">
+    <value>Clique para mapear colunas automaticamente de diferentes tabelas</value>
+  </data>
+  <data name="UI_CAPTION_ZIP" xml:space="preserve">
+    <value>fecho eclair</value>
+  </data>
+  <data name="UI_ORGANIZATION" xml:space="preserve">
+    <value>Organização</value>
+  </data>
+  <data name="UI_IMPORTMYSQLFORM_IMPORTTABLEFROMMYSQL" xml:space="preserve">
+    <value>Importar tabela de MySQL</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDGROUP" xml:space="preserve">
+    <value>Adicionar regra</value>
+  </data>
+  <data name="MESSAGE_DISPLAY_NAME_SHOULD_BE_UNIQUE" xml:space="preserve">
+    <value>Todos os nomes de exibição devem ser exclusivos</value>
+  </data>
+  <data name="UI_COUNT" xml:space="preserve">
+    <value>Contar</value>
+  </data>
+  <data name="UI_EMAIL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="UI_SAVE_CONNECTION" xml:space="preserve">
+    <value>Salvar conexão</value>
+  </data>
+  <data name="UI_SAVE_MAPPING" xml:space="preserve">
+    <value>salvar mapeamento</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEPROJECTAS" xml:space="preserve">
+    <value>Salvar Projeto como</value>
+  </data>
+  <data name="UI_CAPTION_CLEARALLGROUP" xml:space="preserve">
+    <value>Borrar todo en el grupo</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_FIELDNAME" xml:space="preserve">
+    <value>Nome da coluna</value>
+  </data>
+  <data name="CAPTION_MOVEMOUSEFORDETAILS" xml:space="preserve">
+    <value>Passe o cursor sobre o texto vermelho para saber mais.</value>
+  </data>
+  <data name="UI_TABLE" xml:space="preserve">
+    <value>Tabela</value>
+  </data>
+  <data name="UI_WPMENTERPRISE" xml:space="preserve">
+    <value>WinPure Match Corporativo</value>
+  </data>
+  <data name="MESSAGE_QUESTION_CAPTION" xml:space="preserve">
+    <value>Questão</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MULTIPLESPACES" xml:space="preserve">
+    <value>Espaços Múltiplos</value>
+  </data>
+  <data name="UI_MAINFORM_SPLITSEPARATOR" xml:space="preserve">
+    <value>Separador de divisão de coluna</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_RESULT" xml:space="preserve">
+    <value>Resumo de Verificação de Endereço Resultado</value>
+  </data>
+  <data name="UI_DATASOURCE_ORACLE" xml:space="preserve">
+    <value>Oracle</value>
+  </data>
+  <data name="UI_CAPTION_AUTOMATIONSERVICE" xml:space="preserve">
+    <value>Serviço de automação</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_TABCHAR" xml:space="preserve">
+    <value>Caracter Tab</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SETMOSTPOPULATED" xml:space="preserve">
+    <value>Definir os registros MAIS POPULADOS da tabela</value>
+  </data>
+  <data name="DIALOG_PROJECT_SAVE_CAPTION" xml:space="preserve">
+    <value>Salvar Projeto</value>
+  </data>
+  <data name="UI_PROPERCASE_DELIMITERS" xml:space="preserve">
+    <value>Delimitadores</value>
+  </data>
+  <data name="UI_EXPORTACCESSFORM_TABLENAMETOEXPORT" xml:space="preserve">
+    <value>Nome da tabela para exportar</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_ADDNEWLIBRARY" xml:space="preserve">
+    <value>Adicionar nova biblioteca base de conhecimento</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHINGRECORDSOPTIONS_2" xml:space="preserve">
+    <value>Resultados correspondentes</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES_PERCENT" xml:space="preserve">
+    <value>Não Correspondências %</value>
+  </data>
+  <data name="UI_CAPTION_ADDTOBIGGEST" xml:space="preserve">
+    <value>Adicionar ao maior grupo</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_SQLSERVERDB" xml:space="preserve">
+    <value>Para SQL Server Db</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ADD_RULES" xml:space="preserve">
+    <value>Adicionar regras</value>
+  </data>
+  <data name="UI_CAMBIZ_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Business</value>
+  </data>
+  <data name="CAPTION_DATATABLE_REMOVE_COLUMN" xml:space="preserve">
+    <value>Inserir Coluna</value>
+  </data>
+  <data name="STARTUPTITLE2024" xml:space="preserve">
+    <value>Bem-vindo. Vamos acomodá-lo.</value>
+  </data>
+  <data name="UI_ACCOUNT" xml:space="preserve">
+    <value>Conta</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_DEMOCONTINUED" xml:space="preserve">
+    <value>Demonstração agora estendida</value>
+  </data>
+  <data name="mongo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mongo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_SPLASHSCREENCAMFORM_STARTING" xml:space="preserve">
+    <value>Iniciando…</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_CONNECTION_TO_DATABASE_FOR_EXPORT" xml:space="preserve">
+    <value>Você deve estabelecer uma conexão ao banco de dados para exportar.</value>
+  </data>
+  <data name="DIALOG_LICENSE_FILE" xml:space="preserve">
+    <value>Arquivos de licença (*.license)|*.license</value>
+  </data>
+  <data name="UI_MAINFORM_VIDEOTUTORIALS" xml:space="preserve">
+    <value>Video de Tutoriais</value>
+  </data>
+  <data name="UI_LICESEFORDESKTOP" xml:space="preserve">
+    <value>Definir licença para o aplicativo de desktop</value>
+  </data>
+  <data name="SYSTEM_REPORT_DISPLAYNAME" xml:space="preserve">
+    <value>Relatório do WinPure Match</value>
+  </data>
+  <data name="MESSAGE_EDITDICTIONARYFORM_CONFIRMATION_DELETE_VALUE" xml:space="preserve">
+    <value>Tem certeza que quer apagar este valor?</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NEWLINECHAR" xml:space="preserve">
+    <value>Nova Linha Char</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_DATEORDER" xml:space="preserve">
+    <value>Ordem da Data</value>
+  </data>
+  <data name="UI_LICENCEKEY" xml:space="preserve">
+    <value>Chave da licensa</value>
+  </data>
+  <data name="DIALOG_CSVFILE_FORMAT" xml:space="preserve">
+    <value>Arquivos CSV (Delimitado) (*.csv)|*.csv</value>
+  </data>
+  <data name="UI_TEST" xml:space="preserve">
+    <value>Teste</value>
+  </data>
+  <data name="UI_CAMFREE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Community</value>
+  </data>
+  <data name="CAPTION_DEMO_LIMITATION" xml:space="preserve">
+    <value>Limitação de demonstração</value>
+  </data>
+  <data name="UI_CAMENTAD_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise with AV</value>
+  </data>
+  <data name="UI_HELP" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="EXCEPTION_MATRIX_CANNOT_BE_LOADED" xml:space="preserve">
+    <value>Arquivo com matriz não pode ser carregado</value>
+  </data>
+  <data name="UI_ABOUTFORM_CURRENTVERSION" xml:space="preserve">
+    <value>Versão atual &amp;&amp; Informação em</value>
+  </data>
+  <data name="UI_DOTS" xml:space="preserve">
+    <value>Pontos</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MOSTCOMMON" xml:space="preserve">
+    <value>Mais comum</value>
+  </data>
+  <data name="UI_MAINFORM_EDITNORMALIZATIONRULES" xml:space="preserve">
+    <value>Editar regras de normalização</value>
+  </data>
+  <data name="SYSTEM_TOTALSCORE_TOOLTIP" xml:space="preserve">
+    <value>Este total é calculado pela média das pontuações das colunas de combinação</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEOVERWRITEDATA" xml:space="preserve">
+    <value>Atualizar/Substituir Dados</value>
+  </data>
+  <data name="UI_MATCH_LITE_EDITION_2" xml:space="preserve">
+    <value>WinPure™ Match Demonstração</value>
+  </data>
+  <data name="UI_REGISTERFORM_REGISTER" xml:space="preserve">
+    <value>Registrar</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_CREATENEWPROJECTOROPENPREVIOUSLY" xml:space="preserve">
+    <value>Criar um novo projeto ou abrir um projeto criado anteriormente</value>
+  </data>
+  <data name="UI_LOWERCASE" xml:space="preserve">
+    <value>Letras minúsculas</value>
+  </data>
+  <data name="DIALOG_TITLE_SELECTLICENSE" xml:space="preserve">
+    <value>Selecione o arquivo de licença do WinPure</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TIMEDELIMITER" xml:space="preserve">
+    <value>Delimitador de Tempo</value>
+  </data>
+  <data name="UI_LOAD" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="_2019_Oracle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Oracle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_ALPHAONLY" xml:space="preserve">
+    <value>Somente Alfabético</value>
+  </data>
+  <data name="UI_CAPTION_CITYSTATEZIP" xml:space="preserve">
+    <value>Cidade/Estado/CEP</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_OPTIONS" xml:space="preserve">
+    <value>Opções</value>
+  </data>
+  <data name="UI_DATASOURCE_CRM" xml:space="preserve">
+    <value>CRM's</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_WINPURECLEANMATCHENTERPRISE" xml:space="preserve">
+    <value>Bem-vindo ao WinPure Clean &amp;&amp; Match Corporativo</value>
+  </data>
+  <data name="_2019_csv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_csv.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_DATASOURCE_MYSQL" xml:space="preserve">
+    <value>MySQL</value>
+  </data>
+  <data name="UI_ENTERPROJECTNAMEFORM_CREATEPROJECT" xml:space="preserve">
+    <value>Criar novo projeto</value>
+  </data>
+  <data name="UI_MAINFORM_HIDEDISPLAYSTATISTICSFOREACHTABLE" xml:space="preserve">
+    <value>Ocultar/Exibir as Estatísticas para cada tabela</value>
+  </data>
+  <data name="MESSAGE_ONLYFORADMIN" xml:space="preserve">
+    <value>Esta funcionalidade só está disponível para usuários com privilégios de administrador</value>
+  </data>
+  <data name="MESSAGE_DOWNLOADNEWVERSION" xml:space="preserve">
+    <value>Uma nova versão {0} agora está disponível. Deseja abrir a página de download e instalar o software?</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_DATETIME" xml:space="preserve">
+    <value>Data Hora</value>
+  </data>
+  <data name="UI_CLIENTID" xml:space="preserve">
+    <value>ID do Cliente</value>
+  </data>
+  <data name="CAPTION_PATTERNMANAGER" xml:space="preserve">
+    <value>Gerenciador de padrões</value>
+  </data>
+  <data name="EXCEPTION_NO_STATISTIC_FOR_EXPORT" xml:space="preserve">
+    <value>Não há dados estatísticos para exportação</value>
+  </data>
+  <data name="UI_MAINFORM_REMOVECOLUMN" xml:space="preserve">
+    <value>Remover Coluna</value>
+  </data>
+  <data name="UI_IMPORTACCESSFORM_ACCESSDATABASE" xml:space="preserve">
+    <value>o arquivo do banco de dados</value>
+  </data>
+  <data name="UI_MAINFORM_MATCHINGVIDEOTUTORIAL" xml:space="preserve">
+    <value>Video Tutorial de Combinação</value>
+  </data>
+  <data name="UI_MAINFORM_SORTZTOA" xml:space="preserve">
+    <value>Filtro Z até A</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_EXCELFILE" xml:space="preserve">
+    <value>Arquivo Excel</value>
+  </data>
+  <data name="UI_MATCHRESULTMERGE_MERGE_OPTION" xml:space="preserve">
+    <value>Merge option</value>
+  </data>
+  <data name="MASSAGE_IOFORM_YOUSHOULDSELECTFILE" xml:space="preserve">
+    <value>Você deve selecionar o arquivo e a planilha para importar</value>
+  </data>
+  <data name="UI_EXCEL" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="UI_CAPTION_DEFINEFIELDSTYPE" xml:space="preserve">
+    <value>Defina o tipo de campo e clique em "Analisar"</value>
+  </data>
+  <data name="UI_STARTUPCAMFORM_SHOWONLAUNCH" xml:space="preserve">
+    <value>Show no lançamento</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEALLSPACES" xml:space="preserve">
+    <value>Remover todos os espaços</value>
+  </data>
+  <data name="UI_CAPTION_PREVIEWLIMIT" xml:space="preserve">
+    <value>Limite de visualização de dados</value>
+  </data>
+  <data name="UI_PASSWORD" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_SHEETS" xml:space="preserve">
+    <value>Planilhas</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTSTATISTICS" xml:space="preserve">
+    <value>Exportar Estatísticas</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SELECTMOSTRELEVANT" xml:space="preserve">
+    <value>Selecionar SmartMaster AI</value>
+  </data>
+  <data name="UI_MAINFORM_PROJECTMANAGEMENT" xml:space="preserve">
+    <value>Gerenciamento de Projetos</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_LICENCEINFORMATION" xml:space="preserve">
+    <value>Informação da Lincensa</value>
+  </data>
+  <data name="DIALOG_PROJECT_SAVEAS_CAPTION" xml:space="preserve">
+    <value>Salvar Projeto como</value>
+  </data>
+  <data name="_2019_Excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_NONMATCHES1" xml:space="preserve">
+    <value>Não Correspondências</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_DUPLICATES" xml:space="preserve">
+    <value>Duplicatas</value>
+  </data>
+  <data name="UI_APOSTROPHES" xml:space="preserve">
+    <value>Apóstrofos</value>
+  </data>
+  <data name="UI_HYPHENS" xml:space="preserve">
+    <value>Hífens</value>
+  </data>
+  <data name="UI_CAPTION_CHECKUPDATE" xml:space="preserve">
+    <value>Verifique atualizações</value>
+  </data>
+  <data name="UI_DATASOURCE_EXCEL" xml:space="preserve">
+    <value>MS Excel</value>
+  </data>
+  <data name="EXCEPTION_EXPORT_DISABLED_ON_DEMO" xml:space="preserve">
+    <value>Exportação desativada na Demo</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEANYPART" xml:space="preserve">
+    <value>Qualquer Parte</value>
+  </data>
+  <data name="UI_MAINFORM_DISPLAYCLEAN" xml:space="preserve">
+    <value>Opções de Limpeza do Mostrador</value>
+  </data>
+  <data name="CAPTION_ORIGINAL_NAME" xml:space="preserve">
+    <value>Nome original</value>
+  </data>
+  <data name="UI_MATCH" xml:space="preserve">
+    <value>Combinar</value>
+  </data>
+  <data name="UI_CAPTION_ANALYZEDATATYPE" xml:space="preserve">
+    <value>Analisar tipo de dados</value>
+  </data>
+  <data name="UI_CAPTION_SEPPRESSED" xml:space="preserve">
+    <value>Suprimido</value>
+  </data>
+  <data name="MESSAGE_MAINFORM_WANTSAVETHEPROJECT" xml:space="preserve">
+    <value>Você deseja salvar o projeto {0}?</value>
+  </data>
+  <data name="CAPTION_DATATABLE_CLOSE" xml:space="preserve">
+    <value>Remover Tabela</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LOWERONLY" xml:space="preserve">
+    <value>Somente minúsculas</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_WITHSPACES" xml:space="preserve">
+    <value>Com Espaços</value>
+  </data>
+  <data name="UI_CAMENTLITE_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise Lite</value>
+  </data>
+  <data name="MESSAGE_LICENSE_EXPIRED" xml:space="preserve">
+    <value>Sua licença expirou.</value>
+  </data>
+  <data name="UI_CAM_FREE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Community</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_HYPENS" xml:space="preserve">
+    <value>Hypens</value>
+  </data>
+  <data name="CAPTION_PATTERN" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="UI_MAINFORM_SCHEDULEONLINEDEMO" xml:space="preserve">
+    <value>Agendar Demonstração Online</value>
+  </data>
+  <data name="Startup_close_x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_close_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NAMEANDEMAIL" xml:space="preserve">
+    <value>Nome e Email</value>
+  </data>
+  <data name="CAPTION_REPORT_ADDRESS" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_LSTO1S" xml:space="preserve">
+    <value>Último até Primeiro</value>
+  </data>
+  <data name="CAPTION_DATATABLE_FILTER_PANEL" xml:space="preserve">
+    <value>Painel do Filtro Ligado / Desligado</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEMATRIX" xml:space="preserve">
+    <value>Salvar Matriz</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_REMOVECONDITION" xml:space="preserve">
+    <value>Remover condição</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_ERROR_CAPTION" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="DIALOG_PROJECT_FORMAT" xml:space="preserve">
+    <value>Formato WPPJ |*.wppj;</value>
+  </data>
+  <data name="UI_CAM_BUSINESS_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Business Edition</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NONPRINTABLE" xml:space="preserve">
+    <value>Não imprimível</value>
+  </data>
+  <data name="Startup_square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_DUPLICATE" xml:space="preserve">
+    <value>Duplicado</value>
+  </data>
+  <data name="UI_EXPORTMSSQLFORM_EXPORTTOMSSQL" xml:space="preserve">
+    <value>Exportar para {0}</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_OTHER" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="UI_DELETE" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="UI_MAINFORM_KNOWLEDGEBASE" xml:space="preserve">
+    <value>Base de Conhecimento</value>
+  </data>
+  <data name="UI_REGISTRATION" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_FARMATNAME" xml:space="preserve">
+    <value>Formatar nome</value>
+  </data>
+  <data name="EXCEPTION_REPORT_FILE_NOT_EXISTS" xml:space="preserve">
+    <value>O arquivo de relatório {0} não existe</value>
+  </data>
+  <data name="DIALOG_IMPORT_MATRIX_CAPTION" xml:space="preserve">
+    <value>Importar dicionário da matriz</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_EDITION" xml:space="preserve">
+    <value>WinPure Clean &amp;&amp; Match Edição Corporativa</value>
+  </data>
+  <data name="DIALOG_ACCESS_FORMAT" xml:space="preserve">
+    <value>Arquivos Microsoft Access |*.accdb;*.mdb;*.adp;*.mda;*.accda;*.mde;*.accde;*.ade</value>
+  </data>
+  <data name="UI_CAPTION_SHOWNULL" xml:space="preserve">
+    <value>Mostrar valores NULL</value>
+  </data>
+  <data name="UI_LOGONSERVER" xml:space="preserve">
+    <value>Logar no servidor</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISELITE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Enterprise Lite</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_ENTER_COLUMN_NAME" xml:space="preserve">
+    <value>Insira o nome da nova coluna</value>
+  </data>
+  <data name="DIALOG_EXPORT_DICTIONARY_CAPTION" xml:space="preserve">
+    <value>Exportar dicionário para arquivo CSV</value>
+  </data>
+  <data name="UI_CAMENT_OPTIONS_DEMO" xml:space="preserve">
+    <value>Clean &amp;&amp; Match Enterprise Demo</value>
+  </data>
+  <data name="UI_NO_LOGS_TO_EXPORT" xml:space="preserve">
+    <value>Nenhum registro de auditoria disponível para exportação</value>
+  </data>
+  <data name="StartupBUTTON" xml:space="preserve">
+    <value>BOOK A DEMO</value>
+  </data>
+  <data name="UI_LOADINGMASKFORM_CANCELMATCHING" xml:space="preserve">
+    <value>CANCELAR COMBINAÇÃO</value>
+  </data>
+  <data name="MESSAGE_OPTIONONLYFORADMIN" xml:space="preserve">
+    <value>Você pode ativar/desativar o serviço de automação apenas na conta de administração</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_CODENOTVALID" xml:space="preserve">
+    <value>Este código não é um código de licensa válido</value>
+  </data>
+  <data name="MESSAGE_DATABASEPATHCHANGE" xml:space="preserve">
+    <value>Alteração do caminho do banco de dados do sistema</value>
+  </data>
+  <data name="UI_CAPTION_USESQLEDITOR" xml:space="preserve">
+    <value>Use o editor abaixo para criar um script SQL.</value>
+  </data>
+  <data name="CAPTION_DATATABLE_COPY_COLUMN" xml:space="preserve">
+    <value>Copiar Coluna</value>
+  </data>
+  <data name="UI_CAPTION_OPENSAMPLEPROJECT" xml:space="preserve">
+    <value>Abrir projeto de exemplo</value>
+  </data>
+  <data name="UI_DATASOURCE_POPULAR" xml:space="preserve">
+    <value>Popular</value>
+  </data>
+  <data name="MESSAGE_REMOVELOGS" xml:space="preserve">
+    <value>Você tem certeza de que deseja excluir permanentemente os registros selecionados?</value>
+  </data>
+  <data name="UI_MAINFORM_MAXIMISERIBBON" xml:space="preserve">
+    <value>Maximizar Ribbon</value>
+  </data>
+  <data name="DIALOG_IOFORM_IMPORT_FROM_ACCESS" xml:space="preserve">
+    <value>Importar do Banco de Dados do Access para tabela</value>
+  </data>
+  <data name="UI_EXPORTTOFILE" xml:space="preserve">
+    <value>Exportar para arquivo {0}</value>
+  </data>
+  <data name="UI_CAM_WPCMENTERPRISE2" xml:space="preserve">
+    <value>WinPure ™ Clean &amp; Match Enterprise + verificação de endereço</value>
+  </data>
+  <data name="UI_MASTERRECORD_MOSTRELEVANT" xml:space="preserve">
+    <value>SmartMaster AI</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEDOTS" xml:space="preserve">
+    <value>Remover Pontos</value>
+  </data>
+  <data name="UI_MAINFORM_FILESETTINGS" xml:space="preserve">
+    <value>Configurações do arquivo</value>
+  </data>
+  <data name="UI_CAM_ENTERPRISE_LITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Enterprise Lite Edition</value>
+  </data>
+  <data name="UI_STARTUP_ONLINEHELP" xml:space="preserve">
+    <value>Manual de ajuda online</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_MATCHES_PERCENT" xml:space="preserve">
+    <value>Correspondências %</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_RELATED_PERCENT" xml:space="preserve">
+    <value>Relacionado %</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEWITH" xml:space="preserve">
+    <value>Atualizado com</value>
+  </data>
+  <data name="UI_CAPTION_CREATE_NEW_PROJECT" xml:space="preserve">
+    <value>Criar novo projeto</value>
+  </data>
+  <data name="EXCEPTION_NO_ERCONFIGURATION_FOR_EXPORT" xml:space="preserve">
+    <value>Não há nenhuma tabela ativa para exportar a configuração</value>
+  </data>
+  <data name="CAPTION_ALGORITHM" xml:space="preserve">
+    <value>Algoritmo</value>
+  </data>
+  <data name="UI_ALLOWUNDO" xml:space="preserve">
+    <value>Permitir desfazer</value>
+  </data>
+  <data name="UI_MAINFORM_THISWILLREFRESHALLSTATISTICS" xml:space="preserve">
+    <value>Isto irá atualizar todas as estatísticas</value>
+  </data>
+  <data name="UI_DATASOURCE_JSON" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="UI_DISPLAY" xml:space="preserve">
+    <value>exibição</value>
+  </data>
+  <data name="MESSAGE_REGISTERFORM_THANKSFORREGISTERING" xml:space="preserve">
+    <value>Obrigado por registrar</value>
+  </data>
+  <data name="UI_WORDMANAGERLIST" xml:space="preserve">
+    <value>Lista do Gerenciador de Palavras</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_ONLY" xml:space="preserve">
+    <value>só</value>
+  </data>
+  <data name="UI_CLIENTSECRET" xml:space="preserve">
+    <value>Segredo do cliente</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_LIBRARYMANAGER" xml:space="preserve">
+    <value>Gerenciador da Biblioteca da Base de Conhecimento</value>
+  </data>
+  <data name="UI_EMPTY_WITH_VALUE" xml:space="preserve">
+    <value>Vazio para um valor</value>
+  </data>
+  <data name="CAPTION_FIELD_TYPE" xml:space="preserve">
+    <value>Tipo de campo</value>
+  </data>
+  <data name="UI_CONNECTION" xml:space="preserve">
+    <value>Conexão</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_UPDATEOVERWRITE" xml:space="preserve">
+    <value>Atualizar/Substituir</value>
+  </data>
+  <data name="DIALOG_IMPORT_ERCONFIGURATION_CAPTION" xml:space="preserve">
+    <value>Importar configuração ER</value>
+  </data>
+  <data name="UI_IMPORTFILEDATABASE_IMPORTFROMFILEDATABASE" xml:space="preserve">
+    <value>Importar do {0}</value>
+  </data>
+  <data name="UI_MAINFORM_THEMESTYLE" xml:space="preserve">
+    <value>Estilo do tema</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_EXPORTTOODBC" xml:space="preserve">
+    <value>Exportar para ODBC</value>
+  </data>
+  <data name="UI_MESSAGE_RESTARTREQUIRED" xml:space="preserve">
+    <value>É necessário reiniciar para continuar.</value>
+  </data>
+  <data name="UI_EXECUTE" xml:space="preserve">
+    <value>Executar</value>
+  </data>
+  <data name="UI_AUDITLOG" xml:space="preserve">
+    <value>Registros de auditoria</value>
+  </data>
+  <data name="UI_FIRSTROWCOLUMNNAMES" xml:space="preserve">
+    <value>Primeira linha contém o nome das colunas</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_IMPORTFROMTEXTFILE" xml:space="preserve">
+    <value>Importar do arquivo de texto</value>
+  </data>
+  <data name="MESSAGE_OVERRIDEFILE" xml:space="preserve">
+    <value>O arquivo já existe. Deseja substituir este arquivo?</value>
+  </data>
+  <data name="UI_STARTUP_BOOKDEMO" xml:space="preserve">
+    <value>Agendar uma demonstração</value>
+  </data>
+  <data name="UI_REGISTERFORM_GENERATIONKEY" xml:space="preserve">
+    <value>Chave de Geração</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_EXPORTTODB2" xml:space="preserve">
+    <value>Exportar para DB2</value>
+  </data>
+  <data name="UI_FILTER" xml:space="preserve">
+    <value>Filtro</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_OTHERCHARACTERS" xml:space="preserve">
+    <value>Outros caracteres</value>
+  </data>
+  <data name="UI_LICESEFORAUTOMATION" xml:space="preserve">
+    <value>Definir licença para o serviço de automação</value>
+  </data>
+  <data name="UI_DATASOURCE_XML" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="MESSAGE_REMOVE_CONDITIONGROUP" xml:space="preserve">
+    <value>Você realmente deseja remover o Grupo #{0}?</value>
+  </data>
+  <data name="UI_NAVIGATION" xml:space="preserve">
+    <value>Navegação</value>
+  </data>
+  <data name="UI_MAINFORM_VIEW" xml:space="preserve">
+    <value>Visualizar</value>
+  </data>
+  <data name="UI_MAINFORM_RUNMATCH" xml:space="preserve">
+    <value>Executar combinação</value>
+  </data>
+  <data name="UI_TYPE" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_1STOLS" xml:space="preserve">
+    <value>Primeiro até Último</value>
+  </data>
+  <data name="DIALOG_EXPORT_ERCONFIGURATION_CAPTION" xml:space="preserve">
+    <value>Exportar configuração ER para arquivo JSON</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_NOT_DUPLICATE" xml:space="preserve">
+    <value>Não duplicado</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ACROSSTABLES" xml:space="preserve">
+    <value>Através de tabelas</value>
+  </data>
+  <data name="UI_WORD" xml:space="preserve">
+    <value>Gerenciador de Palavras</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_SHIFTRIGHT" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_MSEXCEL" xml:space="preserve">
+    <value>Para arquivo MS Excel</value>
+  </data>
+  <data name="UI_ADD_FAVOURITES" xml:space="preserve">
+    <value>Adicionar favoritos</value>
+  </data>
+  <data name="EXCEPTION_YOUSHOULDSELECETCORRECTPARAMETER" xml:space="preserve">
+    <value>Você deve selecionar o caminho e os parâmetros corretos do arquivo para importação</value>
+  </data>
+  <data name="MESSAGE_AUDITLOG_NOT_AVAILABLE_ON_DEMO" xml:space="preserve">
+    <value>O registro de auditoria não está disponível nesta demonstração. Deseja fazer o upgrade?</value>
+  </data>
+  <data name="remove_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\remove_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_TOMYSQLDB" xml:space="preserve">
+    <value>Para MySQL Db</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_FUZZYMATCH" xml:space="preserve">
+    <value>Combinação Fuzzy</value>
+  </data>
+  <data name="MESSAGE_AUTOMATION_NOT_AVAILABLE_ON_DEMO" xml:space="preserve">
+    <value>A automação não está disponível nesta demonstração. Gostaria de atualizar para uma das edições completas?</value>
+  </data>
+  <data name="UI_CALLBACKURL" xml:space="preserve">
+    <value>URL de retorno</value>
+  </data>
+  <data name="MESSAGE_CONFIRMATION_CAPTION" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REFRESHSTATISTICS" xml:space="preserve">
+    <value>Atualizar Estatísticas</value>
+  </data>
+  <data name="MESSAGE_DO_YOU_WANT_CHANGE_LANGUAGE" xml:space="preserve">
+    <value>Do you want to change program language?</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_CITYABBR" xml:space="preserve">
+    <value>Abreviatura da cidade</value>
+  </data>
+  <data name="CAPTION_REPORT_GEOCODESFOUND" xml:space="preserve">
+    <value>GeoCode encontrado</value>
+  </data>
+  <data name="UI_REPORT" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_OSTONOUGHTS" xml:space="preserve">
+    <value>O's para Nulos</value>
+  </data>
+  <data name="UI_LOAD_CONNECTION" xml:space="preserve">
+    <value>Conexão de carga</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_ADDTIMETODATE" xml:space="preserve">
+    <value>Adicionar tempo para a data</value>
+  </data>
+  <data name="UI_DATABASE" xml:space="preserve">
+    <value>Banco de Dados</value>
+  </data>
+  <data name="UI_STARTUP_GETSTARTED" xml:space="preserve">
+    <value>Começar</value>
+  </data>
+  <data name="MESSAGE_LICENSESTATE" xml:space="preserve">
+    <value>Estado da licença: {0}. Expira em {1} dias.</value>
+  </data>
+  <data name="UI_CAPTION_REGEX_EXPRESSION" xml:space="preserve">
+    <value>REGEX expressão</value>
+  </data>
+  <data name="UI_AUDITLOG_DISABLED" xml:space="preserve">
+    <value>Log de auditoria desativado</value>
+  </data>
+  <data name="_2019_salesforce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_salesforce.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADDSELECTEDCOLUMNONTOMATCH" xml:space="preserve">
+    <value>Adicionar coluna selecionada para a definição de combinação</value>
+  </data>
+  <data name="_2019_postgre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_postgre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_GEOCODES" xml:space="preserve">
+    <value>Códigos geográficos</value>
+  </data>
+  <data name="UI_CAPTION_SAVEDSETTINGS" xml:space="preserve">
+    <value>Conexões</value>
+  </data>
+  <data name="UI_EXPORTAFILEDATABASE_EXPORTTOFILEDATABASE" xml:space="preserve">
+    <value>Exportar para {0}</value>
+  </data>
+  <data name="MESSAGE_RULE_ONLY_TO_STRING_FIELD" xml:space="preserve">
+    <value>Contém tipo de regra só pode ser aplicado a campos String</value>
+  </data>
+  <data name="EXCEPTION_LICENSE_EXPIRED" xml:space="preserve">
+    <value>Sua licensa expirou. Favor entrar em contato com seu fornecedor para renovar sua licensa.</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_AVERAGELENGTH" xml:space="preserve">
+    <value>Média de comprimento</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_COLUMN_REMOVING" xml:space="preserve">
+    <value>Remoção de coluna</value>
+  </data>
+  <data name="_2019_Plus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Plus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_CAPTION_CONFIGURATIONNAME" xml:space="preserve">
+    <value>Nome da configuração</value>
+  </data>
+  <data name="UI_REQUEST_CUSTOM_QUOTE" xml:space="preserve">
+    <value>Solicitar orçamento personalizado</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_CODEPAGE" xml:space="preserve">
+    <value>Página de código</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ALLDATA" xml:space="preserve">
+    <value>All data</value>
+  </data>
+  <data name="UI_MATCH_PROFESSIONAL_EDITION" xml:space="preserve">
+    <value>WinPure Match Edição Profissional</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_CASSFIELDS" xml:space="preserve">
+    <value>Campos CASS</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_SUCCESS_CAPTION" xml:space="preserve">
+    <value>Sucesso</value>
+  </data>
+  <data name="UI_CAPTION_NOTRELATED" xml:space="preserve">
+    <value>Não relacionado</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_RELATED" xml:space="preserve">
+    <value>Relacionado</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NOUGTSTOOS" xml:space="preserve">
+    <value>Nulos para O's</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_STANDARDOPTIONS" xml:space="preserve">
+    <value>Opções padrão</value>
+  </data>
+  <data name="UI_CONNECTIONINFORMATION" xml:space="preserve">
+    <value>Informação de Conecção</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SELECTCOLUMNSTOMATCH" xml:space="preserve">
+    <value>Passo 2 - Selecione colunas para combinar &lt;br&gt; (duplo clique nas colunas dentro da etapa 3)</value>
+  </data>
+  <data name="UI_LOAD_MAPPING" xml:space="preserve">
+    <value>Mapeamento de carga</value>
+  </data>
+  <data name="UI_CAPTION_AUTOSELECTMASTERRECORD" xml:space="preserve">
+    <value>Selecionar automaticamente registros mestres</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTVERIFICATIONPROCESS" xml:space="preserve">
+    <value>Clique para iniciar a verificação do endereço</value>
+  </data>
+  <data name="UI_PROPERCASE_EXCEPTIONS" xml:space="preserve">
+    <value>Exceções</value>
+  </data>
+  <data name="UI_CAPTION_MAPPINGCONFIGURATION" xml:space="preserve">
+    <value>Mapeamento de configuração</value>
+  </data>
+  <data name="DIALOG_JSONFILE_FORMAT" xml:space="preserve">
+    <value>JSON Files (*.json)|*.json</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_UPPERONLY" xml:space="preserve">
+    <value>Somente maiúsculo</value>
+  </data>
+  <data name="EXCEPTION_SHOULDSETFILEPATHFOREXPORT" xml:space="preserve">
+    <value>Você deve definir o caminho do arquivo para exportar</value>
+  </data>
+  <data name="UI_ALL" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_OPENPROJECT" xml:space="preserve">
+    <value>Abrir Projeto</value>
+  </data>
+  <data name="tick2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tick2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_AI_DEMOMODE2" xml:space="preserve">
+    <value>{0} registros</value>
+  </data>
+  <data name="EXCEPTION_DEMO_LICENSE_EXPIRED" xml:space="preserve">
+    <value>Esta versão demo já expirou. Entre em contato com seu fornecedor para comprar ou estender esta versão de demonstração.</value>
+  </data>
+  <data name="UI_CAPTION_SET_PROJECT_NAME" xml:space="preserve">
+    <value>Definir o nome do projeto</value>
+  </data>
+  <data name="UI_EDIT" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="CAPTION_AITYPE" xml:space="preserve">
+    <value>Tipo de IA</value>
+  </data>
+  <data name="_2019_Access" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_Access.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPTION_DATA_PREPARING" xml:space="preserve">
+    <value>Preparando os Dados</value>
+  </data>
+  <data name="UI_IMPORT" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_GROUPID" xml:space="preserve">
+    <value>Regra</value>
+  </data>
+  <data name="UI_PUNCTUATION" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="UI_CAPTION_DATAFILE" xml:space="preserve">
+    <value>Arquivo de Dados WinPure</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKTOVIEWDELETEOPTIONS" xml:space="preserve">
+    <value>Clique para visualizar opções de exclusão</value>
+  </data>
+  <data name="UI_MAINFORM_MERGESEPARATOR" xml:space="preserve">
+    <value>Separador de mesclagem de colunas</value>
+  </data>
+  <data name="UI_MAINFORM_LANGUAGE" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="UI_ABOUTFORM_COPYRIGHT" xml:space="preserve">
+    <value>Direitos autorais reservados para WinPure Ltda, 2004-2023</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_NEWLINE" xml:space="preserve">
+    <value>Nova linha</value>
+  </data>
+  <data name="UI_CAPTION_GENERATEMATCHREPORT" xml:space="preserve">
+    <value>Gerar Relatório de Partida</value>
+  </data>
+  <data name="UI_MAINFORM_CLEARALLSETTINGS" xml:space="preserve">
+    <value>Limpar todas as configurações da tabela selecionada</value>
+  </data>
+  <data name="CAPTION_WORDMANAGERFORM_COLUMN" xml:space="preserve">
+    <value>Coluna: {0}</value>
+  </data>
+  <data name="UI_CAPTION_FUZZYTHRESHOLD" xml:space="preserve">
+    <value>Limite padrão de correspondência difusa</value>
+  </data>
+  <data name="UI_CAPTION_SELECTALLGROUP" xml:space="preserve">
+    <value>Seleccionar todo en el grupo</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICK_TO_MERGE_OPTION" xml:space="preserve">
+    <value>Click to view the merge options</value>
+  </data>
+  <data name="DIALOG_EXPORT_EXCEL_CAPTION" xml:space="preserve">
+    <value>Selecionar um arquivo do Excel</value>
+  </data>
+  <data name="UI_FILE" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_MATCHINGRECORDSOPTIONS" xml:space="preserve">
+    <value>Opções de Registros de Combinação</value>
+  </data>
+  <data name="_2019_sql_server_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_sql-server-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EXCEPTION_EXPORT_100RECORDS_ON_DEMO" xml:space="preserve">
+    <value>Esta demonstração exportará apenas 100 registros. Gostaria de atualizar para uma das edições completas?</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTTOMYSQLSERVER" xml:space="preserve">
+    <value>Exportar para MySQL Server</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKTOAUTOMATICALLYSELECTBEST_MASTER" xml:space="preserve">
+    <value>Clique para selecionar automaticamente o melhor registro mestre em cada grupo correspondente abaixo</value>
+  </data>
+  <data name="MESSAGE_SPLITSEPARATORNOTEMPTY" xml:space="preserve">
+    <value>O separador de divisão não pode estar vazio</value>
+  </data>
+  <data name="DIALOG_IOFORM_IMPORTFROMEXCEL" xml:space="preserve">
+    <value>Importar do Excel para tabela</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_MEETALL" xml:space="preserve">
+    <value>Conheça todos</value>
+  </data>
+  <data name="UI_SETMASTERRECORDSFORM_SETMASTERRECORDS" xml:space="preserve">
+    <value>Definir Registros Mestres</value>
+  </data>
+  <data name="UI_FILLED" xml:space="preserve">
+    <value>Preenchido</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SELECTTABLES" xml:space="preserve">
+    <value>Passo 1 - Selecionar Tabelas &lt;br&gt; (Escolha quais fontes de dados você gostaria de usar para fazer a combinação)</value>
+  </data>
+  <data name="UI_CONNECTFILE" xml:space="preserve">
+    <value>Conectar ao arquivo</value>
+  </data>
+  <data name="UI_SETTINGS" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="MESSAGE_MESSAGEDIALOG_INFORMATION_CAPTION" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="UI_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="UI_CAPTION_REGEX_REPLACEMENT" xml:space="preserve">
+    <value>REGEX valor de substituição</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_STARTVERIFICATION" xml:space="preserve">
+    <value>Iniciar verificação de endereço</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_WORDMANAGER" xml:space="preserve">
+    <value>Gerenciador de Palavras</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEMENT" xml:space="preserve">
+    <value>Substituição</value>
+  </data>
+  <data name="UI_CAMLTE_DEMO_OPTIONS" xml:space="preserve">
+    <value>Clean &amp;&amp; Match</value>
+  </data>
+  <data name="EXCEPTION_WORDMANAGERDICTIONARY_FILE_WRONG_FORMAT" xml:space="preserve">
+    <value>Dicionário não pode ser lido. Formato do arquivo errado.</value>
+  </data>
+  <data name="MESSAGE_REMOVE_NOT_DUPLICATE_FROM_MATCH_RESULT" xml:space="preserve">
+    <value>Tem certeza que quer apagar aqueles registros do resultado?</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_GROUP_COUNT" xml:space="preserve">
+    <value>Contagem de grupo</value>
+  </data>
+  <data name="UI_MATCHLTE_OPTIONS" xml:space="preserve">
+    <value>Match Lite</value>
+  </data>
+  <data name="CAPTION_AI_REGISTEREDVERSION2" xml:space="preserve">
+    <value>{0} million registros</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_REPLACEWHOLEVALUE" xml:space="preserve">
+    <value>Valor inteiro</value>
+  </data>
+  <data name="UI_IMPORTEXCELFORM_IMPORTFROMEXCEL" xml:space="preserve">
+    <value>Importar do Excel</value>
+  </data>
+  <data name="UI_LOGS" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="UI_COLUMN_TYPE" xml:space="preserve">
+    <value>Tipo de coluna</value>
+  </data>
+  <data name="UI_CAM_BUSINESS" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Business</value>
+  </data>
+  <data name="UI_CAM_LITE_EDITION" xml:space="preserve">
+    <value>WinPure™ Clean &amp; Match Small Business Edition</value>
+  </data>
+  <data name="Startup_square_pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Startup_square_pressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_PERSONNAME" xml:space="preserve">
+    <value>Nomes</value>
+  </data>
+  <data name="CAPTION_REPORT_DUPLICATES" xml:space="preserve">
+    <value>Duplicados</value>
+  </data>
+  <data name="UI_SCHEMA" xml:space="preserve">
+    <value>Esquema</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEAPOSTROPHES" xml:space="preserve">
+    <value>Remover Apóstrofos</value>
+  </data>
+  <data name="UI_MAINFORM_SAVEMATRIXSETTINGS" xml:space="preserve">
+    <value>Salvar configurações da Matriz</value>
+  </data>
+  <data name="UI_PATTERNNAME" xml:space="preserve">
+    <value>Nombre del patrón</value>
+  </data>
+  <data name="UI_CONFIGURATION" xml:space="preserve">
+    <value>Configuração</value>
+  </data>
+  <data name="UI_CAM_STANDART" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Standard</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTMATCHINGPROCESS" xml:space="preserve">
+    <value>Clique para iniciar o processo de combinação</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_DATAPREVIEW" xml:space="preserve">
+    <value>Visualização de Dados</value>
+  </data>
+  <data name="MESSAGE_APPLYDATABASEPATH" xml:space="preserve">
+    <value>O caminho do banco de dados do sistema seria aplicado após a reinicialização do programa.</value>
+  </data>
+  <data name="UI_DATA" xml:space="preserve">
+    <value>Dados</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_AMASFIELDS" xml:space="preserve">
+    <value>Campos AMAS</value>
+  </data>
+  <data name="UI_WPMPRO" xml:space="preserve">
+    <value>WinPure Match Pro</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_MSACCESDB" xml:space="preserve">
+    <value>Para MS Access DB</value>
+  </data>
+  <data name="UI_CAM_LITE" xml:space="preserve">
+    <value>WinPure™ Clean &amp;&amp; Match Small Business</value>
+  </data>
+  <data name="DIALOG_IOFORM_SET_CONNECTION_TO_DATABASE_FOR_IMPORT" xml:space="preserve">
+    <value>Você deve estabelecer uma conexão ao banco de dados para importar.</value>
+  </data>
+  <data name="UI_SPACES" xml:space="preserve">
+    <value>Espaços</value>
+  </data>
+  <data name="UI_DATASOURCE_ZOHOCRM" xml:space="preserve">
+    <value>ZohoCRM</value>
+  </data>
+  <data name="CAPTION_MATCH_PATTERN" xml:space="preserve">
+    <value>Corresponde ao padrão</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESSPARSER" xml:space="preserve">
+    <value>Analisador de endereço</value>
+  </data>
+  <data name="UI_UPPERCASE" xml:space="preserve">
+    <value>Letras maiúsculas</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_CLICKSTARTCLEANINGPROCESS" xml:space="preserve">
+    <value>Click to start the Cleaning process</value>
+  </data>
+  <data name="UI_REMOVE" xml:space="preserve">
+    <value>Removedor</value>
+  </data>
+  <data name="CAPTION_EDITION_LIMITATION" xml:space="preserve">
+    <value>Limitação de edição</value>
+  </data>
+  <data name="CAPTION_DISPLAY_NAME" xml:space="preserve">
+    <value>Nome de exibição</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_HELP" xml:space="preserve">
+    <value>Ajuda de verificação de endereço</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTCLEANSEDTOASEPARATE" xml:space="preserve">
+    <value>Exportar os dados limpos para um arquivo separado</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_COLUMN_COPY" xml:space="preserve">
+    <value>Coluna a copiar</value>
+  </data>
+  <data name="UI_SSH_USESSH" xml:space="preserve">
+    <value>Usar SSH</value>
+  </data>
+  <data name="UI_ER_FIXMAPPING" xml:space="preserve">
+    <value>Por favor, corrija a mapeamento de colunas</value>
+  </data>
+  <data name="UI_SPLIT" xml:space="preserve">
+    <value>Divididir</value>
+  </data>
+  <data name="UI_MATCH_ENTERPRISE_EDITION" xml:space="preserve">
+    <value>WinPure Match Edição Corporativa</value>
+  </data>
+  <data name="UI_CAPTION_PROCESSPOSSIBILITIES" xml:space="preserve">
+    <value>Possibilidades do processo</value>
+  </data>
+  <data name="UI_OPENERRORLOG" xml:space="preserve">
+    <value>Pasta de log de erros</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_FIELDDELIMITER" xml:space="preserve">
+    <value>Delimitador de campo</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_TAB" xml:space="preserve">
+    <value>Tabulação</value>
+  </data>
+  <data name="UI_MAINFORM_PROPERCASESETTINGS" xml:space="preserve">
+    <value>Configurações apropriadas de caso</value>
+  </data>
+  <data name="MESSAGE_HOVEROVER" xml:space="preserve">
+    <value>Passe o mouse sobre o texto em vermelho para saber mais.</value>
+  </data>
+  <data name="UI_DATASOURCE_CSV" xml:space="preserve">
+    <value>Text/CSV</value>
+  </data>
+  <data name="UI_UCNEWPROJECTFORM_CLICKTOREGISTER" xml:space="preserve">
+    <value>Clique para registrar o produto</value>
+  </data>
+  <data name="UI_MODULES" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_REPLACEVALUE" xml:space="preserve">
+    <value>Valor substituto</value>
+  </data>
+  <data name="UI_MESSAGE_PROCESSER" xml:space="preserve">
+    <value>Sem problemas de mapeamento.\r\nVocê gostaria de processar {0} registros?</value>
+  </data>
+  <data name="_2019_sqlite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_sqlite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_MAXWORDS" xml:space="preserve">
+    <value>Máximo de palavras</value>
+  </data>
+  <data name="UI_REFRESH" xml:space="preserve">
+    <value>Atualizar</value>
+  </data>
+  <data name="MESSAGE_RULE_MAX_MIN_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Os tipos de regra Máximo e Mínimo podem ser aplicados apenas a campos numéricos ou DateTime</value>
+  </data>
+  <data name="UI_UPDATE" xml:space="preserve">
+    <value>Atualizado</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_EXPORTTODELIMITEDTEXT" xml:space="preserve">
+    <value>Exportar para o arquivo de texto delimitado</value>
+  </data>
+  <data name="UI_REMOVECOLUMNFORM_SELECT_COLUMN_TO_COPY" xml:space="preserve">
+    <value>Selecione a(s) coluna(s) para copiar</value>
+  </data>
+  <data name="UI_OPERATION" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTCLEANEDDATA" xml:space="preserve">
+    <value>Exportar dados limpos</value>
+  </data>
+  <data name="CAPTION_DATATABLE_REFRESH" xml:space="preserve">
+    <value>Atualizar Tabela</value>
+  </data>
+  <data name="UI_EXPORTTEXTFORM_IMPORTING" xml:space="preserve">
+    <value>Importando…</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVEOTHERCHARACTERS" xml:space="preserve">
+    <value>Remover outros caracteres</value>
+  </data>
+  <data name="EXCEPTION_DATA_CANNOT_BE_EXPORTED" xml:space="preserve">
+    <value>Dados não podem ser exportados</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_ACROSSTABLESUNIQUE" xml:space="preserve">
+    <value>Solo todas las discrepancias con otras tablas</value>
+  </data>
+  <data name="UI_ABOUTFORM_VERSION101" xml:space="preserve">
+    <value>Versão 1.0.1</value>
+  </data>
+  <data name="UI_ADDCOLUMNFORM_SELECT_COLUMN_TYPE" xml:space="preserve">
+    <value>Selecione o tipo de coluna</value>
+  </data>
+  <data name="UI_CAPTION_SELECTTABLESFORANALYZE" xml:space="preserve">
+    <value>Selecione Tabelas &lt;br&gt; (escolha quais fontes de dados você gostaria de usar para análise)</value>
+  </data>
+  <data name="UI_CAPTION_ADDRESSDATAFILES" xml:space="preserve">
+    <value>Localização dos arquivos de dados de endereço</value>
+  </data>
+  <data name="UI_MAINFORM_FILTEREDITOR" xml:space="preserve">
+    <value>Editor de filtros</value>
+  </data>
+  <data name="UI_MAINFORM_REMOVEFILTER" xml:space="preserve">
+    <value>Remover Filtro</value>
+  </data>
+  <data name="UI_WORDMANAGERSETTINGSFORM_WORDS" xml:space="preserve">
+    <value>Palavras</value>
+  </data>
+  <data name="UI_UCMAINCLEANNEWFORM_REMOVETRAILINGSPACES" xml:space="preserve">
+    <value>Remover Espaços de Arrasto</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_SEARCHDEEP10" xml:space="preserve">
+    <value>Pesquisar Aprofundada 10</value>
+  </data>
+  <data name="UI_MAINFORM_EXPORTDATA" xml:space="preserve">
+    <value>Exportar dados</value>
+  </data>
+  <data name="UI_MAINMATCHFORM_DUPLICATES_PERCENT" xml:space="preserve">
+    <value>% Duplicatas</value>
+  </data>
+  <data name="UI_STATISTIC" xml:space="preserve">
+    <value>Estatística</value>
+  </data>
+  <data name="UI_IMPORTFROMFILE" xml:space="preserve">
+    <value>Importar do arquivo {0}</value>
+  </data>
+  <data name="UI_SAVE" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="SYSTEM_SEARCH_DEEP" xml:space="preserve">
+    <value>Pesquisar aprofundada {0}</value>
+  </data>
+  <data name="UI_DISTINCT" xml:space="preserve">
+    <value>Distinto</value>
+  </data>
+  <data name="UI_IMPORTTEXTFORM_SEMICOLON" xml:space="preserve">
+    <value>Ponto e Vírgula</value>
+  </data>
+  <data name="UI_DATASOURCE_SQLSERVER" xml:space="preserve">
+    <value>SQL Server</value>
+  </data>
+  <data name="UI_MAINFORM_SEARCHPANEL" xml:space="preserve">
+    <value>Painel de Busca</value>
+  </data>
+  <data name="UI_COLUMNS" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="UI_ADDRVERIFICATION_CAPTION_GEOCODE" xml:space="preserve">
+    <value>GeoCode</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_KNOWLEGEBASELIBRARY" xml:space="preserve">
+    <value>Biblioteca da Base de Conhecimento</value>
+  </data>
+  <data name="MESSAGE_LICENSE_EXPIRED_CAPTION" xml:space="preserve">
+    <value>Licensa expirada</value>
+  </data>
+  <data name="UI_MATCH_LITE_EDITION" xml:space="preserve">
+    <value>WinPure Match Edição Básica</value>
+  </data>
+  <data name="UI_UCEXPORTTABLEFORM_ORACLEDB" xml:space="preserve">
+    <value>Para Oracle Db</value>
+  </data>
+  <data name="UI_MAINFORM_REPORTOPTIONS" xml:space="preserve">
+    <value>Opções do Relatório</value>
+  </data>
+  <data name="EXCEPTION_LANGUAGE_SET_FAIL" xml:space="preserve">
+    <value>Language cannot be set</value>
+  </data>
+  <data name="UI_UCMAINMATCHFORM_ADVANCEDOPTIONS" xml:space="preserve">
+    <value>Opções Avançadas</value>
+  </data>
+  <data name="UI_UPDATEMATCHRESULTFORM_UPDATEMPTYVALUES" xml:space="preserve">
+    <value>Atualizar somente valores vazios</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_SERVERNAME" xml:space="preserve">
+    <value>Nome do servidor / endereço IP</value>
+  </data>
+  <data name="MESSAGE_TRIAL_DAY_LEFT" xml:space="preserve">
+    <value>Você ainda tem {0} dias restantes do seu período de teste de {1} dias</value>
+  </data>
+  <data name="CAPTION_DATATABLE_RENAME" xml:space="preserve">
+    <value>Renomear Tabela</value>
+  </data>
+  <data name="UI_CAPTION_CONTINUEDEMO" xml:space="preserve">
+    <value>Continuar DEMO</value>
+  </data>
+  <data name="CAPTION_OPEN_REPORT" xml:space="preserve">
+    <value>Abrir Relatório</value>
+  </data>
+  <data name="MESSAGE_CANCEL_OPERATION_CONFIRMATION" xml:space="preserve">
+    <value>Tem certeza que quer cancelar esta operação?</value>
+  </data>
+  <data name="UI_EDITDICTIONARYFORM_REPLACEVALUESHORT" xml:space="preserve">
+    <value>Valor substituto (termo curto)</value>
+  </data>
+  <data name="UI_MATCHLTE_OPTIONS_2" xml:space="preserve">
+    <value>Match Demo</value>
+  </data>
+  <data name="UI_LOADINGMASKFORM_LOADINGMASK" xml:space="preserve">
+    <value>Carregando o Formulário da Máscara</value>
+  </data>
+  <data name="_2019_MySQL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019_MySQL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UI_DOUBLECLICK_CLEAN" xml:space="preserve">
+    <value>Duplo clique na coluna de nomes para visualizar valores únicos &amp;&amp; contas</value>
+  </data>
+  <data name="MESSAGE_EDITDICTIONARYFORM_CONFIRM_DELETE_LIBRARY" xml:space="preserve">
+    <value>Tem certeza que quer apagar esta biblioteca?</value>
+  </data>
+  <data name="MESSAGE_RULE_LONGEST_SHORTEST_ONLY_FOR_NUMETIC_AND_DATETIME_FIELDS" xml:space="preserve">
+    <value>Os tipos de regra mais longos e mais curtos podem ser aplicados apenas a campos String</value>
+  </data>
+  <data name="CAPTION_DEFAULT_PROJECT_NAME" xml:space="preserve">
+    <value>Projeto1</value>
+  </data>
+  <data name="UI_IMPORTMSSQLFORM_USESQL" xml:space="preserve">
+    <value>Use autenticação SQL Server</value>
+  </data>
+</root>
